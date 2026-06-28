@@ -1,0 +1,6670 @@
+{
+  "generated_at": "2026-06-28T14:06:02.827978+00:00",
+  "route_count": 260,
+  "routes": [
+    {
+      "route_id": "route_00001",
+      "algorithm": "bfs",
+      "source_id": "node_100093",
+      "target_id": "node_100481",
+      "success": true,
+      "station_ids": [
+        "node_100093",
+        "node_100481"
+      ],
+      "station_names": [
+        "Erode 92",
+        "100481"
+      ],
+      "edge_ids": [
+        "edge_107371"
+      ],
+      "distance_m": 18020.82,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0557,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00002",
+      "algorithm": "dfs",
+      "source_id": "node_100053",
+      "target_id": "node_102593",
+      "success": true,
+      "station_ids": [
+        "node_100053",
+        "node_102593"
+      ],
+      "station_names": [
+        "Nagpur 52",
+        "Pune Junction 2592"
+      ],
+      "edge_ids": [
+        "edge_106926"
+      ],
+      "distance_m": 25437.33,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0318,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00003",
+      "algorithm": "dijkstra",
+      "source_id": "node_100053",
+      "target_id": "node_101289",
+      "success": true,
+      "station_ids": [
+        "node_100053",
+        "node_101289"
+      ],
+      "station_names": [
+        "Nagpur 52",
+        "101289"
+      ],
+      "edge_ids": [
+        "edge_108469"
+      ],
+      "distance_m": 18952.14,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0269,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00004",
+      "algorithm": "astar",
+      "source_id": "node_101289",
+      "target_id": "node_102593",
+      "success": true,
+      "station_ids": [
+        "node_101289",
+        "node_100053",
+        "node_102593"
+      ],
+      "station_names": [
+        "101289",
+        "Nagpur 52",
+        "Pune Junction 2592"
+      ],
+      "edge_ids": [
+        "edge_108469",
+        "edge_106926"
+      ],
+      "distance_m": 44389.47,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0574,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00005",
+      "algorithm": "bfs",
+      "source_id": "node_101527",
+      "target_id": "node_102018",
+      "success": true,
+      "station_ids": [
+        "node_101527",
+        "node_102018"
+      ],
+      "station_names": [
+        "Tirupati 1526",
+        "102018"
+      ],
+      "edge_ids": [
+        "edge_103697"
+      ],
+      "distance_m": 26534.39,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0162,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00006",
+      "algorithm": "dfs",
+      "source_id": "node_100807",
+      "target_id": "node_102018",
+      "success": true,
+      "station_ids": [
+        "node_100807",
+        "node_101527",
+        "node_102018"
+      ],
+      "station_names": [
+        "Hubli Junction 806",
+        "Tirupati 1526",
+        "102018"
+      ],
+      "edge_ids": [
+        "edge_103147",
+        "edge_103697"
+      ],
+      "distance_m": 39959.01,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.01,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00007",
+      "algorithm": "dijkstra",
+      "source_id": "node_100807",
+      "target_id": "node_101527",
+      "success": true,
+      "station_ids": [
+        "node_100807",
+        "node_101527"
+      ],
+      "station_names": [
+        "Hubli Junction 806",
+        "Tirupati 1526"
+      ],
+      "edge_ids": [
+        "edge_103147"
+      ],
+      "distance_m": 13424.62,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0077,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00008",
+      "algorithm": "astar",
+      "source_id": "node_102067",
+      "target_id": "node_102567",
+      "success": true,
+      "station_ids": [
+        "node_102067",
+        "node_102567"
+      ],
+      "station_names": [
+        "102067",
+        "102567"
+      ],
+      "edge_ids": [
+        "edge_107742"
+      ],
+      "distance_m": 19826.49,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0396,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00009",
+      "algorithm": "bfs",
+      "source_id": "node_100317",
+      "target_id": "node_102915",
+      "success": true,
+      "station_ids": [
+        "node_100317",
+        "node_102915"
+      ],
+      "station_names": [
+        "100317",
+        "Guntur Junction 2914"
+      ],
+      "edge_ids": [
+        "edge_106014"
+      ],
+      "distance_m": 12889.04,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0096,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00010",
+      "algorithm": "dfs",
+      "source_id": "node_101923",
+      "target_id": "node_102915",
+      "success": true,
+      "station_ids": [
+        "node_101923",
+        "node_102915"
+      ],
+      "station_names": [
+        "101923",
+        "Guntur Junction 2914"
+      ],
+      "edge_ids": [
+        "edge_108379"
+      ],
+      "distance_m": 16989.96,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0076,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00011",
+      "algorithm": "dijkstra",
+      "source_id": "node_100317",
+      "target_id": "node_101923",
+      "success": true,
+      "station_ids": [
+        "node_100317",
+        "node_102915",
+        "node_101923"
+      ],
+      "station_names": [
+        "100317",
+        "Guntur Junction 2914",
+        "101923"
+      ],
+      "edge_ids": [
+        "edge_106014",
+        "edge_108379"
+      ],
+      "distance_m": 29879.0,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0083,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00012",
+      "algorithm": "astar",
+      "source_id": "node_100222",
+      "target_id": "node_102014",
+      "success": true,
+      "station_ids": [
+        "node_100222",
+        "node_100111",
+        "node_102014"
+      ],
+      "station_names": [
+        "Salem Junction 221",
+        "100111",
+        "Jaipur 2013"
+      ],
+      "edge_ids": [
+        "edge_106254",
+        "edge_109886"
+      ],
+      "distance_m": 33138.39,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0274,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00013",
+      "algorithm": "bfs",
+      "source_id": "node_102014",
+      "target_id": "node_102276",
+      "success": true,
+      "station_ids": [
+        "node_102014",
+        "node_100111",
+        "node_102276"
+      ],
+      "station_names": [
+        "Jaipur 2013",
+        "100111",
+        "102276"
+      ],
+      "edge_ids": [
+        "edge_109886",
+        "edge_104613"
+      ],
+      "distance_m": 29308.06,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0089,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00014",
+      "algorithm": "dfs",
+      "source_id": "node_100111",
+      "target_id": "node_102276",
+      "success": true,
+      "station_ids": [
+        "node_100111",
+        "node_102276"
+      ],
+      "station_names": [
+        "100111",
+        "102276"
+      ],
+      "edge_ids": [
+        "edge_104613"
+      ],
+      "distance_m": 16318.64,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0142,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00015",
+      "algorithm": "dijkstra",
+      "source_id": "node_100361",
+      "target_id": "node_101925",
+      "success": true,
+      "station_ids": [
+        "node_100361",
+        "node_101925"
+      ],
+      "station_names": [
+        "Nellore 360",
+        "101925"
+      ],
+      "edge_ids": [
+        "edge_103893"
+      ],
+      "distance_m": 20835.9,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0071,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00016",
+      "algorithm": "astar",
+      "source_id": "node_101203",
+      "target_id": "node_101846",
+      "success": true,
+      "station_ids": [
+        "node_101203",
+        "node_102914",
+        "node_101846"
+      ],
+      "station_names": [
+        "Kanpur Central 1202",
+        "Patna Junction 2913",
+        "101846"
+      ],
+      "edge_ids": [
+        "edge_103573",
+        "edge_105260"
+      ],
+      "distance_m": 25996.02,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0304,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00017",
+      "algorithm": "bfs",
+      "source_id": "node_100335",
+      "target_id": "node_102914",
+      "success": true,
+      "station_ids": [
+        "node_100335",
+        "node_102914"
+      ],
+      "station_names": [
+        "New Delhi 334",
+        "Patna Junction 2913"
+      ],
+      "edge_ids": [
+        "edge_103765"
+      ],
+      "distance_m": 5312.16,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0083,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00018",
+      "algorithm": "dfs",
+      "source_id": "node_100335",
+      "target_id": "node_101846",
+      "success": true,
+      "station_ids": [
+        "node_100335",
+        "node_102914",
+        "node_101846"
+      ],
+      "station_names": [
+        "New Delhi 334",
+        "Patna Junction 2913",
+        "101846"
+      ],
+      "edge_ids": [
+        "edge_103765",
+        "edge_105260"
+      ],
+      "distance_m": 22872.95,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0094,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00019",
+      "algorithm": "dijkstra",
+      "source_id": "node_102053",
+      "target_id": "node_102900",
+      "success": true,
+      "station_ids": [
+        "node_102053",
+        "node_102900"
+      ],
+      "station_names": [
+        "Guntur Junction 2052",
+        "Tirupati 2899"
+      ],
+      "edge_ids": [
+        "edge_103655"
+      ],
+      "distance_m": 28404.39,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0078,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00020",
+      "algorithm": "astar",
+      "source_id": "node_102370",
+      "target_id": "node_100846",
+      "success": true,
+      "station_ids": [
+        "node_102370",
+        "node_102488",
+        "node_100846"
+      ],
+      "station_names": [
+        "102370",
+        "Madurai Junction 2487",
+        "100846"
+      ],
+      "edge_ids": [
+        "edge_104852",
+        "edge_108488"
+      ],
+      "distance_m": 29565.42,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0271,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00021",
+      "algorithm": "bfs",
+      "source_id": "node_102370",
+      "target_id": "node_100105",
+      "success": true,
+      "station_ids": [
+        "node_102370",
+        "node_102488",
+        "node_102293",
+        "node_101535",
+        "node_100034",
+        "node_100882",
+        "node_100105"
+      ],
+      "station_names": [
+        "102370",
+        "Madurai Junction 2487",
+        "102293",
+        "101535",
+        "100034",
+        "100882",
+        "Ahmedabad 104"
+      ],
+      "edge_ids": [
+        "edge_104852",
+        "edge_107130",
+        "edge_106532",
+        "edge_109249",
+        "edge_106315",
+        "edge_103192"
+      ],
+      "distance_m": 94569.42,
+      "node_count": 7,
+      "edge_count": 6,
+      "computation_time_ms": 0.0231,
+      "nodes_expanded": 8,
+      "error": null
+    },
+    {
+      "route_id": "route_00022",
+      "algorithm": "dfs",
+      "source_id": "node_100034",
+      "target_id": "node_102370",
+      "success": true,
+      "station_ids": [
+        "node_100034",
+        "node_101535",
+        "node_102293",
+        "node_102488",
+        "node_102370"
+      ],
+      "station_names": [
+        "100034",
+        "101535",
+        "102293",
+        "Madurai Junction 2487",
+        "102370"
+      ],
+      "edge_ids": [
+        "edge_109249",
+        "edge_106532",
+        "edge_107130",
+        "edge_104852"
+      ],
+      "distance_m": 44768.83,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0105,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00023",
+      "algorithm": "dijkstra",
+      "source_id": "node_101725",
+      "target_id": "node_102117",
+      "success": true,
+      "station_ids": [
+        "node_101725",
+        "node_100981",
+        "node_102117"
+      ],
+      "station_names": [
+        "Visakhapatnam 1724",
+        "Ahmedabad 980",
+        "102117"
+      ],
+      "edge_ids": [
+        "edge_106365",
+        "edge_105136"
+      ],
+      "distance_m": 58531.27,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0113,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00024",
+      "algorithm": "astar",
+      "source_id": "node_100981",
+      "target_id": "node_102117",
+      "success": true,
+      "station_ids": [
+        "node_100981",
+        "node_102117"
+      ],
+      "station_names": [
+        "Ahmedabad 980",
+        "102117"
+      ],
+      "edge_ids": [
+        "edge_105136"
+      ],
+      "distance_m": 35829.5,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0153,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00025",
+      "algorithm": "bfs",
+      "source_id": "node_100981",
+      "target_id": "node_101725",
+      "success": true,
+      "station_ids": [
+        "node_100981",
+        "node_101725"
+      ],
+      "station_names": [
+        "Ahmedabad 980",
+        "Visakhapatnam 1724"
+      ],
+      "edge_ids": [
+        "edge_106365"
+      ],
+      "distance_m": 22701.77,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0114,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00026",
+      "algorithm": "dfs",
+      "source_id": "node_101023",
+      "target_id": "node_102320",
+      "success": true,
+      "station_ids": [
+        "node_101023",
+        "node_102320"
+      ],
+      "station_names": [
+        "101023",
+        "102320"
+      ],
+      "edge_ids": [
+        "edge_103560"
+      ],
+      "distance_m": 25725.36,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0142,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00027",
+      "algorithm": "dijkstra",
+      "source_id": "node_100157",
+      "target_id": "node_101392",
+      "success": true,
+      "station_ids": [
+        "node_100157",
+        "node_101392"
+      ],
+      "station_names": [
+        "Lucknow 156",
+        "Bhopal Junction 1391"
+      ],
+      "edge_ids": [
+        "edge_104292"
+      ],
+      "distance_m": 28982.58,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0117,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00028",
+      "algorithm": "astar",
+      "source_id": "node_100408",
+      "target_id": "node_102127",
+      "success": true,
+      "station_ids": [
+        "node_100408",
+        "node_102127"
+      ],
+      "station_names": [
+        "100408",
+        "Nellore 2126"
+      ],
+      "edge_ids": [
+        "edge_108665"
+      ],
+      "distance_m": 21056.2,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0187,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00029",
+      "algorithm": "bfs",
+      "source_id": "node_102034",
+      "target_id": "node_102446",
+      "success": true,
+      "station_ids": [
+        "node_102034",
+        "node_102446"
+      ],
+      "station_names": [
+        "102034",
+        "Salem Junction 2445"
+      ],
+      "edge_ids": [
+        "edge_106703"
+      ],
+      "distance_m": 19753.7,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0102,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00030",
+      "algorithm": "dfs",
+      "source_id": "node_100225",
+      "target_id": "node_102446",
+      "success": true,
+      "station_ids": [
+        "node_100225",
+        "node_102446"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 224",
+        "Salem Junction 2445"
+      ],
+      "edge_ids": [
+        "edge_105576"
+      ],
+      "distance_m": 26558.83,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0099,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00031",
+      "algorithm": "dijkstra",
+      "source_id": "node_100225",
+      "target_id": "node_102034",
+      "success": true,
+      "station_ids": [
+        "node_100225",
+        "node_102446",
+        "node_102034"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 224",
+        "Salem Junction 2445",
+        "102034"
+      ],
+      "edge_ids": [
+        "edge_105576",
+        "edge_106703"
+      ],
+      "distance_m": 46312.53,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0133,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00032",
+      "algorithm": "astar",
+      "source_id": "node_102287",
+      "target_id": "node_102934",
+      "success": true,
+      "station_ids": [
+        "node_102287",
+        "node_100360",
+        "node_101381",
+        "node_102934"
+      ],
+      "station_names": [
+        "Warangal 2286",
+        "Salem Junction 359",
+        "101381",
+        "102934"
+      ],
+      "edge_ids": [
+        "edge_109465",
+        "edge_103303",
+        "edge_105618"
+      ],
+      "distance_m": 34683.4,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0437,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00033",
+      "algorithm": "bfs",
+      "source_id": "node_102254",
+      "target_id": "node_102287",
+      "success": true,
+      "station_ids": [
+        "node_102254",
+        "node_101381",
+        "node_100360",
+        "node_102287"
+      ],
+      "station_names": [
+        "102254",
+        "101381",
+        "Salem Junction 359",
+        "Warangal 2286"
+      ],
+      "edge_ids": [
+        "edge_104886",
+        "edge_103303",
+        "edge_109465"
+      ],
+      "distance_m": 45781.31,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0119,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00034",
+      "algorithm": "dfs",
+      "source_id": "node_100409",
+      "target_id": "node_102254",
+      "success": true,
+      "station_ids": [
+        "node_100409",
+        "node_102287",
+        "node_100360",
+        "node_101381",
+        "node_102254"
+      ],
+      "station_names": [
+        "100409",
+        "Warangal 2286",
+        "Salem Junction 359",
+        "101381",
+        "102254"
+      ],
+      "edge_ids": [
+        "edge_107801",
+        "edge_109465",
+        "edge_103303",
+        "edge_104886"
+      ],
+      "distance_m": 76971.09,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0179,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00035",
+      "algorithm": "dijkstra",
+      "source_id": "node_100052",
+      "target_id": "node_102310",
+      "success": true,
+      "station_ids": [
+        "node_100052",
+        "node_102310"
+      ],
+      "station_names": [
+        "Hubli Junction 51",
+        "Hyderabad Deccan 2309"
+      ],
+      "edge_ids": [
+        "edge_109147"
+      ],
+      "distance_m": 34028.29,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0074,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00036",
+      "algorithm": "astar",
+      "source_id": "node_101231",
+      "target_id": "node_100319",
+      "success": true,
+      "station_ids": [
+        "node_101231",
+        "node_100072",
+        "node_100319"
+      ],
+      "station_names": [
+        "Visakhapatnam 1230",
+        "Hyderabad Deccan 71",
+        "100319"
+      ],
+      "edge_ids": [
+        "edge_108314",
+        "edge_108139"
+      ],
+      "distance_m": 43945.02,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0495,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00037",
+      "algorithm": "bfs",
+      "source_id": "node_101370",
+      "target_id": "node_100072",
+      "success": true,
+      "station_ids": [
+        "node_101370",
+        "node_100072"
+      ],
+      "station_names": [
+        "101370",
+        "Hyderabad Deccan 71"
+      ],
+      "edge_ids": [
+        "edge_104102"
+      ],
+      "distance_m": 28364.53,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.007,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00038",
+      "algorithm": "dfs",
+      "source_id": "node_100072",
+      "target_id": "node_100319",
+      "success": true,
+      "station_ids": [
+        "node_100072",
+        "node_100319"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 71",
+        "100319"
+      ],
+      "edge_ids": [
+        "edge_108139"
+      ],
+      "distance_m": 22799.47,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0109,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00039",
+      "algorithm": "dijkstra",
+      "source_id": "node_100145",
+      "target_id": "node_101114",
+      "success": true,
+      "station_ids": [
+        "node_100145",
+        "node_101114"
+      ],
+      "station_names": [
+        "100145",
+        "101114"
+      ],
+      "edge_ids": [
+        "edge_109329"
+      ],
+      "distance_m": 18826.18,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0094,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00040",
+      "algorithm": "astar",
+      "source_id": "node_100390",
+      "target_id": "node_102810",
+      "success": true,
+      "station_ids": [
+        "node_100390",
+        "node_102061",
+        "node_100871",
+        "node_100029",
+        "node_102810"
+      ],
+      "station_names": [
+        "100390",
+        "102061",
+        "Nellore 870",
+        "100029",
+        "Jaipur 2809"
+      ],
+      "edge_ids": [
+        "edge_106550",
+        "edge_105603",
+        "edge_104483",
+        "edge_109294"
+      ],
+      "distance_m": 45940.3,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0283,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00041",
+      "algorithm": "bfs",
+      "source_id": "node_100029",
+      "target_id": "node_102810",
+      "success": true,
+      "station_ids": [
+        "node_100029",
+        "node_102810"
+      ],
+      "station_names": [
+        "100029",
+        "Jaipur 2809"
+      ],
+      "edge_ids": [
+        "edge_109294"
+      ],
+      "distance_m": 18132.65,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0066,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00042",
+      "algorithm": "dfs",
+      "source_id": "node_100390",
+      "target_id": "node_100871",
+      "success": true,
+      "station_ids": [
+        "node_100390",
+        "node_102061",
+        "node_100871"
+      ],
+      "station_names": [
+        "100390",
+        "102061",
+        "Nellore 870"
+      ],
+      "edge_ids": [
+        "edge_106550",
+        "edge_105603"
+      ],
+      "distance_m": 17802.76,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0055,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00043",
+      "algorithm": "dijkstra",
+      "source_id": "node_100832",
+      "target_id": "node_102210",
+      "success": true,
+      "station_ids": [
+        "node_100832",
+        "node_101283",
+        "node_101818",
+        "node_102210"
+      ],
+      "station_names": [
+        "100832",
+        "101283",
+        "Howrah Junction 1817",
+        "102210"
+      ],
+      "edge_ids": [
+        "edge_108526",
+        "edge_106430",
+        "edge_105965"
+      ],
+      "distance_m": 34677.5,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0392,
+      "nodes_expanded": 8,
+      "error": null
+    },
+    {
+      "route_id": "route_00044",
+      "algorithm": "astar",
+      "source_id": "node_101818",
+      "target_id": "node_100278",
+      "success": true,
+      "station_ids": [
+        "node_101818",
+        "node_101283",
+        "node_100832",
+        "node_100766",
+        "node_100278"
+      ],
+      "station_names": [
+        "Howrah Junction 1817",
+        "101283",
+        "100832",
+        "Ahmedabad 765",
+        "100278"
+      ],
+      "edge_ids": [
+        "edge_106430",
+        "edge_108526",
+        "edge_106851",
+        "edge_108297"
+      ],
+      "distance_m": 28103.89,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0472,
+      "nodes_expanded": 6,
+      "error": null
+    },
+    {
+      "route_id": "route_00045",
+      "algorithm": "bfs",
+      "source_id": "node_102426",
+      "target_id": "node_101397",
+      "success": true,
+      "station_ids": [
+        "node_102426",
+        "node_102135",
+        "node_101397"
+      ],
+      "station_names": [
+        "102426",
+        "Ahmedabad 2134",
+        "Mumbai CST 1396"
+      ],
+      "edge_ids": [
+        "edge_106020",
+        "edge_108337"
+      ],
+      "distance_m": 40938.05,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0157,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00046",
+      "algorithm": "dfs",
+      "source_id": "node_100372",
+      "target_id": "node_101451",
+      "success": true,
+      "station_ids": [
+        "node_100372",
+        "node_101451"
+      ],
+      "station_names": [
+        "100372",
+        "101451"
+      ],
+      "edge_ids": [
+        "edge_106717"
+      ],
+      "distance_m": 13629.54,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.006,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00047",
+      "algorithm": "dijkstra",
+      "source_id": "node_100004",
+      "target_id": "node_100370",
+      "success": true,
+      "station_ids": [
+        "node_100004",
+        "node_101269",
+        "node_100370"
+      ],
+      "station_names": [
+        "New Delhi",
+        "Mysore Junction 1268",
+        "Howrah Junction 369"
+      ],
+      "edge_ids": [
+        "edge_109079",
+        "edge_108923"
+      ],
+      "distance_m": 32923.33,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0199,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00048",
+      "algorithm": "astar",
+      "source_id": "node_101269",
+      "target_id": "node_101939",
+      "success": true,
+      "station_ids": [
+        "node_101269",
+        "node_100004",
+        "node_102009",
+        "node_101939"
+      ],
+      "station_names": [
+        "Mysore Junction 1268",
+        "New Delhi",
+        "Hubli Junction 2008",
+        "Tiruchirapalli 1938"
+      ],
+      "edge_ids": [
+        "edge_109079",
+        "edge_106649",
+        "edge_105223"
+      ],
+      "distance_m": 63036.82,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.021,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00049",
+      "algorithm": "bfs",
+      "source_id": "node_101521",
+      "target_id": "node_101939",
+      "success": true,
+      "station_ids": [
+        "node_101521",
+        "node_101939"
+      ],
+      "station_names": [
+        "Madurai Junction 1520",
+        "Tiruchirapalli 1938"
+      ],
+      "edge_ids": [
+        "edge_109814"
+      ],
+      "distance_m": 6000.8,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0073,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00050",
+      "algorithm": "dfs",
+      "source_id": "node_100040",
+      "target_id": "node_100071",
+      "success": true,
+      "station_ids": [
+        "node_100040",
+        "node_100071"
+      ],
+      "station_names": [
+        "100040",
+        "Nellore 70"
+      ],
+      "edge_ids": [
+        "edge_108057"
+      ],
+      "distance_m": 27332.69,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0091,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00051",
+      "algorithm": "dijkstra",
+      "source_id": "node_100040",
+      "target_id": "node_101346",
+      "success": true,
+      "station_ids": [
+        "node_100040",
+        "node_101346"
+      ],
+      "station_names": [
+        "100040",
+        "Surat 1345"
+      ],
+      "edge_ids": [
+        "edge_109806"
+      ],
+      "distance_m": 21177.0,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0167,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00052",
+      "algorithm": "astar",
+      "source_id": "node_100071",
+      "target_id": "node_101346",
+      "success": true,
+      "station_ids": [
+        "node_100071",
+        "node_100040",
+        "node_101346"
+      ],
+      "station_names": [
+        "Nellore 70",
+        "100040",
+        "Surat 1345"
+      ],
+      "edge_ids": [
+        "edge_108057",
+        "edge_109806"
+      ],
+      "distance_m": 48509.69,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0236,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00053",
+      "algorithm": "bfs",
+      "source_id": "node_100973",
+      "target_id": "node_101338",
+      "success": true,
+      "station_ids": [
+        "node_100973",
+        "node_101338"
+      ],
+      "station_names": [
+        "Patna Junction 972",
+        "101338"
+      ],
+      "edge_ids": [
+        "edge_108187"
+      ],
+      "distance_m": 26105.77,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0148,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00054",
+      "algorithm": "dfs",
+      "source_id": "node_101227",
+      "target_id": "node_101720",
+      "success": true,
+      "station_ids": [
+        "node_101227",
+        "node_101720"
+      ],
+      "station_names": [
+        "101227",
+        "101720"
+      ],
+      "edge_ids": [
+        "edge_103877"
+      ],
+      "distance_m": 6716.24,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0121,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00055",
+      "algorithm": "dijkstra",
+      "source_id": "node_100590",
+      "target_id": "node_102241",
+      "success": true,
+      "station_ids": [
+        "node_100590",
+        "node_102241"
+      ],
+      "station_names": [
+        "Jaipur 589",
+        "Patna Junction 2240"
+      ],
+      "edge_ids": [
+        "edge_106960"
+      ],
+      "distance_m": 20929.84,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00056",
+      "algorithm": "astar",
+      "source_id": "node_100590",
+      "target_id": "node_102799",
+      "success": true,
+      "station_ids": [
+        "node_100590",
+        "node_102241",
+        "node_102799"
+      ],
+      "station_names": [
+        "Jaipur 589",
+        "Patna Junction 2240",
+        "Ahmedabad 2798"
+      ],
+      "edge_ids": [
+        "edge_106960",
+        "edge_108006"
+      ],
+      "distance_m": 22896.77,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0383,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00057",
+      "algorithm": "bfs",
+      "source_id": "node_102241",
+      "target_id": "node_102799",
+      "success": true,
+      "station_ids": [
+        "node_102241",
+        "node_102799"
+      ],
+      "station_names": [
+        "Patna Junction 2240",
+        "Ahmedabad 2798"
+      ],
+      "edge_ids": [
+        "edge_108006"
+      ],
+      "distance_m": 1966.93,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0103,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00058",
+      "algorithm": "dfs",
+      "source_id": "node_101000",
+      "target_id": "node_102302",
+      "success": true,
+      "station_ids": [
+        "node_101000",
+        "node_102302"
+      ],
+      "station_names": [
+        "Visakhapatnam 999",
+        "Mysore Junction 2301"
+      ],
+      "edge_ids": [
+        "edge_106815"
+      ],
+      "distance_m": 35156.52,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0102,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00059",
+      "algorithm": "dijkstra",
+      "source_id": "node_102230",
+      "target_id": "node_102836",
+      "success": true,
+      "station_ids": [
+        "node_102230",
+        "node_102836"
+      ],
+      "station_names": [
+        "Nagpur 2229",
+        "102836"
+      ],
+      "edge_ids": [
+        "edge_107649"
+      ],
+      "distance_m": 5156.38,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0175,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00060",
+      "algorithm": "astar",
+      "source_id": "node_101287",
+      "target_id": "node_102874",
+      "success": true,
+      "station_ids": [
+        "node_101287",
+        "node_102129",
+        "node_102705",
+        "node_102874"
+      ],
+      "station_names": [
+        "101287",
+        "102129",
+        "Surat 2704",
+        "102874"
+      ],
+      "edge_ids": [
+        "edge_108323",
+        "edge_108522",
+        "edge_105246"
+      ],
+      "distance_m": 70593.61,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0614,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00061",
+      "algorithm": "bfs",
+      "source_id": "node_102667",
+      "target_id": "node_101265",
+      "success": true,
+      "station_ids": [
+        "node_102667",
+        "node_101287",
+        "node_102129",
+        "node_101265"
+      ],
+      "station_names": [
+        "102667",
+        "101287",
+        "102129",
+        "Coimbatore 1264"
+      ],
+      "edge_ids": [
+        "edge_103339",
+        "edge_108323",
+        "edge_105903"
+      ],
+      "distance_m": 57445.2,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0192,
+      "nodes_expanded": 7,
+      "error": null
+    },
+    {
+      "route_id": "route_00062",
+      "algorithm": "dfs",
+      "source_id": "node_101287",
+      "target_id": "node_102705",
+      "success": true,
+      "station_ids": [
+        "node_101287",
+        "node_102129",
+        "node_102705"
+      ],
+      "station_names": [
+        "101287",
+        "102129",
+        "Surat 2704"
+      ],
+      "edge_ids": [
+        "edge_108323",
+        "edge_108522"
+      ],
+      "distance_m": 50163.57,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0068,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00063",
+      "algorithm": "dijkstra",
+      "source_id": "node_100154",
+      "target_id": "node_101660",
+      "success": true,
+      "station_ids": [
+        "node_100154",
+        "node_101660"
+      ],
+      "station_names": [
+        "Tiruchirapalli 153",
+        "Salem Junction 1659"
+      ],
+      "edge_ids": [
+        "edge_109752"
+      ],
+      "distance_m": 20154.02,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0102,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00064",
+      "algorithm": "astar",
+      "source_id": "node_100154",
+      "target_id": "node_100295",
+      "success": true,
+      "station_ids": [
+        "node_100154",
+        "node_101660",
+        "node_100295"
+      ],
+      "station_names": [
+        "Tiruchirapalli 153",
+        "Salem Junction 1659",
+        "100295"
+      ],
+      "edge_ids": [
+        "edge_109752",
+        "edge_108881"
+      ],
+      "distance_m": 24886.86,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0349,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00065",
+      "algorithm": "bfs",
+      "source_id": "node_101660",
+      "target_id": "node_101802",
+      "success": true,
+      "station_ids": [
+        "node_101660",
+        "node_100154",
+        "node_101802"
+      ],
+      "station_names": [
+        "Salem Junction 1659",
+        "Tiruchirapalli 153",
+        "New Delhi 1801"
+      ],
+      "edge_ids": [
+        "edge_109752",
+        "edge_106271"
+      ],
+      "distance_m": 40389.74,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0287,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00066",
+      "algorithm": "dfs",
+      "source_id": "node_100941",
+      "target_id": "node_102348",
+      "success": true,
+      "station_ids": [
+        "node_100941",
+        "node_102348"
+      ],
+      "station_names": [
+        "Mysore Junction 940",
+        "Guntur Junction 2347"
+      ],
+      "edge_ids": [
+        "edge_107507"
+      ],
+      "distance_m": 8750.78,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0096,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00067",
+      "algorithm": "dijkstra",
+      "source_id": "node_101487",
+      "target_id": "node_102489",
+      "success": true,
+      "station_ids": [
+        "node_101487",
+        "node_102489"
+      ],
+      "station_names": [
+        "Pune Junction 1486",
+        "102489"
+      ],
+      "edge_ids": [
+        "edge_109760"
+      ],
+      "distance_m": 17495.79,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0159,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00068",
+      "algorithm": "astar",
+      "source_id": "node_101961",
+      "target_id": "node_102438",
+      "success": true,
+      "station_ids": [
+        "node_101961",
+        "node_101487",
+        "node_102489",
+        "node_102438"
+      ],
+      "station_names": [
+        "Guntur Junction 1960",
+        "Pune Junction 1486",
+        "102489",
+        "Kanpur Central 2437"
+      ],
+      "edge_ids": [
+        "edge_103084",
+        "edge_109760",
+        "edge_108362"
+      ],
+      "distance_m": 43498.5,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0395,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00069",
+      "algorithm": "bfs",
+      "source_id": "node_102438",
+      "target_id": "node_102489",
+      "success": true,
+      "station_ids": [
+        "node_102438",
+        "node_102489"
+      ],
+      "station_names": [
+        "Kanpur Central 2437",
+        "102489"
+      ],
+      "edge_ids": [
+        "edge_108362"
+      ],
+      "distance_m": 3381.02,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0114,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00070",
+      "algorithm": "dfs",
+      "source_id": "node_100985",
+      "target_id": "node_102728",
+      "success": true,
+      "station_ids": [
+        "node_100985",
+        "node_100575",
+        "node_102728"
+      ],
+      "station_names": [
+        "Vijayawada 984",
+        "100575",
+        "Lucknow 2727"
+      ],
+      "edge_ids": [
+        "edge_107662",
+        "edge_104232"
+      ],
+      "distance_m": 39594.56,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0128,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00071",
+      "algorithm": "dijkstra",
+      "source_id": "node_101085",
+      "target_id": "node_102728",
+      "success": true,
+      "station_ids": [
+        "node_101085",
+        "node_100985",
+        "node_100575",
+        "node_102728"
+      ],
+      "station_names": [
+        "Mumbai CST 1084",
+        "Vijayawada 984",
+        "100575",
+        "Lucknow 2727"
+      ],
+      "edge_ids": [
+        "edge_103889",
+        "edge_107662",
+        "edge_104232"
+      ],
+      "distance_m": 61537.79,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0262,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00072",
+      "algorithm": "astar",
+      "source_id": "node_100575",
+      "target_id": "node_102728",
+      "success": true,
+      "station_ids": [
+        "node_100575",
+        "node_102728"
+      ],
+      "station_names": [
+        "100575",
+        "Lucknow 2727"
+      ],
+      "edge_ids": [
+        "edge_104232"
+      ],
+      "distance_m": 31612.69,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.024,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00073",
+      "algorithm": "bfs",
+      "source_id": "node_101447",
+      "target_id": "node_101997",
+      "success": true,
+      "station_ids": [
+        "node_101447",
+        "node_101997"
+      ],
+      "station_names": [
+        "Salem Junction 1446",
+        "Surat 1996"
+      ],
+      "edge_ids": [
+        "edge_109313"
+      ],
+      "distance_m": 26918.91,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0146,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00074",
+      "algorithm": "dfs",
+      "source_id": "node_101997",
+      "target_id": "node_102846",
+      "success": true,
+      "station_ids": [
+        "node_101997",
+        "node_102846"
+      ],
+      "station_names": [
+        "Surat 1996",
+        "Bangalore City 2845"
+      ],
+      "edge_ids": [
+        "edge_108531"
+      ],
+      "distance_m": 13360.03,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0085,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00075",
+      "algorithm": "dijkstra",
+      "source_id": "node_100069",
+      "target_id": "node_102846",
+      "success": true,
+      "station_ids": [
+        "node_100069",
+        "node_101997",
+        "node_102846"
+      ],
+      "station_names": [
+        "Tirupati 68",
+        "Surat 1996",
+        "Bangalore City 2845"
+      ],
+      "edge_ids": [
+        "edge_107499",
+        "edge_108531"
+      ],
+      "distance_m": 27196.9,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0147,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00076",
+      "algorithm": "astar",
+      "source_id": "node_102612",
+      "target_id": "node_102939",
+      "success": true,
+      "station_ids": [
+        "node_102612",
+        "node_102939"
+      ],
+      "station_names": [
+        "102612",
+        "102939"
+      ],
+      "edge_ids": [
+        "edge_103335"
+      ],
+      "distance_m": 11860.92,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0153,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00077",
+      "algorithm": "bfs",
+      "source_id": "node_100831",
+      "target_id": "node_101739",
+      "success": true,
+      "station_ids": [
+        "node_100831",
+        "node_101739"
+      ],
+      "station_names": [
+        "Hubli Junction 830",
+        "Tiruchirapalli 1738"
+      ],
+      "edge_ids": [
+        "edge_103274"
+      ],
+      "distance_m": 22300.54,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0074,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00078",
+      "algorithm": "dfs",
+      "source_id": "node_101530",
+      "target_id": "node_102757",
+      "success": true,
+      "station_ids": [
+        "node_101530",
+        "node_102757"
+      ],
+      "station_names": [
+        "Mysore Junction 1529",
+        "Visakhapatnam 2756"
+      ],
+      "edge_ids": [
+        "edge_103836"
+      ],
+      "distance_m": 10093.06,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0063,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00079",
+      "algorithm": "dijkstra",
+      "source_id": "node_101530",
+      "target_id": "node_102380",
+      "success": true,
+      "station_ids": [
+        "node_101530",
+        "node_102757",
+        "node_102380"
+      ],
+      "station_names": [
+        "Mysore Junction 1529",
+        "Visakhapatnam 2756",
+        "Pune Junction 2379"
+      ],
+      "edge_ids": [
+        "edge_103836",
+        "edge_108577"
+      ],
+      "distance_m": 46065.63,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0083,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00080",
+      "algorithm": "astar",
+      "source_id": "node_102380",
+      "target_id": "node_102757",
+      "success": true,
+      "station_ids": [
+        "node_102380",
+        "node_102757"
+      ],
+      "station_names": [
+        "Pune Junction 2379",
+        "Visakhapatnam 2756"
+      ],
+      "edge_ids": [
+        "edge_108577"
+      ],
+      "distance_m": 35972.57,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0105,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00081",
+      "algorithm": "bfs",
+      "source_id": "node_101721",
+      "target_id": "node_102292",
+      "success": true,
+      "station_ids": [
+        "node_101721",
+        "node_102981",
+        "node_102292"
+      ],
+      "station_names": [
+        "Warangal 1720",
+        "Warangal 2980",
+        "Pune Junction 2291"
+      ],
+      "edge_ids": [
+        "edge_103562",
+        "edge_108939"
+      ],
+      "distance_m": 42489.56,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0123,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00082",
+      "algorithm": "dfs",
+      "source_id": "node_101091",
+      "target_id": "node_101721",
+      "success": true,
+      "station_ids": [
+        "node_101091",
+        "node_102292",
+        "node_102981",
+        "node_101721"
+      ],
+      "station_names": [
+        "Bangalore City 1090",
+        "Pune Junction 2291",
+        "Warangal 2980",
+        "Warangal 1720"
+      ],
+      "edge_ids": [
+        "edge_108176",
+        "edge_108939",
+        "edge_103562"
+      ],
+      "distance_m": 51771.12,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0091,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00083",
+      "algorithm": "dijkstra",
+      "source_id": "node_101721",
+      "target_id": "node_102981",
+      "success": true,
+      "station_ids": [
+        "node_101721",
+        "node_102981"
+      ],
+      "station_names": [
+        "Warangal 1720",
+        "Warangal 2980"
+      ],
+      "edge_ids": [
+        "edge_103562"
+      ],
+      "distance_m": 32056.96,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0051,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00084",
+      "algorithm": "astar",
+      "source_id": "node_102017",
+      "target_id": "node_102785",
+      "success": true,
+      "station_ids": [
+        "node_102017",
+        "node_102785"
+      ],
+      "station_names": [
+        "Kochi 2016",
+        "Kanpur Central 2784"
+      ],
+      "edge_ids": [
+        "edge_105958"
+      ],
+      "distance_m": 10595.69,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0118,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00085",
+      "algorithm": "bfs",
+      "source_id": "node_100200",
+      "target_id": "node_101950",
+      "success": true,
+      "station_ids": [
+        "node_100200",
+        "node_101950"
+      ],
+      "station_names": [
+        "100200",
+        "Surat 1949"
+      ],
+      "edge_ids": [
+        "edge_108034"
+      ],
+      "distance_m": 30228.36,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.007,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00086",
+      "algorithm": "dfs",
+      "source_id": "node_100332",
+      "target_id": "node_101767",
+      "success": true,
+      "station_ids": [
+        "node_100332",
+        "node_101827",
+        "node_101767"
+      ],
+      "station_names": [
+        "Lucknow 331",
+        "101827",
+        "Visakhapatnam 1766"
+      ],
+      "edge_ids": [
+        "edge_103241",
+        "edge_103062"
+      ],
+      "distance_m": 46866.48,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.022,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00087",
+      "algorithm": "dijkstra",
+      "source_id": "node_100332",
+      "target_id": "node_101827",
+      "success": true,
+      "station_ids": [
+        "node_100332",
+        "node_101827"
+      ],
+      "station_names": [
+        "Lucknow 331",
+        "101827"
+      ],
+      "edge_ids": [
+        "edge_103241"
+      ],
+      "distance_m": 18776.63,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0047,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00088",
+      "algorithm": "astar",
+      "source_id": "node_101767",
+      "target_id": "node_101827",
+      "success": true,
+      "station_ids": [
+        "node_101767",
+        "node_101827"
+      ],
+      "station_names": [
+        "Visakhapatnam 1766",
+        "101827"
+      ],
+      "edge_ids": [
+        "edge_103062"
+      ],
+      "distance_m": 28089.85,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0106,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00089",
+      "algorithm": "bfs",
+      "source_id": "node_100659",
+      "target_id": "node_100723",
+      "success": true,
+      "station_ids": [
+        "node_100659",
+        "node_100723"
+      ],
+      "station_names": [
+        "100659",
+        "100723"
+      ],
+      "edge_ids": [
+        "edge_107033"
+      ],
+      "distance_m": 10574.87,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0063,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00090",
+      "algorithm": "dfs",
+      "source_id": "node_101223",
+      "target_id": "node_102657",
+      "success": true,
+      "station_ids": [
+        "node_101223",
+        "node_101057",
+        "node_101140",
+        "node_102657"
+      ],
+      "station_names": [
+        "101223",
+        "Chennai Central 1056",
+        "Pune Junction 1139",
+        "102657"
+      ],
+      "edge_ids": [
+        "edge_109393",
+        "edge_107238",
+        "edge_105874"
+      ],
+      "distance_m": 46484.06,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00091",
+      "algorithm": "dijkstra",
+      "source_id": "node_101057",
+      "target_id": "node_102657",
+      "success": true,
+      "station_ids": [
+        "node_101057",
+        "node_101140",
+        "node_102657"
+      ],
+      "station_names": [
+        "Chennai Central 1056",
+        "Pune Junction 1139",
+        "102657"
+      ],
+      "edge_ids": [
+        "edge_107238",
+        "edge_105874"
+      ],
+      "distance_m": 33108.54,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0081,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00092",
+      "algorithm": "astar",
+      "source_id": "node_101057",
+      "target_id": "node_101223",
+      "success": true,
+      "station_ids": [
+        "node_101057",
+        "node_101223"
+      ],
+      "station_names": [
+        "Chennai Central 1056",
+        "101223"
+      ],
+      "edge_ids": [
+        "edge_109393"
+      ],
+      "distance_m": 13375.52,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0181,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00093",
+      "algorithm": "bfs",
+      "source_id": "node_100245",
+      "target_id": "node_102843",
+      "success": true,
+      "station_ids": [
+        "node_100245",
+        "node_102843"
+      ],
+      "station_names": [
+        "100245",
+        "102843"
+      ],
+      "edge_ids": [
+        "edge_105388"
+      ],
+      "distance_m": 30675.22,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0068,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00094",
+      "algorithm": "dfs",
+      "source_id": "node_102033",
+      "target_id": "node_102344",
+      "success": true,
+      "station_ids": [
+        "node_102033",
+        "node_102344"
+      ],
+      "station_names": [
+        "Lucknow 2032",
+        "102344"
+      ],
+      "edge_ids": [
+        "edge_108718"
+      ],
+      "distance_m": 6860.42,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.006,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00095",
+      "algorithm": "dijkstra",
+      "source_id": "node_102033",
+      "target_id": "node_102607",
+      "success": true,
+      "station_ids": [
+        "node_102033",
+        "node_102344",
+        "node_100015",
+        "node_102607"
+      ],
+      "station_names": [
+        "Lucknow 2032",
+        "102344",
+        "Coimbatore",
+        "102607"
+      ],
+      "edge_ids": [
+        "edge_108718",
+        "edge_106746",
+        "edge_106198"
+      ],
+      "distance_m": 48127.02,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0128,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00096",
+      "algorithm": "astar",
+      "source_id": "node_100015",
+      "target_id": "node_102607",
+      "success": true,
+      "station_ids": [
+        "node_100015",
+        "node_102607"
+      ],
+      "station_names": [
+        "Coimbatore",
+        "102607"
+      ],
+      "edge_ids": [
+        "edge_106198"
+      ],
+      "distance_m": 16841.17,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0161,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00097",
+      "algorithm": "bfs",
+      "source_id": "node_100511",
+      "target_id": "node_100675",
+      "success": true,
+      "station_ids": [
+        "node_100511",
+        "node_100675"
+      ],
+      "station_names": [
+        "Kanpur Central 510",
+        "100675"
+      ],
+      "edge_ids": [
+        "edge_108992"
+      ],
+      "distance_m": 17661.82,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0093,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00098",
+      "algorithm": "dfs",
+      "source_id": "node_100511",
+      "target_id": "node_101460",
+      "success": true,
+      "station_ids": [
+        "node_100511",
+        "node_100675",
+        "node_101460"
+      ],
+      "station_names": [
+        "Kanpur Central 510",
+        "100675",
+        "Bangalore City 1459"
+      ],
+      "edge_ids": [
+        "edge_108992",
+        "edge_108550"
+      ],
+      "distance_m": 46280.03,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0105,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00099",
+      "algorithm": "dijkstra",
+      "source_id": "node_100511",
+      "target_id": "node_101446",
+      "success": true,
+      "station_ids": [
+        "node_100511",
+        "node_100675",
+        "node_101446"
+      ],
+      "station_names": [
+        "Kanpur Central 510",
+        "100675",
+        "101446"
+      ],
+      "edge_ids": [
+        "edge_108992",
+        "edge_109860"
+      ],
+      "distance_m": 22022.11,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0103,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00100",
+      "algorithm": "astar",
+      "source_id": "node_100133",
+      "target_id": "node_101213",
+      "success": true,
+      "station_ids": [
+        "node_100133",
+        "node_101213"
+      ],
+      "station_names": [
+        "100133",
+        "101213"
+      ],
+      "edge_ids": [
+        "edge_104721"
+      ],
+      "distance_m": 16146.13,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0118,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00101",
+      "algorithm": "bfs",
+      "source_id": "node_100999",
+      "target_id": "node_101597",
+      "success": true,
+      "station_ids": [
+        "node_100999",
+        "node_101245",
+        "node_101597"
+      ],
+      "station_names": [
+        "Guntur Junction 998",
+        "Bhopal Junction 1244",
+        "Guntur Junction 1596"
+      ],
+      "edge_ids": [
+        "edge_107603",
+        "edge_106566"
+      ],
+      "distance_m": 39126.93,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0359,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00102",
+      "algorithm": "dfs",
+      "source_id": "node_100439",
+      "target_id": "node_100999",
+      "success": true,
+      "station_ids": [
+        "node_100439",
+        "node_101597",
+        "node_101245",
+        "node_100999"
+      ],
+      "station_names": [
+        "100439",
+        "Guntur Junction 1596",
+        "Bhopal Junction 1244",
+        "Guntur Junction 998"
+      ],
+      "edge_ids": [
+        "edge_103887",
+        "edge_106566",
+        "edge_107603"
+      ],
+      "distance_m": 64548.82,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0169,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00103",
+      "algorithm": "dijkstra",
+      "source_id": "node_101597",
+      "target_id": "node_101945",
+      "success": true,
+      "station_ids": [
+        "node_101597",
+        "node_100439",
+        "node_101945"
+      ],
+      "station_names": [
+        "Guntur Junction 1596",
+        "100439",
+        "Kochi 1944"
+      ],
+      "edge_ids": [
+        "edge_103887",
+        "edge_104981"
+      ],
+      "distance_m": 44806.25,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0157,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00104",
+      "algorithm": "astar",
+      "source_id": "node_100579",
+      "target_id": "node_101719",
+      "success": true,
+      "station_ids": [
+        "node_100579",
+        "node_101719"
+      ],
+      "station_names": [
+        "100579",
+        "101719"
+      ],
+      "edge_ids": [
+        "edge_108924"
+      ],
+      "distance_m": 26793.34,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0176,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00105",
+      "algorithm": "bfs",
+      "source_id": "node_100275",
+      "target_id": "node_100493",
+      "success": true,
+      "station_ids": [
+        "node_100275",
+        "node_101423",
+        "node_100493"
+      ],
+      "station_names": [
+        "Nagpur 274",
+        "Jaipur 1422",
+        "100493"
+      ],
+      "edge_ids": [
+        "edge_103515",
+        "edge_107513"
+      ],
+      "distance_m": 39813.33,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00106",
+      "algorithm": "dfs",
+      "source_id": "node_100275",
+      "target_id": "node_100592",
+      "success": true,
+      "station_ids": [
+        "node_100275",
+        "node_101423",
+        "node_100493",
+        "node_100592"
+      ],
+      "station_names": [
+        "Nagpur 274",
+        "Jaipur 1422",
+        "100493",
+        "100592"
+      ],
+      "edge_ids": [
+        "edge_103515",
+        "edge_107513",
+        "edge_107168"
+      ],
+      "distance_m": 44810.37,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0101,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00107",
+      "algorithm": "dijkstra",
+      "source_id": "node_100493",
+      "target_id": "node_101423",
+      "success": true,
+      "station_ids": [
+        "node_100493",
+        "node_101423"
+      ],
+      "station_names": [
+        "100493",
+        "Jaipur 1422"
+      ],
+      "edge_ids": [
+        "edge_107513"
+      ],
+      "distance_m": 22685.89,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0093,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00108",
+      "algorithm": "astar",
+      "source_id": "node_102208",
+      "target_id": "node_100305",
+      "success": true,
+      "station_ids": [
+        "node_102208",
+        "node_100376",
+        "node_101724",
+        "node_100305"
+      ],
+      "station_names": [
+        "Warangal 2207",
+        "100376",
+        "101724",
+        "100305"
+      ],
+      "edge_ids": [
+        "edge_108358",
+        "edge_108710",
+        "edge_106836"
+      ],
+      "distance_m": 71362.96,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0417,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00109",
+      "algorithm": "bfs",
+      "source_id": "node_100376",
+      "target_id": "node_102804",
+      "success": true,
+      "station_ids": [
+        "node_100376",
+        "node_101724",
+        "node_102804"
+      ],
+      "station_names": [
+        "100376",
+        "101724",
+        "New Delhi 2803"
+      ],
+      "edge_ids": [
+        "edge_108710",
+        "edge_106087"
+      ],
+      "distance_m": 29946.16,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00110",
+      "algorithm": "dfs",
+      "source_id": "node_100305",
+      "target_id": "node_101875",
+      "success": true,
+      "station_ids": [
+        "node_100305",
+        "node_101724",
+        "node_102804",
+        "node_102102",
+        "node_101875"
+      ],
+      "station_names": [
+        "100305",
+        "101724",
+        "New Delhi 2803",
+        "102102",
+        "Hubli Junction 1874"
+      ],
+      "edge_ids": [
+        "edge_106836",
+        "edge_106087",
+        "edge_109085",
+        "edge_106467"
+      ],
+      "distance_m": 69994.33,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0183,
+      "nodes_expanded": 9,
+      "error": null
+    },
+    {
+      "route_id": "route_00111",
+      "algorithm": "dijkstra",
+      "source_id": "node_102506",
+      "target_id": "node_102677",
+      "success": true,
+      "station_ids": [
+        "node_102506",
+        "node_102677"
+      ],
+      "station_names": [
+        "Nagpur 2505",
+        "Hubli Junction 2676"
+      ],
+      "edge_ids": [
+        "edge_109901"
+      ],
+      "distance_m": 24006.52,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0073,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00112",
+      "algorithm": "astar",
+      "source_id": "node_100290",
+      "target_id": "node_100639",
+      "success": true,
+      "station_ids": [
+        "node_100290",
+        "node_100179",
+        "node_100639"
+      ],
+      "station_names": [
+        "Madurai Junction 289",
+        "Vijayawada 178",
+        "Howrah Junction 638"
+      ],
+      "edge_ids": [
+        "edge_106499",
+        "edge_106033"
+      ],
+      "distance_m": 25544.43,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.027,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00113",
+      "algorithm": "bfs",
+      "source_id": "node_100179",
+      "target_id": "node_100980",
+      "success": true,
+      "station_ids": [
+        "node_100179",
+        "node_100290",
+        "node_100980"
+      ],
+      "station_names": [
+        "Vijayawada 178",
+        "Madurai Junction 289",
+        "Nellore 979"
+      ],
+      "edge_ids": [
+        "edge_106499",
+        "edge_105847"
+      ],
+      "distance_m": 23981.67,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0127,
+      "nodes_expanded": 6,
+      "error": null
+    },
+    {
+      "route_id": "route_00114",
+      "algorithm": "dfs",
+      "source_id": "node_100179",
+      "target_id": "node_100639",
+      "success": true,
+      "station_ids": [
+        "node_100179",
+        "node_100639"
+      ],
+      "station_names": [
+        "Vijayawada 178",
+        "Howrah Junction 638"
+      ],
+      "edge_ids": [
+        "edge_106033"
+      ],
+      "distance_m": 5373.43,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 6,
+      "error": null
+    },
+    {
+      "route_id": "route_00115",
+      "algorithm": "dijkstra",
+      "source_id": "node_100715",
+      "target_id": "node_101260",
+      "success": true,
+      "station_ids": [
+        "node_100715",
+        "node_101260"
+      ],
+      "station_names": [
+        "100715",
+        "Tiruchirapalli 1259"
+      ],
+      "edge_ids": [
+        "edge_108630"
+      ],
+      "distance_m": 28636.51,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0073,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00116",
+      "algorithm": "astar",
+      "source_id": "node_100339",
+      "target_id": "node_102058",
+      "success": true,
+      "station_ids": [
+        "node_100339",
+        "node_102859",
+        "node_101478",
+        "node_102058"
+      ],
+      "station_names": [
+        "100339",
+        "102859",
+        "Salem Junction 1477",
+        "102058"
+      ],
+      "edge_ids": [
+        "edge_105509",
+        "edge_106850",
+        "edge_105186"
+      ],
+      "distance_m": 58167.95,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0318,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00117",
+      "algorithm": "bfs",
+      "source_id": "node_101478",
+      "target_id": "node_102859",
+      "success": true,
+      "station_ids": [
+        "node_101478",
+        "node_102859"
+      ],
+      "station_names": [
+        "Salem Junction 1477",
+        "102859"
+      ],
+      "edge_ids": [
+        "edge_106850"
+      ],
+      "distance_m": 27894.81,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0066,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00118",
+      "algorithm": "dfs",
+      "source_id": "node_101036",
+      "target_id": "node_102872",
+      "success": true,
+      "station_ids": [
+        "node_101036",
+        "node_102859",
+        "node_102872"
+      ],
+      "station_names": [
+        "101036",
+        "102859",
+        "102872"
+      ],
+      "edge_ids": [
+        "edge_103536",
+        "edge_108372"
+      ],
+      "distance_m": 52072.12,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0059,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00119",
+      "algorithm": "dijkstra",
+      "source_id": "node_101064",
+      "target_id": "node_101239",
+      "success": true,
+      "station_ids": [
+        "node_101064",
+        "node_101239"
+      ],
+      "station_names": [
+        "101064",
+        "101239"
+      ],
+      "edge_ids": [
+        "edge_106478"
+      ],
+      "distance_m": 24575.65,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0072,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00120",
+      "algorithm": "astar",
+      "source_id": "node_101130",
+      "target_id": "node_102097",
+      "success": true,
+      "station_ids": [
+        "node_101130",
+        "node_102097"
+      ],
+      "station_names": [
+        "Tirupati 1129",
+        "102097"
+      ],
+      "edge_ids": [
+        "edge_108124"
+      ],
+      "distance_m": 21281.91,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.026,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00121",
+      "algorithm": "bfs",
+      "source_id": "node_100685",
+      "target_id": "node_101380",
+      "success": true,
+      "station_ids": [
+        "node_100685",
+        "node_101380"
+      ],
+      "station_names": [
+        "Vijayawada 684",
+        "Vijayawada 1379"
+      ],
+      "edge_ids": [
+        "edge_104226"
+      ],
+      "distance_m": 11813.13,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0079,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00122",
+      "algorithm": "dfs",
+      "source_id": "node_101558",
+      "target_id": "node_102376",
+      "success": true,
+      "station_ids": [
+        "node_101558",
+        "node_102376"
+      ],
+      "station_names": [
+        "101558",
+        "Hyderabad Deccan 2375"
+      ],
+      "edge_ids": [
+        "edge_105074"
+      ],
+      "distance_m": 16523.58,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0056,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00123",
+      "algorithm": "dijkstra",
+      "source_id": "node_100504",
+      "target_id": "node_102084",
+      "success": true,
+      "station_ids": [
+        "node_100504",
+        "node_102238",
+        "node_102027",
+        "node_102084"
+      ],
+      "station_names": [
+        "100504",
+        "New Delhi 2237",
+        "Visakhapatnam 2026",
+        "Ahmedabad 2083"
+      ],
+      "edge_ids": [
+        "edge_108110",
+        "edge_109127",
+        "edge_104098"
+      ],
+      "distance_m": 73610.89,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0124,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00124",
+      "algorithm": "astar",
+      "source_id": "node_102084",
+      "target_id": "node_102238",
+      "success": true,
+      "station_ids": [
+        "node_102084",
+        "node_102027",
+        "node_102238"
+      ],
+      "station_names": [
+        "Ahmedabad 2083",
+        "Visakhapatnam 2026",
+        "New Delhi 2237"
+      ],
+      "edge_ids": [
+        "edge_104098",
+        "edge_109127"
+      ],
+      "distance_m": 41789.43,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0194,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00125",
+      "algorithm": "bfs",
+      "source_id": "node_100504",
+      "target_id": "node_101425",
+      "success": true,
+      "station_ids": [
+        "node_100504",
+        "node_102238",
+        "node_102027",
+        "node_102084",
+        "node_101425"
+      ],
+      "station_names": [
+        "100504",
+        "New Delhi 2237",
+        "Visakhapatnam 2026",
+        "Ahmedabad 2083",
+        "Vijayawada 1424"
+      ],
+      "edge_ids": [
+        "edge_108110",
+        "edge_109127",
+        "edge_104098",
+        "edge_104865"
+      ],
+      "distance_m": 100773.98,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0086,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00126",
+      "algorithm": "dfs",
+      "source_id": "node_101045",
+      "target_id": "node_102730",
+      "success": true,
+      "station_ids": [
+        "node_101045",
+        "node_102730"
+      ],
+      "station_names": [
+        "101045",
+        "102730"
+      ],
+      "edge_ids": [
+        "edge_107652"
+      ],
+      "distance_m": 13266.78,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0051,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00127",
+      "algorithm": "dijkstra",
+      "source_id": "node_100697",
+      "target_id": "node_102498",
+      "success": true,
+      "station_ids": [
+        "node_100697",
+        "node_100497",
+        "node_100252",
+        "node_102498"
+      ],
+      "station_names": [
+        "Patna Junction 696",
+        "Erode 496",
+        "Bhopal Junction 251",
+        "102498"
+      ],
+      "edge_ids": [
+        "edge_103657",
+        "edge_104615",
+        "edge_109529"
+      ],
+      "distance_m": 44334.81,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0138,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00128",
+      "algorithm": "astar",
+      "source_id": "node_100497",
+      "target_id": "node_102498",
+      "success": true,
+      "station_ids": [
+        "node_100497",
+        "node_100252",
+        "node_102498"
+      ],
+      "station_names": [
+        "Erode 496",
+        "Bhopal Junction 251",
+        "102498"
+      ],
+      "edge_ids": [
+        "edge_104615",
+        "edge_109529"
+      ],
+      "distance_m": 35415.54,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0154,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00129",
+      "algorithm": "bfs",
+      "source_id": "node_100252",
+      "target_id": "node_100497",
+      "success": true,
+      "station_ids": [
+        "node_100252",
+        "node_100497"
+      ],
+      "station_names": [
+        "Bhopal Junction 251",
+        "Erode 496"
+      ],
+      "edge_ids": [
+        "edge_104615"
+      ],
+      "distance_m": 24696.65,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0058,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00130",
+      "algorithm": "dfs",
+      "source_id": "node_101917",
+      "target_id": "node_102156",
+      "success": true,
+      "station_ids": [
+        "node_101917",
+        "node_102156"
+      ],
+      "station_names": [
+        "101917",
+        "102156"
+      ],
+      "edge_ids": [
+        "edge_107465"
+      ],
+      "distance_m": 19714.48,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0054,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00131",
+      "algorithm": "dijkstra",
+      "source_id": "node_100386",
+      "target_id": "node_100668",
+      "success": true,
+      "station_ids": [
+        "node_100386",
+        "node_100668"
+      ],
+      "station_names": [
+        "Tirupati 385",
+        "Nellore 667"
+      ],
+      "edge_ids": [
+        "edge_107767"
+      ],
+      "distance_m": 15582.81,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0066,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00132",
+      "algorithm": "astar",
+      "source_id": "node_100153",
+      "target_id": "node_100555",
+      "success": true,
+      "station_ids": [
+        "node_100153",
+        "node_100555"
+      ],
+      "station_names": [
+        "Nagpur 152",
+        "100555"
+      ],
+      "edge_ids": [
+        "edge_103057"
+      ],
+      "distance_m": 25772.73,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0118,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00133",
+      "algorithm": "bfs",
+      "source_id": "node_102194",
+      "target_id": "node_102483",
+      "success": true,
+      "station_ids": [
+        "node_102194",
+        "node_100960",
+        "node_101037",
+        "node_102483"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 2193",
+        "100960",
+        "Pune Junction 1036",
+        "Nellore 2482"
+      ],
+      "edge_ids": [
+        "edge_109975",
+        "edge_106147",
+        "edge_107013"
+      ],
+      "distance_m": 52467.57,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0226,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00134",
+      "algorithm": "dfs",
+      "source_id": "node_100046",
+      "target_id": "node_102194",
+      "success": true,
+      "station_ids": [
+        "node_100046",
+        "node_100960",
+        "node_102194"
+      ],
+      "station_names": [
+        "Erode 45",
+        "100960",
+        "Hyderabad Deccan 2193"
+      ],
+      "edge_ids": [
+        "edge_109690",
+        "edge_109975"
+      ],
+      "distance_m": 37706.26,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0058,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00135",
+      "algorithm": "dijkstra",
+      "source_id": "node_100046",
+      "target_id": "node_102483",
+      "success": true,
+      "station_ids": [
+        "node_100046",
+        "node_100960",
+        "node_101037",
+        "node_102483"
+      ],
+      "station_names": [
+        "Erode 45",
+        "100960",
+        "Pune Junction 1036",
+        "Nellore 2482"
+      ],
+      "edge_ids": [
+        "edge_109690",
+        "edge_106147",
+        "edge_107013"
+      ],
+      "distance_m": 37657.99,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0112,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00136",
+      "algorithm": "astar",
+      "source_id": "node_101912",
+      "target_id": "node_102760",
+      "success": true,
+      "station_ids": [
+        "node_101912",
+        "node_101412",
+        "node_102760"
+      ],
+      "station_names": [
+        "Warangal 1911",
+        "Patna Junction 1411",
+        "Mumbai CST 2759"
+      ],
+      "edge_ids": [
+        "edge_106461",
+        "edge_106125"
+      ],
+      "distance_m": 40789.39,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0191,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00137",
+      "algorithm": "bfs",
+      "source_id": "node_101412",
+      "target_id": "node_102760",
+      "success": true,
+      "station_ids": [
+        "node_101412",
+        "node_102760"
+      ],
+      "station_names": [
+        "Patna Junction 1411",
+        "Mumbai CST 2759"
+      ],
+      "edge_ids": [
+        "edge_106125"
+      ],
+      "distance_m": 14241.77,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0054,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00138",
+      "algorithm": "dfs",
+      "source_id": "node_101412",
+      "target_id": "node_101912",
+      "success": true,
+      "station_ids": [
+        "node_101412",
+        "node_101912"
+      ],
+      "station_names": [
+        "Patna Junction 1411",
+        "Warangal 1911"
+      ],
+      "edge_ids": [
+        "edge_106461"
+      ],
+      "distance_m": 26547.62,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0064,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00139",
+      "algorithm": "dijkstra",
+      "source_id": "node_100347",
+      "target_id": "node_100428",
+      "success": true,
+      "station_ids": [
+        "node_100347",
+        "node_100428"
+      ],
+      "station_names": [
+        "Surat 346",
+        "Nellore 427"
+      ],
+      "edge_ids": [
+        "edge_104087"
+      ],
+      "distance_m": 22436.36,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0062,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00140",
+      "algorithm": "astar",
+      "source_id": "node_101104",
+      "target_id": "node_101816",
+      "success": true,
+      "station_ids": [
+        "node_101104",
+        "node_101816"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 1103",
+        "101816"
+      ],
+      "edge_ids": [
+        "edge_105117"
+      ],
+      "distance_m": 22993.7,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0175,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00141",
+      "algorithm": "bfs",
+      "source_id": "node_102476",
+      "target_id": "node_101816",
+      "success": true,
+      "station_ids": [
+        "node_102476",
+        "node_101104",
+        "node_101816"
+      ],
+      "station_names": [
+        "102476",
+        "Hyderabad Deccan 1103",
+        "101816"
+      ],
+      "edge_ids": [
+        "edge_103596",
+        "edge_105117"
+      ],
+      "distance_m": 52098.18,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0142,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00142",
+      "algorithm": "dfs",
+      "source_id": "node_101816",
+      "target_id": "node_102476",
+      "success": true,
+      "station_ids": [
+        "node_101816",
+        "node_101104",
+        "node_102476"
+      ],
+      "station_names": [
+        "101816",
+        "Hyderabad Deccan 1103",
+        "102476"
+      ],
+      "edge_ids": [
+        "edge_105117",
+        "edge_103596"
+      ],
+      "distance_m": 52098.18,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0055,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00143",
+      "algorithm": "dijkstra",
+      "source_id": "node_102425",
+      "target_id": "node_102629",
+      "success": true,
+      "station_ids": [
+        "node_102425",
+        "node_102629"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 2424",
+        "102629"
+      ],
+      "edge_ids": [
+        "edge_105642"
+      ],
+      "distance_m": 26502.95,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0059,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00144",
+      "algorithm": "astar",
+      "source_id": "node_100337",
+      "target_id": "node_101877",
+      "success": true,
+      "station_ids": [
+        "node_100337",
+        "node_101877"
+      ],
+      "station_names": [
+        "100337",
+        "Kochi 1876"
+      ],
+      "edge_ids": [
+        "edge_108889"
+      ],
+      "distance_m": 16375.27,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0115,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00145",
+      "algorithm": "bfs",
+      "source_id": "node_100917",
+      "target_id": "node_101636",
+      "success": true,
+      "station_ids": [
+        "node_100917",
+        "node_100616",
+        "node_101636"
+      ],
+      "station_names": [
+        "100917",
+        "100616",
+        "101636"
+      ],
+      "edge_ids": [
+        "edge_104111",
+        "edge_106061"
+      ],
+      "distance_m": 13842.24,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0113,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00146",
+      "algorithm": "dfs",
+      "source_id": "node_100917",
+      "target_id": "node_101439",
+      "success": true,
+      "station_ids": [
+        "node_100917",
+        "node_101439"
+      ],
+      "station_names": [
+        "100917",
+        "101439"
+      ],
+      "edge_ids": [
+        "edge_108998"
+      ],
+      "distance_m": 22605.4,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0043,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00147",
+      "algorithm": "dijkstra",
+      "source_id": "node_101439",
+      "target_id": "node_101636",
+      "success": true,
+      "station_ids": [
+        "node_101439",
+        "node_100917",
+        "node_100616",
+        "node_101636"
+      ],
+      "station_names": [
+        "101439",
+        "100917",
+        "100616",
+        "101636"
+      ],
+      "edge_ids": [
+        "edge_108998",
+        "edge_104111",
+        "edge_106061"
+      ],
+      "distance_m": 36447.64,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0075,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00148",
+      "algorithm": "astar",
+      "source_id": "node_100374",
+      "target_id": "node_101532",
+      "success": true,
+      "station_ids": [
+        "node_100374",
+        "node_101532"
+      ],
+      "station_names": [
+        "100374",
+        "Chennai Central 1531"
+      ],
+      "edge_ids": [
+        "edge_109331"
+      ],
+      "distance_m": 4032.49,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0112,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00149",
+      "algorithm": "bfs",
+      "source_id": "node_101804",
+      "target_id": "node_102921",
+      "success": true,
+      "station_ids": [
+        "node_101804",
+        "node_102921"
+      ],
+      "station_names": [
+        "101804",
+        "Thiruvananthapuram 2920"
+      ],
+      "edge_ids": [
+        "edge_103340"
+      ],
+      "distance_m": 31377.76,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0094,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00150",
+      "algorithm": "dfs",
+      "source_id": "node_101022",
+      "target_id": "node_101967",
+      "success": true,
+      "station_ids": [
+        "node_101022",
+        "node_101967"
+      ],
+      "station_names": [
+        "Tiruchirapalli 1021",
+        "Mysore Junction 1966"
+      ],
+      "edge_ids": [
+        "edge_103277"
+      ],
+      "distance_m": 24645.85,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0049,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00151",
+      "algorithm": "dijkstra",
+      "source_id": "node_101022",
+      "target_id": "node_102229",
+      "success": true,
+      "station_ids": [
+        "node_101022",
+        "node_102229"
+      ],
+      "station_names": [
+        "Tiruchirapalli 1021",
+        "102229"
+      ],
+      "edge_ids": [
+        "edge_105703"
+      ],
+      "distance_m": 9681.46,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0165,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00152",
+      "algorithm": "astar",
+      "source_id": "node_101967",
+      "target_id": "node_102229",
+      "success": true,
+      "station_ids": [
+        "node_101967",
+        "node_101022",
+        "node_102229"
+      ],
+      "station_names": [
+        "Mysore Junction 1966",
+        "Tiruchirapalli 1021",
+        "102229"
+      ],
+      "edge_ids": [
+        "edge_103277",
+        "edge_105703"
+      ],
+      "distance_m": 34327.31,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0237,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00153",
+      "algorithm": "bfs",
+      "source_id": "node_100646",
+      "target_id": "node_102214",
+      "success": true,
+      "station_ids": [
+        "node_100646",
+        "node_100006",
+        "node_102214"
+      ],
+      "station_names": [
+        "Jaipur 645",
+        "Guntur Junction",
+        "Hyderabad Deccan 2213"
+      ],
+      "edge_ids": [
+        "edge_109497",
+        "edge_107595"
+      ],
+      "distance_m": 56262.95,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0179,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00154",
+      "algorithm": "dfs",
+      "source_id": "node_100006",
+      "target_id": "node_102649",
+      "success": true,
+      "station_ids": [
+        "node_100006",
+        "node_100646",
+        "node_102649"
+      ],
+      "station_names": [
+        "Guntur Junction",
+        "Jaipur 645",
+        "102649"
+      ],
+      "edge_ids": [
+        "edge_109497",
+        "edge_106167"
+      ],
+      "distance_m": 36157.62,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0151,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00155",
+      "algorithm": "dijkstra",
+      "source_id": "node_100006",
+      "target_id": "node_102214",
+      "success": true,
+      "station_ids": [
+        "node_100006",
+        "node_102214"
+      ],
+      "station_names": [
+        "Guntur Junction",
+        "Hyderabad Deccan 2213"
+      ],
+      "edge_ids": [
+        "edge_107595"
+      ],
+      "distance_m": 29141.1,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0107,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00156",
+      "algorithm": "astar",
+      "source_id": "node_102243",
+      "target_id": "node_102331",
+      "success": true,
+      "station_ids": [
+        "node_102243",
+        "node_102331"
+      ],
+      "station_names": [
+        "102243",
+        "102331"
+      ],
+      "edge_ids": [
+        "edge_106411"
+      ],
+      "distance_m": 8210.49,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0142,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00157",
+      "algorithm": "bfs",
+      "source_id": "node_100038",
+      "target_id": "node_101849",
+      "success": true,
+      "station_ids": [
+        "node_100038",
+        "node_100131",
+        "node_101849"
+      ],
+      "station_names": [
+        "Hubli Junction 37",
+        "Warangal 130",
+        "101849"
+      ],
+      "edge_ids": [
+        "edge_106380",
+        "edge_107134"
+      ],
+      "distance_m": 36633.49,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0115,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00158",
+      "algorithm": "dfs",
+      "source_id": "node_100131",
+      "target_id": "node_101849",
+      "success": true,
+      "station_ids": [
+        "node_100131",
+        "node_101849"
+      ],
+      "station_names": [
+        "Warangal 130",
+        "101849"
+      ],
+      "edge_ids": [
+        "edge_107134"
+      ],
+      "distance_m": 19875.36,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0044,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00159",
+      "algorithm": "dijkstra",
+      "source_id": "node_100038",
+      "target_id": "node_100131",
+      "success": true,
+      "station_ids": [
+        "node_100038",
+        "node_100131"
+      ],
+      "station_names": [
+        "Hubli Junction 37",
+        "Warangal 130"
+      ],
+      "edge_ids": [
+        "edge_106380"
+      ],
+      "distance_m": 16758.13,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0052,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00160",
+      "algorithm": "astar",
+      "source_id": "node_101488",
+      "target_id": "node_102893",
+      "success": true,
+      "station_ids": [
+        "node_101488",
+        "node_102548",
+        "node_100804",
+        "node_102893"
+      ],
+      "station_names": [
+        "Mumbai CST 1487",
+        "102548",
+        "100804",
+        "102893"
+      ],
+      "edge_ids": [
+        "edge_106671",
+        "edge_105471",
+        "edge_103189"
+      ],
+      "distance_m": 72986.67,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0239,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00161",
+      "algorithm": "bfs",
+      "source_id": "node_101488",
+      "target_id": "node_102726",
+      "success": true,
+      "station_ids": [
+        "node_101488",
+        "node_102548",
+        "node_100804",
+        "node_102893",
+        "node_102726"
+      ],
+      "station_names": [
+        "Mumbai CST 1487",
+        "102548",
+        "100804",
+        "102893",
+        "Coimbatore 2725"
+      ],
+      "edge_ids": [
+        "edge_106671",
+        "edge_105471",
+        "edge_103189",
+        "edge_107566"
+      ],
+      "distance_m": 86631.17,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0115,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00162",
+      "algorithm": "dfs",
+      "source_id": "node_100804",
+      "target_id": "node_102726",
+      "success": true,
+      "station_ids": [
+        "node_100804",
+        "node_102893",
+        "node_102726"
+      ],
+      "station_names": [
+        "100804",
+        "102893",
+        "Coimbatore 2725"
+      ],
+      "edge_ids": [
+        "edge_103189",
+        "edge_107566"
+      ],
+      "distance_m": 38777.45,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0061,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00163",
+      "algorithm": "dijkstra",
+      "source_id": "node_100160",
+      "target_id": "node_101999",
+      "success": true,
+      "station_ids": [
+        "node_100160",
+        "node_101999"
+      ],
+      "station_names": [
+        "Howrah Junction 159",
+        "Ahmedabad 1998"
+      ],
+      "edge_ids": [
+        "edge_106279"
+      ],
+      "distance_m": 18970.02,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0061,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00164",
+      "algorithm": "astar",
+      "source_id": "node_100160",
+      "target_id": "node_100164",
+      "success": true,
+      "station_ids": [
+        "node_100160",
+        "node_101999",
+        "node_100164"
+      ],
+      "station_names": [
+        "Howrah Junction 159",
+        "Ahmedabad 1998",
+        "100164"
+      ],
+      "edge_ids": [
+        "edge_106279",
+        "edge_104972"
+      ],
+      "distance_m": 24245.88,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0168,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00165",
+      "algorithm": "bfs",
+      "source_id": "node_100164",
+      "target_id": "node_101999",
+      "success": true,
+      "station_ids": [
+        "node_100164",
+        "node_101999"
+      ],
+      "station_names": [
+        "100164",
+        "Ahmedabad 1998"
+      ],
+      "edge_ids": [
+        "edge_104972"
+      ],
+      "distance_m": 5275.86,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.006,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00166",
+      "algorithm": "dfs",
+      "source_id": "node_100914",
+      "target_id": "node_101121",
+      "success": true,
+      "station_ids": [
+        "node_100914",
+        "node_101121"
+      ],
+      "station_names": [
+        "Jaipur 913",
+        "101121"
+      ],
+      "edge_ids": [
+        "edge_104140"
+      ],
+      "distance_m": 6399.7,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0053,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00167",
+      "algorithm": "dijkstra",
+      "source_id": "node_102327",
+      "target_id": "node_102801",
+      "success": true,
+      "station_ids": [
+        "node_102327",
+        "node_102801"
+      ],
+      "station_names": [
+        "Guntur Junction 2326",
+        "Tirupati 2800"
+      ],
+      "edge_ids": [
+        "edge_103164"
+      ],
+      "distance_m": 28142.57,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0059,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00168",
+      "algorithm": "astar",
+      "source_id": "node_101211",
+      "target_id": "node_101483",
+      "success": true,
+      "station_ids": [
+        "node_101211",
+        "node_101483"
+      ],
+      "station_names": [
+        "101211",
+        "Mumbai CST 1482"
+      ],
+      "edge_ids": [
+        "edge_109089"
+      ],
+      "distance_m": 7792.63,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0133,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00169",
+      "algorithm": "bfs",
+      "source_id": "node_101302",
+      "target_id": "node_102560",
+      "success": true,
+      "station_ids": [
+        "node_101302",
+        "node_102560"
+      ],
+      "station_names": [
+        "101302",
+        "Mumbai CST 2559"
+      ],
+      "edge_ids": [
+        "edge_105372"
+      ],
+      "distance_m": 11517.35,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0077,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00170",
+      "algorithm": "dfs",
+      "source_id": "node_100553",
+      "target_id": "node_100742",
+      "success": true,
+      "station_ids": [
+        "node_100553",
+        "node_100742"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 552",
+        "100742"
+      ],
+      "edge_ids": [
+        "edge_104825"
+      ],
+      "distance_m": 20869.65,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0065,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00171",
+      "algorithm": "dijkstra",
+      "source_id": "node_100742",
+      "target_id": "node_102149",
+      "success": true,
+      "station_ids": [
+        "node_100742",
+        "node_102149"
+      ],
+      "station_names": [
+        "100742",
+        "102149"
+      ],
+      "edge_ids": [
+        "edge_109613"
+      ],
+      "distance_m": 15939.85,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0076,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00172",
+      "algorithm": "astar",
+      "source_id": "node_100553",
+      "target_id": "node_102149",
+      "success": true,
+      "station_ids": [
+        "node_100553",
+        "node_100742",
+        "node_102149"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 552",
+        "100742",
+        "102149"
+      ],
+      "edge_ids": [
+        "edge_104825",
+        "edge_109613"
+      ],
+      "distance_m": 36809.5,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0145,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00173",
+      "algorithm": "bfs",
+      "source_id": "node_102565",
+      "target_id": "node_102817",
+      "success": true,
+      "station_ids": [
+        "node_102565",
+        "node_100249",
+        "node_102817"
+      ],
+      "station_names": [
+        "Nagpur 2564",
+        "Mysore Junction 248",
+        "Guntur Junction 2816"
+      ],
+      "edge_ids": [
+        "edge_103783",
+        "edge_105163"
+      ],
+      "distance_m": 19472.86,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0111,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00174",
+      "algorithm": "dfs",
+      "source_id": "node_102565",
+      "target_id": "node_102896",
+      "success": true,
+      "station_ids": [
+        "node_102565",
+        "node_102896"
+      ],
+      "station_names": [
+        "Nagpur 2564",
+        "102896"
+      ],
+      "edge_ids": [
+        "edge_103186"
+      ],
+      "distance_m": 25317.18,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0112,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00175",
+      "algorithm": "dijkstra",
+      "source_id": "node_100249",
+      "target_id": "node_102565",
+      "success": true,
+      "station_ids": [
+        "node_100249",
+        "node_102565"
+      ],
+      "station_names": [
+        "Mysore Junction 248",
+        "Nagpur 2564"
+      ],
+      "edge_ids": [
+        "edge_103783"
+      ],
+      "distance_m": 11273.63,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0082,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00176",
+      "algorithm": "astar",
+      "source_id": "node_100952",
+      "target_id": "node_101894",
+      "success": true,
+      "station_ids": [
+        "node_100952",
+        "node_101894"
+      ],
+      "station_names": [
+        "Lucknow 951",
+        "101894"
+      ],
+      "edge_ids": [
+        "edge_109727"
+      ],
+      "distance_m": 9230.7,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0168,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00177",
+      "algorithm": "bfs",
+      "source_id": "node_100396",
+      "target_id": "node_100952",
+      "success": true,
+      "station_ids": [
+        "node_100396",
+        "node_100952"
+      ],
+      "station_names": [
+        "Vijayawada 395",
+        "Lucknow 951"
+      ],
+      "edge_ids": [
+        "edge_106523"
+      ],
+      "distance_m": 24506.29,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0061,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00178",
+      "algorithm": "dfs",
+      "source_id": "node_100396",
+      "target_id": "node_101894",
+      "success": true,
+      "station_ids": [
+        "node_100396",
+        "node_100952",
+        "node_101894"
+      ],
+      "station_names": [
+        "Vijayawada 395",
+        "Lucknow 951",
+        "101894"
+      ],
+      "edge_ids": [
+        "edge_106523",
+        "edge_109727"
+      ],
+      "distance_m": 33736.99,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0059,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00179",
+      "algorithm": "dijkstra",
+      "source_id": "node_100130",
+      "target_id": "node_101444",
+      "success": true,
+      "station_ids": [
+        "node_100130",
+        "node_102768",
+        "node_101444"
+      ],
+      "station_names": [
+        "Bangalore City 129",
+        "Guntur Junction 2767",
+        "Hubli Junction 1443"
+      ],
+      "edge_ids": [
+        "edge_105151",
+        "edge_105283"
+      ],
+      "distance_m": 27011.05,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0096,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00180",
+      "algorithm": "astar",
+      "source_id": "node_100130",
+      "target_id": "node_102768",
+      "success": true,
+      "station_ids": [
+        "node_100130",
+        "node_102768"
+      ],
+      "station_names": [
+        "Bangalore City 129",
+        "Guntur Junction 2767"
+      ],
+      "edge_ids": [
+        "edge_105151"
+      ],
+      "distance_m": 20880.19,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0096,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00181",
+      "algorithm": "bfs",
+      "source_id": "node_101444",
+      "target_id": "node_102768",
+      "success": true,
+      "station_ids": [
+        "node_101444",
+        "node_102768"
+      ],
+      "station_names": [
+        "Hubli Junction 1443",
+        "Guntur Junction 2767"
+      ],
+      "edge_ids": [
+        "edge_105283"
+      ],
+      "distance_m": 6130.86,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0051,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00182",
+      "algorithm": "dfs",
+      "source_id": "node_100220",
+      "target_id": "node_100838",
+      "success": true,
+      "station_ids": [
+        "node_100220",
+        "node_100838"
+      ],
+      "station_names": [
+        "New Delhi 219",
+        "100838"
+      ],
+      "edge_ids": [
+        "edge_103656"
+      ],
+      "distance_m": 7782.64,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.005,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00183",
+      "algorithm": "dijkstra",
+      "source_id": "node_101193",
+      "target_id": "node_101745",
+      "success": true,
+      "station_ids": [
+        "node_101193",
+        "node_102731",
+        "node_101745"
+      ],
+      "station_names": [
+        "Nagpur 1192",
+        "Madurai Junction 2730",
+        "Visakhapatnam 1744"
+      ],
+      "edge_ids": [
+        "edge_109200",
+        "edge_104355"
+      ],
+      "distance_m": 15300.21,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.011,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00184",
+      "algorithm": "astar",
+      "source_id": "node_101745",
+      "target_id": "node_102731",
+      "success": true,
+      "station_ids": [
+        "node_101745",
+        "node_102731"
+      ],
+      "station_names": [
+        "Visakhapatnam 1744",
+        "Madurai Junction 2730"
+      ],
+      "edge_ids": [
+        "edge_104355"
+      ],
+      "distance_m": 8779.67,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0103,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00185",
+      "algorithm": "bfs",
+      "source_id": "node_101193",
+      "target_id": "node_102731",
+      "success": true,
+      "station_ids": [
+        "node_101193",
+        "node_102731"
+      ],
+      "station_names": [
+        "Nagpur 1192",
+        "Madurai Junction 2730"
+      ],
+      "edge_ids": [
+        "edge_109200"
+      ],
+      "distance_m": 6520.54,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0049,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00186",
+      "algorithm": "dfs",
+      "source_id": "node_102522",
+      "target_id": "node_102993",
+      "success": true,
+      "station_ids": [
+        "node_102522",
+        "node_102993"
+      ],
+      "station_names": [
+        "102522",
+        "Erode 2992"
+      ],
+      "edge_ids": [
+        "edge_105150"
+      ],
+      "distance_m": 26760.63,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0047,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00187",
+      "algorithm": "dijkstra",
+      "source_id": "node_101391",
+      "target_id": "node_102397",
+      "success": true,
+      "station_ids": [
+        "node_101391",
+        "node_102397"
+      ],
+      "station_names": [
+        "Visakhapatnam 1390",
+        "Chennai Central 2396"
+      ],
+      "edge_ids": [
+        "edge_105726"
+      ],
+      "distance_m": 17529.76,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0099,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00188",
+      "algorithm": "astar",
+      "source_id": "node_100388",
+      "target_id": "node_102397",
+      "success": true,
+      "station_ids": [
+        "node_100388",
+        "node_100644",
+        "node_102397"
+      ],
+      "station_names": [
+        "Visakhapatnam 387",
+        "Ahmedabad 643",
+        "Chennai Central 2396"
+      ],
+      "edge_ids": [
+        "edge_103233",
+        "edge_107768"
+      ],
+      "distance_m": 31773.52,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0165,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00189",
+      "algorithm": "bfs",
+      "source_id": "node_100388",
+      "target_id": "node_101391",
+      "success": true,
+      "station_ids": [
+        "node_100388",
+        "node_100644",
+        "node_102397",
+        "node_101391"
+      ],
+      "station_names": [
+        "Visakhapatnam 387",
+        "Ahmedabad 643",
+        "Chennai Central 2396",
+        "Visakhapatnam 1390"
+      ],
+      "edge_ids": [
+        "edge_103233",
+        "edge_107768",
+        "edge_105726"
+      ],
+      "distance_m": 49303.28,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.008,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00190",
+      "algorithm": "dfs",
+      "source_id": "node_100731",
+      "target_id": "node_102814",
+      "success": true,
+      "station_ids": [
+        "node_100731",
+        "node_102761",
+        "node_101144",
+        "node_101477",
+        "node_102814"
+      ],
+      "station_names": [
+        "100731",
+        "Hubli Junction 2760",
+        "101144",
+        "Kochi 1476",
+        "Hyderabad Deccan 2813"
+      ],
+      "edge_ids": [
+        "edge_104561",
+        "edge_109482",
+        "edge_104049",
+        "edge_108791"
+      ],
+      "distance_m": 65709.11,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0144,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00191",
+      "algorithm": "dijkstra",
+      "source_id": "node_101144",
+      "target_id": "node_102761",
+      "success": true,
+      "station_ids": [
+        "node_101144",
+        "node_102761"
+      ],
+      "station_names": [
+        "101144",
+        "Hubli Junction 2760"
+      ],
+      "edge_ids": [
+        "edge_109482"
+      ],
+      "distance_m": 33376.94,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.011,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00192",
+      "algorithm": "astar",
+      "source_id": "node_102761",
+      "target_id": "node_102814",
+      "success": true,
+      "station_ids": [
+        "node_102761",
+        "node_101144",
+        "node_101477",
+        "node_102814"
+      ],
+      "station_names": [
+        "Hubli Junction 2760",
+        "101144",
+        "Kochi 1476",
+        "Hyderabad Deccan 2813"
+      ],
+      "edge_ids": [
+        "edge_109482",
+        "edge_104049",
+        "edge_108791"
+      ],
+      "distance_m": 61953.71,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0203,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00193",
+      "algorithm": "bfs",
+      "source_id": "node_101364",
+      "target_id": "node_101643",
+      "success": true,
+      "station_ids": [
+        "node_101364",
+        "node_101643"
+      ],
+      "station_names": [
+        "Erode 1363",
+        "101643"
+      ],
+      "edge_ids": [
+        "edge_108512"
+      ],
+      "distance_m": 17533.09,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0067,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00194",
+      "algorithm": "dfs",
+      "source_id": "node_100126",
+      "target_id": "node_101261",
+      "success": true,
+      "station_ids": [
+        "node_100126",
+        "node_101261"
+      ],
+      "station_names": [
+        "Bangalore City 125",
+        "Salem Junction 1260"
+      ],
+      "edge_ids": [
+        "edge_107193"
+      ],
+      "distance_m": 11023.93,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0089,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00195",
+      "algorithm": "dijkstra",
+      "source_id": "node_101261",
+      "target_id": "node_102830",
+      "success": true,
+      "station_ids": [
+        "node_101261",
+        "node_100126",
+        "node_102830"
+      ],
+      "station_names": [
+        "Salem Junction 1260",
+        "Bangalore City 125",
+        "Pune Junction 2829"
+      ],
+      "edge_ids": [
+        "edge_107193",
+        "edge_109193"
+      ],
+      "distance_m": 25885.48,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0107,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00196",
+      "algorithm": "astar",
+      "source_id": "node_100126",
+      "target_id": "node_102830",
+      "success": true,
+      "station_ids": [
+        "node_100126",
+        "node_102830"
+      ],
+      "station_names": [
+        "Bangalore City 125",
+        "Pune Junction 2829"
+      ],
+      "edge_ids": [
+        "edge_109193"
+      ],
+      "distance_m": 14861.55,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0216,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00197",
+      "algorithm": "bfs",
+      "source_id": "node_101255",
+      "target_id": "node_102985",
+      "success": true,
+      "station_ids": [
+        "node_101255",
+        "node_102985"
+      ],
+      "station_names": [
+        "101255",
+        "Lucknow 2984"
+      ],
+      "edge_ids": [
+        "edge_108684"
+      ],
+      "distance_m": 32512.92,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0076,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00198",
+      "algorithm": "dfs",
+      "source_id": "node_101255",
+      "target_id": "node_102889",
+      "success": true,
+      "station_ids": [
+        "node_101255",
+        "node_102985",
+        "node_102889"
+      ],
+      "station_names": [
+        "101255",
+        "Lucknow 2984",
+        "102889"
+      ],
+      "edge_ids": [
+        "edge_108684",
+        "edge_103616"
+      ],
+      "distance_m": 37374.95,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0076,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00199",
+      "algorithm": "dijkstra",
+      "source_id": "node_102889",
+      "target_id": "node_102985",
+      "success": true,
+      "station_ids": [
+        "node_102889",
+        "node_102985"
+      ],
+      "station_names": [
+        "102889",
+        "Lucknow 2984"
+      ],
+      "edge_ids": [
+        "edge_103616"
+      ],
+      "distance_m": 4862.03,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0053,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00200",
+      "algorithm": "astar",
+      "source_id": "node_100582",
+      "target_id": "node_101988",
+      "success": true,
+      "station_ids": [
+        "node_100582",
+        "node_101988"
+      ],
+      "station_names": [
+        "Hubli Junction 581",
+        "101988"
+      ],
+      "edge_ids": [
+        "edge_103471"
+      ],
+      "distance_m": 24838.07,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0119,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00201",
+      "algorithm": "bfs",
+      "source_id": "node_100582",
+      "target_id": "node_102574",
+      "success": true,
+      "station_ids": [
+        "node_100582",
+        "node_101988",
+        "node_102574"
+      ],
+      "station_names": [
+        "Hubli Junction 581",
+        "101988",
+        "Salem Junction 2573"
+      ],
+      "edge_ids": [
+        "edge_103471",
+        "edge_105809"
+      ],
+      "distance_m": 36867.14,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0237,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00202",
+      "algorithm": "dfs",
+      "source_id": "node_101988",
+      "target_id": "node_102574",
+      "success": true,
+      "station_ids": [
+        "node_101988",
+        "node_102574"
+      ],
+      "station_names": [
+        "101988",
+        "Salem Junction 2573"
+      ],
+      "edge_ids": [
+        "edge_105809"
+      ],
+      "distance_m": 12029.07,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0119,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00203",
+      "algorithm": "dijkstra",
+      "source_id": "node_101887",
+      "target_id": "node_102691",
+      "success": true,
+      "station_ids": [
+        "node_101887",
+        "node_102691"
+      ],
+      "station_names": [
+        "Salem Junction 1886",
+        "102691"
+      ],
+      "edge_ids": [
+        "edge_108324"
+      ],
+      "distance_m": 32634.48,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0131,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00204",
+      "algorithm": "astar",
+      "source_id": "node_101251",
+      "target_id": "node_100101",
+      "success": true,
+      "station_ids": [
+        "node_101251",
+        "node_100101"
+      ],
+      "station_names": [
+        "Nagpur 1250",
+        "100101"
+      ],
+      "edge_ids": [
+        "edge_103388"
+      ],
+      "distance_m": 29792.78,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0375,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00205",
+      "algorithm": "bfs",
+      "source_id": "node_100470",
+      "target_id": "node_101251",
+      "success": true,
+      "station_ids": [
+        "node_100470",
+        "node_101822",
+        "node_100272",
+        "node_101973",
+        "node_101251"
+      ],
+      "station_names": [
+        "Kanpur Central 469",
+        "101822",
+        "Madurai Junction 271",
+        "101973",
+        "Nagpur 1250"
+      ],
+      "edge_ids": [
+        "edge_103197",
+        "edge_103585",
+        "edge_107241",
+        "edge_108728"
+      ],
+      "distance_m": 60459.4,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0302,
+      "nodes_expanded": 6,
+      "error": null
+    },
+    {
+      "route_id": "route_00206",
+      "algorithm": "dfs",
+      "source_id": "node_100101",
+      "target_id": "node_100272",
+      "success": true,
+      "station_ids": [
+        "node_100101",
+        "node_101251",
+        "node_101973",
+        "node_100272"
+      ],
+      "station_names": [
+        "100101",
+        "Nagpur 1250",
+        "101973",
+        "Madurai Junction 271"
+      ],
+      "edge_ids": [
+        "edge_103388",
+        "edge_108728",
+        "edge_107241"
+      ],
+      "distance_m": 37826.65,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0149,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00207",
+      "algorithm": "dijkstra",
+      "source_id": "node_100203",
+      "target_id": "node_100859",
+      "success": true,
+      "station_ids": [
+        "node_100203",
+        "node_100859"
+      ],
+      "station_names": [
+        "Hubli Junction 202",
+        "Coimbatore 858"
+      ],
+      "edge_ids": [
+        "edge_107639"
+      ],
+      "distance_m": 12459.7,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0164,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00208",
+      "algorithm": "astar",
+      "source_id": "node_100203",
+      "target_id": "node_101526",
+      "success": true,
+      "station_ids": [
+        "node_100203",
+        "node_101526"
+      ],
+      "station_names": [
+        "Hubli Junction 202",
+        "101526"
+      ],
+      "edge_ids": [
+        "edge_108816"
+      ],
+      "distance_m": 6054.65,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0216,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00209",
+      "algorithm": "bfs",
+      "source_id": "node_100859",
+      "target_id": "node_101526",
+      "success": true,
+      "station_ids": [
+        "node_100859",
+        "node_100203",
+        "node_101526"
+      ],
+      "station_names": [
+        "Coimbatore 858",
+        "Hubli Junction 202",
+        "101526"
+      ],
+      "edge_ids": [
+        "edge_107639",
+        "edge_108816"
+      ],
+      "distance_m": 18514.35,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0117,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00210",
+      "algorithm": "dfs",
+      "source_id": "node_100559",
+      "target_id": "node_100581",
+      "success": true,
+      "station_ids": [
+        "node_100559",
+        "node_100581"
+      ],
+      "station_names": [
+        "Vijayawada 558",
+        "Lucknow 580"
+      ],
+      "edge_ids": [
+        "edge_105914"
+      ],
+      "distance_m": 19147.58,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.008,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00211",
+      "algorithm": "dijkstra",
+      "source_id": "node_101042",
+      "target_id": "node_102767",
+      "success": true,
+      "station_ids": [
+        "node_101042",
+        "node_102767"
+      ],
+      "station_names": [
+        "Salem Junction 1041",
+        "Coimbatore 2766"
+      ],
+      "edge_ids": [
+        "edge_103659"
+      ],
+      "distance_m": 32059.15,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0159,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00212",
+      "algorithm": "astar",
+      "source_id": "node_100886",
+      "target_id": "node_101042",
+      "success": true,
+      "station_ids": [
+        "node_100886",
+        "node_101042"
+      ],
+      "station_names": [
+        "100886",
+        "Salem Junction 1041"
+      ],
+      "edge_ids": [
+        "edge_106950"
+      ],
+      "distance_m": 10636.9,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0162,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00213",
+      "algorithm": "bfs",
+      "source_id": "node_100886",
+      "target_id": "node_102767",
+      "success": true,
+      "station_ids": [
+        "node_100886",
+        "node_101042",
+        "node_102767"
+      ],
+      "station_names": [
+        "100886",
+        "Salem Junction 1041",
+        "Coimbatore 2766"
+      ],
+      "edge_ids": [
+        "edge_106950",
+        "edge_103659"
+      ],
+      "distance_m": 42696.05,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0107,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00214",
+      "algorithm": "dfs",
+      "source_id": "node_100342",
+      "target_id": "node_101259",
+      "success": true,
+      "station_ids": [
+        "node_100342",
+        "node_101259"
+      ],
+      "station_names": [
+        "Erode 341",
+        "Vijayawada 1258"
+      ],
+      "edge_ids": [
+        "edge_108380"
+      ],
+      "distance_m": 16811.61,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.008,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00215",
+      "algorithm": "dijkstra",
+      "source_id": "node_101313",
+      "target_id": "node_102816",
+      "success": true,
+      "station_ids": [
+        "node_101313",
+        "node_100958",
+        "node_100937",
+        "node_102816"
+      ],
+      "station_names": [
+        "Vijayawada 1312",
+        "Thiruvananthapuram 957",
+        "100937",
+        "Nagpur 2815"
+      ],
+      "edge_ids": [
+        "edge_107516",
+        "edge_106388",
+        "edge_105482"
+      ],
+      "distance_m": 53347.34,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0265,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00216",
+      "algorithm": "astar",
+      "source_id": "node_100958",
+      "target_id": "node_101167",
+      "success": true,
+      "station_ids": [
+        "node_100958",
+        "node_100937",
+        "node_101167"
+      ],
+      "station_names": [
+        "Thiruvananthapuram 957",
+        "100937",
+        "Nellore 1166"
+      ],
+      "edge_ids": [
+        "edge_106388",
+        "edge_105988"
+      ],
+      "distance_m": 43222.45,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.041,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00217",
+      "algorithm": "bfs",
+      "source_id": "node_100958",
+      "target_id": "node_102816",
+      "success": true,
+      "station_ids": [
+        "node_100958",
+        "node_100937",
+        "node_102816"
+      ],
+      "station_names": [
+        "Thiruvananthapuram 957",
+        "100937",
+        "Nagpur 2815"
+      ],
+      "edge_ids": [
+        "edge_106388",
+        "edge_105482"
+      ],
+      "distance_m": 44872.18,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0131,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00218",
+      "algorithm": "dfs",
+      "source_id": "node_102707",
+      "target_id": "node_102823",
+      "success": true,
+      "station_ids": [
+        "node_102707",
+        "node_102823"
+      ],
+      "station_names": [
+        "102707",
+        "Tirupati 2822"
+      ],
+      "edge_ids": [
+        "edge_104189"
+      ],
+      "distance_m": 33386.07,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.009,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00219",
+      "algorithm": "dijkstra",
+      "source_id": "node_100208",
+      "target_id": "node_102953",
+      "success": true,
+      "station_ids": [
+        "node_100208",
+        "node_102953"
+      ],
+      "station_names": [
+        "Madurai Junction 207",
+        "102953"
+      ],
+      "edge_ids": [
+        "edge_109668"
+      ],
+      "distance_m": 30741.39,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.009,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00220",
+      "algorithm": "astar",
+      "source_id": "node_100522",
+      "target_id": "node_101628",
+      "success": true,
+      "station_ids": [
+        "node_100522",
+        "node_102529",
+        "node_102038",
+        "node_102451",
+        "node_101308",
+        "node_102445",
+        "node_100649",
+        "node_101628"
+      ],
+      "station_names": [
+        "New Delhi 521",
+        "102529",
+        "102038",
+        "Tiruchirapalli 2450",
+        "Kochi 1307",
+        "102445",
+        "Thiruvananthapuram 648",
+        "Pune Junction 1627"
+      ],
+      "edge_ids": [
+        "edge_107958",
+        "edge_105441",
+        "edge_105846",
+        "edge_104764",
+        "edge_107107",
+        "edge_106215",
+        "edge_103630"
+      ],
+      "distance_m": 127219.72,
+      "node_count": 8,
+      "edge_count": 7,
+      "computation_time_ms": 0.1031,
+      "nodes_expanded": 9,
+      "error": null
+    },
+    {
+      "route_id": "route_00221",
+      "algorithm": "bfs",
+      "source_id": "node_102529",
+      "target_id": "node_102451",
+      "success": true,
+      "station_ids": [
+        "node_102529",
+        "node_102038",
+        "node_102451"
+      ],
+      "station_names": [
+        "102529",
+        "102038",
+        "Tiruchirapalli 2450"
+      ],
+      "edge_ids": [
+        "edge_105441",
+        "edge_105846"
+      ],
+      "distance_m": 25183.59,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0159,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00222",
+      "algorithm": "dfs",
+      "source_id": "node_100649",
+      "target_id": "node_102038",
+      "success": true,
+      "station_ids": [
+        "node_100649",
+        "node_102445",
+        "node_101308",
+        "node_102451",
+        "node_102038"
+      ],
+      "station_names": [
+        "Thiruvananthapuram 648",
+        "102445",
+        "Kochi 1307",
+        "Tiruchirapalli 2450",
+        "102038"
+      ],
+      "edge_ids": [
+        "edge_106215",
+        "edge_107107",
+        "edge_104764",
+        "edge_105846"
+      ],
+      "distance_m": 92963.91,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0277,
+      "nodes_expanded": 7,
+      "error": null
+    },
+    {
+      "route_id": "route_00223",
+      "algorithm": "dijkstra",
+      "source_id": "node_101607",
+      "target_id": "node_101854",
+      "success": true,
+      "station_ids": [
+        "node_101607",
+        "node_101854"
+      ],
+      "station_names": [
+        "Erode 1606",
+        "Tiruchirapalli 1853"
+      ],
+      "edge_ids": [
+        "edge_108064"
+      ],
+      "distance_m": 29300.91,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0097,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00224",
+      "algorithm": "astar",
+      "source_id": "node_100438",
+      "target_id": "node_101467",
+      "success": true,
+      "station_ids": [
+        "node_100438",
+        "node_101467"
+      ],
+      "station_names": [
+        "Kochi 437",
+        "101467"
+      ],
+      "edge_ids": [
+        "edge_106842"
+      ],
+      "distance_m": 12798.81,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0222,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00225",
+      "algorithm": "bfs",
+      "source_id": "node_100982",
+      "target_id": "node_101490",
+      "success": true,
+      "station_ids": [
+        "node_100982",
+        "node_101490"
+      ],
+      "station_names": [
+        "Hubli Junction 981",
+        "Visakhapatnam 1489"
+      ],
+      "edge_ids": [
+        "edge_108792"
+      ],
+      "distance_m": 30046.22,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.011,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00226",
+      "algorithm": "dfs",
+      "source_id": "node_100037",
+      "target_id": "node_101717",
+      "success": true,
+      "station_ids": [
+        "node_100037",
+        "node_101949",
+        "node_102043",
+        "node_101668",
+        "node_101717"
+      ],
+      "station_names": [
+        "100037",
+        "101949",
+        "Patna Junction 2042",
+        "Bangalore City 1667",
+        "Surat 1716"
+      ],
+      "edge_ids": [
+        "edge_103030",
+        "edge_109804",
+        "edge_106383",
+        "edge_107914"
+      ],
+      "distance_m": 80028.54,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0253,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00227",
+      "algorithm": "dijkstra",
+      "source_id": "node_101668",
+      "target_id": "node_102043",
+      "success": true,
+      "station_ids": [
+        "node_101668",
+        "node_102043"
+      ],
+      "station_names": [
+        "Bangalore City 1667",
+        "Patna Junction 2042"
+      ],
+      "edge_ids": [
+        "edge_106031"
+      ],
+      "distance_m": 4949.82,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0123,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00228",
+      "algorithm": "astar",
+      "source_id": "node_101668",
+      "target_id": "node_101717",
+      "success": true,
+      "station_ids": [
+        "node_101668",
+        "node_101717"
+      ],
+      "station_names": [
+        "Bangalore City 1667",
+        "Surat 1716"
+      ],
+      "edge_ids": [
+        "edge_107914"
+      ],
+      "distance_m": 10412.67,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0257,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00229",
+      "algorithm": "bfs",
+      "source_id": "node_100765",
+      "target_id": "node_100792",
+      "success": true,
+      "station_ids": [
+        "node_100765",
+        "node_100792"
+      ],
+      "station_names": [
+        "100765",
+        "Visakhapatnam 791"
+      ],
+      "edge_ids": [
+        "edge_108849"
+      ],
+      "distance_m": 32999.36,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0126,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00230",
+      "algorithm": "dfs",
+      "source_id": "node_100499",
+      "target_id": "node_102290",
+      "success": true,
+      "station_ids": [
+        "node_100499",
+        "node_100765",
+        "node_100792",
+        "node_102290"
+      ],
+      "station_names": [
+        "100499",
+        "100765",
+        "Visakhapatnam 791",
+        "102290"
+      ],
+      "edge_ids": [
+        "edge_105811",
+        "edge_108849",
+        "edge_105212"
+      ],
+      "distance_m": 86794.4,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0221,
+      "nodes_expanded": 5,
+      "error": null
+    },
+    {
+      "route_id": "route_00231",
+      "algorithm": "dijkstra",
+      "source_id": "node_100499",
+      "target_id": "node_102710",
+      "success": true,
+      "station_ids": [
+        "node_100499",
+        "node_100213",
+        "node_102710"
+      ],
+      "station_names": [
+        "100499",
+        "Tiruchirapalli 212",
+        "Lucknow 2709"
+      ],
+      "edge_ids": [
+        "edge_103608",
+        "edge_107037"
+      ],
+      "distance_m": 31422.91,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0149,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00232",
+      "algorithm": "astar",
+      "source_id": "node_101763",
+      "target_id": "node_101964",
+      "success": true,
+      "station_ids": [
+        "node_101763",
+        "node_101964"
+      ],
+      "station_names": [
+        "Surat 1762",
+        "101964"
+      ],
+      "edge_ids": [
+        "edge_108284"
+      ],
+      "distance_m": 15601.72,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0188,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00233",
+      "algorithm": "bfs",
+      "source_id": "node_100725",
+      "target_id": "node_101763",
+      "success": true,
+      "station_ids": [
+        "node_100725",
+        "node_101964",
+        "node_101763"
+      ],
+      "station_names": [
+        "Salem Junction 724",
+        "101964",
+        "Surat 1762"
+      ],
+      "edge_ids": [
+        "edge_108629",
+        "edge_108284"
+      ],
+      "distance_m": 18568.76,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0132,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00234",
+      "algorithm": "dfs",
+      "source_id": "node_100725",
+      "target_id": "node_101964",
+      "success": true,
+      "station_ids": [
+        "node_100725",
+        "node_101964"
+      ],
+      "station_names": [
+        "Salem Junction 724",
+        "101964"
+      ],
+      "edge_ids": [
+        "edge_108629"
+      ],
+      "distance_m": 2967.04,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.007,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00235",
+      "algorithm": "dijkstra",
+      "source_id": "node_100419",
+      "target_id": "node_100901",
+      "success": true,
+      "station_ids": [
+        "node_100419",
+        "node_101828",
+        "node_100901"
+      ],
+      "station_names": [
+        "New Delhi 418",
+        "101828",
+        "Kanpur Central 900"
+      ],
+      "edge_ids": [
+        "edge_103590",
+        "edge_104823"
+      ],
+      "distance_m": 53861.8,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0205,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00236",
+      "algorithm": "astar",
+      "source_id": "node_100419",
+      "target_id": "node_102555",
+      "success": true,
+      "station_ids": [
+        "node_100419",
+        "node_102555"
+      ],
+      "station_names": [
+        "New Delhi 418",
+        "Tiruchirapalli 2554"
+      ],
+      "edge_ids": [
+        "edge_103420"
+      ],
+      "distance_m": 20260.31,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0203,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00237",
+      "algorithm": "bfs",
+      "source_id": "node_101828",
+      "target_id": "node_102555",
+      "success": true,
+      "station_ids": [
+        "node_101828",
+        "node_100419",
+        "node_102555"
+      ],
+      "station_names": [
+        "101828",
+        "New Delhi 418",
+        "Tiruchirapalli 2554"
+      ],
+      "edge_ids": [
+        "edge_103590",
+        "edge_103420"
+      ],
+      "distance_m": 45397.02,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0089,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00238",
+      "algorithm": "dfs",
+      "source_id": "node_101325",
+      "target_id": "node_101947",
+      "success": true,
+      "station_ids": [
+        "node_101325",
+        "node_101947"
+      ],
+      "station_names": [
+        "Warangal 1324",
+        "101947"
+      ],
+      "edge_ids": [
+        "edge_103307"
+      ],
+      "distance_m": 29414.61,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0093,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00239",
+      "algorithm": "dijkstra",
+      "source_id": "node_100830",
+      "target_id": "node_102935",
+      "success": true,
+      "station_ids": [
+        "node_100830",
+        "node_102935"
+      ],
+      "station_names": [
+        "Coimbatore 829",
+        "102935"
+      ],
+      "edge_ids": [
+        "edge_107553"
+      ],
+      "distance_m": 19548.33,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0249,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00240",
+      "algorithm": "astar",
+      "source_id": "node_100118",
+      "target_id": "node_102826",
+      "success": true,
+      "station_ids": [
+        "node_100118",
+        "node_100830",
+        "node_102935",
+        "node_102826"
+      ],
+      "station_names": [
+        "Madurai Junction 117",
+        "Coimbatore 829",
+        "102935",
+        "Visakhapatnam 2825"
+      ],
+      "edge_ids": [
+        "edge_104986",
+        "edge_107553",
+        "edge_109641"
+      ],
+      "distance_m": 44029.01,
+      "node_count": 4,
+      "edge_count": 3,
+      "computation_time_ms": 0.0495,
+      "nodes_expanded": 4,
+      "error": null
+    },
+    {
+      "route_id": "route_00241",
+      "algorithm": "bfs",
+      "source_id": "node_102826",
+      "target_id": "node_102935",
+      "success": true,
+      "station_ids": [
+        "node_102826",
+        "node_102935"
+      ],
+      "station_names": [
+        "Visakhapatnam 2825",
+        "102935"
+      ],
+      "edge_ids": [
+        "edge_109641"
+      ],
+      "distance_m": 10827.11,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0134,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00242",
+      "algorithm": "dfs",
+      "source_id": "node_101051",
+      "target_id": "node_101434",
+      "success": true,
+      "station_ids": [
+        "node_101051",
+        "node_101434"
+      ],
+      "station_names": [
+        "Tirupati 1050",
+        "101434"
+      ],
+      "edge_ids": [
+        "edge_108053"
+      ],
+      "distance_m": 4132.08,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0084,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00243",
+      "algorithm": "dijkstra",
+      "source_id": "node_100267",
+      "target_id": "node_102774",
+      "success": true,
+      "station_ids": [
+        "node_100267",
+        "node_102774"
+      ],
+      "station_names": [
+        "100267",
+        "Patna Junction 2773"
+      ],
+      "edge_ids": [
+        "edge_108245"
+      ],
+      "distance_m": 20796.16,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0092,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00244",
+      "algorithm": "astar",
+      "source_id": "node_101264",
+      "target_id": "node_102516",
+      "success": true,
+      "station_ids": [
+        "node_101264",
+        "node_102516"
+      ],
+      "station_names": [
+        "Visakhapatnam 1263",
+        "Mysore Junction 2515"
+      ],
+      "edge_ids": [
+        "edge_109778"
+      ],
+      "distance_m": 4380.87,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0183,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00245",
+      "algorithm": "bfs",
+      "source_id": "node_101136",
+      "target_id": "node_102516",
+      "success": true,
+      "station_ids": [
+        "node_101136",
+        "node_102516"
+      ],
+      "station_names": [
+        "101136",
+        "Mysore Junction 2515"
+      ],
+      "edge_ids": [
+        "edge_105864"
+      ],
+      "distance_m": 4694.03,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0098,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00246",
+      "algorithm": "dfs",
+      "source_id": "node_101136",
+      "target_id": "node_101264",
+      "success": true,
+      "station_ids": [
+        "node_101136",
+        "node_102516",
+        "node_101264"
+      ],
+      "station_names": [
+        "101136",
+        "Mysore Junction 2515",
+        "Visakhapatnam 1263"
+      ],
+      "edge_ids": [
+        "edge_105864",
+        "edge_109778"
+      ],
+      "distance_m": 9074.9,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0098,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00247",
+      "algorithm": "dijkstra",
+      "source_id": "node_100751",
+      "target_id": "node_102995",
+      "success": true,
+      "station_ids": [
+        "node_100751",
+        "node_101195",
+        "node_102101",
+        "node_101868",
+        "node_102995"
+      ],
+      "station_names": [
+        "100751",
+        "Surat 1194",
+        "Tirupati 2100",
+        "Tiruchirapalli 1867",
+        "Jaipur 2994"
+      ],
+      "edge_ids": [
+        "edge_105417",
+        "edge_108559",
+        "edge_109024",
+        "edge_103579"
+      ],
+      "distance_m": 53854.28,
+      "node_count": 5,
+      "edge_count": 4,
+      "computation_time_ms": 0.0323,
+      "nodes_expanded": 6,
+      "error": null
+    },
+    {
+      "route_id": "route_00248",
+      "algorithm": "astar",
+      "source_id": "node_100751",
+      "target_id": "node_102101",
+      "success": true,
+      "station_ids": [
+        "node_100751",
+        "node_101195",
+        "node_102101"
+      ],
+      "station_names": [
+        "100751",
+        "Surat 1194",
+        "Tirupati 2100"
+      ],
+      "edge_ids": [
+        "edge_105417",
+        "edge_108559"
+      ],
+      "distance_m": 22274.83,
+      "node_count": 3,
+      "edge_count": 2,
+      "computation_time_ms": 0.0275,
+      "nodes_expanded": 3,
+      "error": null
+    },
+    {
+      "route_id": "route_00249",
+      "algorithm": "bfs",
+      "source_id": "node_101868",
+      "target_id": "node_102995",
+      "success": true,
+      "station_ids": [
+        "node_101868",
+        "node_102995"
+      ],
+      "station_names": [
+        "Tiruchirapalli 1867",
+        "Jaipur 2994"
+      ],
+      "edge_ids": [
+        "edge_103579"
+      ],
+      "distance_m": 14867.35,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0103,
+      "nodes_expanded": 2,
+      "error": null
+    },
+    {
+      "route_id": "route_00250",
+      "algorithm": "dfs",
+      "source_id": "node_100269",
+      "target_id": "node_101256",
+      "success": true,
+      "station_ids": [
+        "node_100269",
+        "node_101256"
+      ],
+      "station_names": [
+        "Vijayawada 268",
+        "101256"
+      ],
+      "edge_ids": [
+        "edge_106833"
+      ],
+      "distance_m": 14378.09,
+      "node_count": 2,
+      "edge_count": 1,
+      "computation_time_ms": 0.0094,
+      "nodes_expanded": 1,
+      "error": null
+    },
+    {
+      "route_id": "route_00251",
+      "algorithm": "bfs",
+      "source_id": "node_101880",
+      "target_id": "node_102501",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.012599979527294636,
+      "nodes_expanded": 1,
+      "error": "disconnected"
+    },
+    {
+      "route_id": "route_00252",
+      "algorithm": "dfs",
+      "source_id": "node_101296",
+      "target_id": "node_102666",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.008600007276982069,
+      "nodes_expanded": 0,
+      "error": "disconnected"
+    },
+    {
+      "route_id": "route_00253",
+      "algorithm": "dijkstra",
+      "source_id": "node_100210",
+      "target_id": "node_100117",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.015600002370774746,
+      "nodes_expanded": 2,
+      "error": "disconnected"
+    },
+    {
+      "route_id": "route_00254",
+      "algorithm": "astar",
+      "source_id": "node_101727",
+      "target_id": "node_100940",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.02870004391297698,
+      "nodes_expanded": 1,
+      "error": "disconnected"
+    },
+    {
+      "route_id": "route_00255",
+      "algorithm": "bfs",
+      "source_id": "node_102213",
+      "target_id": "node_102068",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.006099988240748644,
+      "nodes_expanded": 1,
+      "error": "disconnected"
+    },
+    {
+      "route_id": "route_00256",
+      "algorithm": "bfs",
+      "source_id": "node_102960",
+      "target_id": "node_missing_0000",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.0,
+      "nodes_expanded": 0,
+      "error": "missing_node:node_missing_0000"
+    },
+    {
+      "route_id": "route_00257",
+      "algorithm": "dfs",
+      "source_id": "node_102659",
+      "target_id": "node_missing_0001",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.0,
+      "nodes_expanded": 0,
+      "error": "missing_node:node_missing_0001"
+    },
+    {
+      "route_id": "route_00258",
+      "algorithm": "dijkstra",
+      "source_id": "node_102310",
+      "target_id": "node_missing_0002",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.0,
+      "nodes_expanded": 0,
+      "error": "missing_node:node_missing_0002"
+    },
+    {
+      "route_id": "route_00259",
+      "algorithm": "astar",
+      "source_id": "node_102049",
+      "target_id": "node_missing_0003",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.0,
+      "nodes_expanded": 0,
+      "error": "missing_node:node_missing_0003"
+    },
+    {
+      "route_id": "route_00260",
+      "algorithm": "bfs",
+      "source_id": "node_102588",
+      "target_id": "node_missing_0004",
+      "success": false,
+      "station_ids": [],
+      "station_names": [],
+      "edge_ids": [],
+      "distance_m": 0.0,
+      "node_count": 0,
+      "edge_count": 0,
+      "computation_time_ms": 0.0,
+      "nodes_expanded": 0,
+      "error": "missing_node:node_missing_0004"
+    }
+  ]
+}

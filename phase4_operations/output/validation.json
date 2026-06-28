@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-06-28T15:27:18.989953+00:00",
+  "passed": true,
+  "total_issues": 3,
+  "error_count": 0,
+  "warning_count": 3,
+  "info_count": 0,
+  "issues": [
+    {
+      "issue_id": "issue_00001",
+      "severity": "warning",
+      "category": "platform_conflict",
+      "message": "Platform conflict at station '100111': platform 2, trains train_00013 and train_00014",
+      "affected_id": null
+    },
+    {
+      "issue_id": "issue_00002",
+      "severity": "warning",
+      "category": "platform_conflict",
+      "message": "Platform conflict at station '101381': platform 4, trains train_00032 and train_00033",
+      "affected_id": null
+    },
+    {
+      "issue_id": "issue_00003",
+      "severity": "warning",
+      "category": "platform_conflict",
+      "message": "Platform conflict at station 'Mysore Junction 1268': platform 6, trains train_00047 and train_00048",
+      "affected_id": null
+    }
+  ]
+}

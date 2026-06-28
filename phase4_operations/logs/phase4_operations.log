@@ -1,0 +1,36 @@
+2026-06-28 20:57:18,960 [INFO] main – ============================================================
+2026-06-28 20:57:18,960 [INFO] main – Phase 4 – Railway Operations Engine
+2026-06-28 20:57:18,960 [INFO] main – ============================================================
+2026-06-28 20:57:18,961 [INFO] main – Configuration loaded from config\operations_settings.json
+2026-06-28 20:57:18,963 [INFO] main – Found 250 successful Phase 3 routes.
+2026-06-28 20:57:18,963 [INFO] operations.train_loader – Loading 50 trains from 250 available routes.
+2026-06-28 20:57:18,964 [INFO] operations.train_loader – Loaded 50 trains successfully.
+2026-06-28 20:57:18,965 [INFO] main – Trains loaded: 50
+2026-06-28 20:57:18,967 [INFO] operations.route_assigner – Loaded 260 routes (250 successful) from input\routes.json.
+2026-06-28 20:57:18,967 [INFO] operations.route_assigner – Assigned routes to 50 trains.
+2026-06-28 20:57:18,968 [INFO] operations.timetable_loader – Created 139 timetable entries for 50 trains.
+2026-06-28 20:57:18,968 [INFO] operations.scheduler – Generated 50 train schedules.
+2026-06-28 20:57:18,969 [WARNING] operations.platform_manager – Platform conflict at station '100111': platform 2, trains train_00013 and train_00014
+2026-06-28 20:57:18,969 [WARNING] operations.platform_manager – Platform conflict at station '101381': platform 4, trains train_00032 and train_00033
+2026-06-28 20:57:18,970 [WARNING] operations.platform_manager – Platform conflict at station 'Mysore Junction 1268': platform 6, trains train_00047 and train_00048
+2026-06-28 20:57:18,970 [INFO] operations.platform_manager – Platform assignment complete: 139 assignments, 3 conflicts.
+2026-06-28 20:57:18,970 [INFO] operations.delay_manager – Built 50 operation states.
+2026-06-28 20:57:18,970 [INFO] operations.priority_manager – Priority index built: {'High': 15, 'Medium': 20, 'Freight': 10, 'Emergency': 5}
+2026-06-28 20:57:18,971 [INFO] main – Priority index: {'High': 15, 'Medium': 20, 'Freight': 10, 'Emergency': 5}
+2026-06-28 20:57:18,973 [INFO] operations.statistics – Statistics computed for 50 trains.
+2026-06-28 20:57:18,973 [INFO] operations.operations_validator – Validation complete: 0 errors, 3 warnings, 0 info – passed=True
+2026-06-28 20:57:18,977 [INFO] operations.exporter – Wrote output\trains.json (13065 bytes)
+2026-06-28 20:57:18,982 [INFO] operations.exporter – Wrote output\timetables.json (42265 bytes)
+2026-06-28 20:57:18,987 [INFO] operations.exporter – Wrote output\operations.json (89122 bytes)
+2026-06-28 20:57:18,989 [INFO] operations.exporter – Wrote output\statistics.json (830 bytes)
+2026-06-28 20:57:18,991 [INFO] operations.exporter – Wrote output\validation.json (956 bytes)
+2026-06-28 20:57:18,991 [INFO] main – ============================================================
+2026-06-28 20:57:18,992 [INFO] main – Phase 4 Operations Engine complete.
+2026-06-28 20:57:18,992 [INFO] main –   Trains            : 50
+2026-06-28 20:57:18,992 [INFO] main –   Timetable entries : 139
+2026-06-28 20:57:18,992 [INFO] main –   Route assignments : 50
+2026-06-28 20:57:18,992 [INFO] main –   Platform assigns  : 139
+2026-06-28 20:57:18,992 [INFO] main –   Platform conflicts: 3
+2026-06-28 20:57:18,993 [INFO] main –   Validation passed : True
+2026-06-28 20:57:18,993 [INFO] main –   Output dir        : output/
+2026-06-28 20:57:18,993 [INFO] main – ============================================================

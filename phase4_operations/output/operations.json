@@ -1,0 +1,3294 @@
+{
+  "generated_at": "2026-06-28T15:27:18.982286+00:00",
+  "route_assignment_count": 50,
+  "operation_state_count": 50,
+  "platform_assignment_count": 139,
+  "schedule_count": 50,
+  "route_assignments": [
+    {
+      "assignment_id": "ra_00001",
+      "train_id": "train_00001",
+      "route_id": "route_00001",
+      "source_id": "node_100093",
+      "target_id": "node_100481",
+      "station_ids": [
+        "node_100093",
+        "node_100481"
+      ],
+      "station_names": [
+        "Erode 92",
+        "100481"
+      ],
+      "distance_m": 18020.82,
+      "distance_km": 18.021,
+      "estimated_travel_time_minutes": 9.83,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00002",
+      "train_id": "train_00002",
+      "route_id": "route_00002",
+      "source_id": "node_100053",
+      "target_id": "node_102593",
+      "station_ids": [
+        "node_100053",
+        "node_102593"
+      ],
+      "station_names": [
+        "Nagpur 52",
+        "Pune Junction 2592"
+      ],
+      "distance_m": 25437.33,
+      "distance_km": 25.437,
+      "estimated_travel_time_minutes": 21.8,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00003",
+      "train_id": "train_00003",
+      "route_id": "route_00003",
+      "source_id": "node_100053",
+      "target_id": "node_101289",
+      "station_ids": [
+        "node_100053",
+        "node_101289"
+      ],
+      "station_names": [
+        "Nagpur 52",
+        "101289"
+      ],
+      "distance_m": 18952.14,
+      "distance_km": 18.952,
+      "estimated_travel_time_minutes": 16.24,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00004",
+      "train_id": "train_00004",
+      "route_id": "route_00004",
+      "source_id": "node_101289",
+      "target_id": "node_102593",
+      "station_ids": [
+        "node_101289",
+        "node_100053",
+        "node_102593"
+      ],
+      "station_names": [
+        "101289",
+        "Nagpur 52",
+        "Pune Junction 2592"
+      ],
+      "distance_m": 44389.47,
+      "distance_km": 44.389,
+      "estimated_travel_time_minutes": 59.19,
+      "algorithm": "astar",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00005",
+      "train_id": "train_00005",
+      "route_id": "route_00005",
+      "source_id": "node_101527",
+      "target_id": "node_102018",
+      "station_ids": [
+        "node_101527",
+        "node_102018"
+      ],
+      "station_names": [
+        "Tirupati 1526",
+        "102018"
+      ],
+      "distance_m": 26534.39,
+      "distance_km": 26.534,
+      "estimated_travel_time_minutes": 14.47,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00006",
+      "train_id": "train_00006",
+      "route_id": "route_00006",
+      "source_id": "node_100807",
+      "target_id": "node_102018",
+      "station_ids": [
+        "node_100807",
+        "node_101527",
+        "node_102018"
+      ],
+      "station_names": [
+        "Hubli Junction 806",
+        "Tirupati 1526",
+        "102018"
+      ],
+      "distance_m": 39959.01,
+      "distance_km": 39.959,
+      "estimated_travel_time_minutes": 21.8,
+      "algorithm": "dfs",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00007",
+      "train_id": "train_00007",
+      "route_id": "route_00007",
+      "source_id": "node_100807",
+      "target_id": "node_101527",
+      "station_ids": [
+        "node_100807",
+        "node_101527"
+      ],
+      "station_names": [
+        "Hubli Junction 806",
+        "Tirupati 1526"
+      ],
+      "distance_m": 13424.62,
+      "distance_km": 13.425,
+      "estimated_travel_time_minutes": 11.51,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00008",
+      "train_id": "train_00008",
+      "route_id": "route_00008",
+      "source_id": "node_102067",
+      "target_id": "node_102567",
+      "station_ids": [
+        "node_102067",
+        "node_102567"
+      ],
+      "station_names": [
+        "102067",
+        "102567"
+      ],
+      "distance_m": 19826.49,
+      "distance_km": 19.826,
+      "estimated_travel_time_minutes": 16.99,
+      "algorithm": "astar",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00009",
+      "train_id": "train_00009",
+      "route_id": "route_00009",
+      "source_id": "node_100317",
+      "target_id": "node_102915",
+      "station_ids": [
+        "node_100317",
+        "node_102915"
+      ],
+      "station_names": [
+        "100317",
+        "Guntur Junction 2914"
+      ],
+      "distance_m": 12889.04,
+      "distance_km": 12.889,
+      "estimated_travel_time_minutes": 17.19,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00010",
+      "train_id": "train_00010",
+      "route_id": "route_00010",
+      "source_id": "node_101923",
+      "target_id": "node_102915",
+      "station_ids": [
+        "node_101923",
+        "node_102915"
+      ],
+      "station_names": [
+        "101923",
+        "Guntur Junction 2914"
+      ],
+      "distance_m": 16989.96,
+      "distance_km": 16.99,
+      "estimated_travel_time_minutes": 9.27,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00011",
+      "train_id": "train_00011",
+      "route_id": "route_00011",
+      "source_id": "node_100317",
+      "target_id": "node_101923",
+      "station_ids": [
+        "node_100317",
+        "node_102915",
+        "node_101923"
+      ],
+      "station_names": [
+        "100317",
+        "Guntur Junction 2914",
+        "101923"
+      ],
+      "distance_m": 29879.0,
+      "distance_km": 29.879,
+      "estimated_travel_time_minutes": 16.3,
+      "algorithm": "dijkstra",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00012",
+      "train_id": "train_00012",
+      "route_id": "route_00012",
+      "source_id": "node_100222",
+      "target_id": "node_102014",
+      "station_ids": [
+        "node_100222",
+        "node_100111",
+        "node_102014"
+      ],
+      "station_names": [
+        "Salem Junction 221",
+        "100111",
+        "Jaipur 2013"
+      ],
+      "distance_m": 33138.39,
+      "distance_km": 33.138,
+      "estimated_travel_time_minutes": 28.4,
+      "algorithm": "astar",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00013",
+      "train_id": "train_00013",
+      "route_id": "route_00013",
+      "source_id": "node_102014",
+      "target_id": "node_102276",
+      "station_ids": [
+        "node_102014",
+        "node_100111",
+        "node_102276"
+      ],
+      "station_names": [
+        "Jaipur 2013",
+        "100111",
+        "102276"
+      ],
+      "distance_m": 29308.06,
+      "distance_km": 29.308,
+      "estimated_travel_time_minutes": 25.12,
+      "algorithm": "bfs",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00014",
+      "train_id": "train_00014",
+      "route_id": "route_00014",
+      "source_id": "node_100111",
+      "target_id": "node_102276",
+      "station_ids": [
+        "node_100111",
+        "node_102276"
+      ],
+      "station_names": [
+        "100111",
+        "102276"
+      ],
+      "distance_m": 16318.64,
+      "distance_km": 16.319,
+      "estimated_travel_time_minutes": 21.76,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00015",
+      "train_id": "train_00015",
+      "route_id": "route_00015",
+      "source_id": "node_100361",
+      "target_id": "node_101925",
+      "station_ids": [
+        "node_100361",
+        "node_101925"
+      ],
+      "station_names": [
+        "Nellore 360",
+        "101925"
+      ],
+      "distance_m": 20835.9,
+      "distance_km": 20.836,
+      "estimated_travel_time_minutes": 11.37,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00016",
+      "train_id": "train_00016",
+      "route_id": "route_00016",
+      "source_id": "node_101203",
+      "target_id": "node_101846",
+      "station_ids": [
+        "node_101203",
+        "node_102914",
+        "node_101846"
+      ],
+      "station_names": [
+        "Kanpur Central 1202",
+        "Patna Junction 2913",
+        "101846"
+      ],
+      "distance_m": 25996.02,
+      "distance_km": 25.996,
+      "estimated_travel_time_minutes": 14.18,
+      "algorithm": "astar",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00017",
+      "train_id": "train_00017",
+      "route_id": "route_00017",
+      "source_id": "node_100335",
+      "target_id": "node_102914",
+      "station_ids": [
+        "node_100335",
+        "node_102914"
+      ],
+      "station_names": [
+        "New Delhi 334",
+        "Patna Junction 2913"
+      ],
+      "distance_m": 5312.16,
+      "distance_km": 5.312,
+      "estimated_travel_time_minutes": 4.55,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00018",
+      "train_id": "train_00018",
+      "route_id": "route_00018",
+      "source_id": "node_100335",
+      "target_id": "node_101846",
+      "station_ids": [
+        "node_100335",
+        "node_102914",
+        "node_101846"
+      ],
+      "station_names": [
+        "New Delhi 334",
+        "Patna Junction 2913",
+        "101846"
+      ],
+      "distance_m": 22872.95,
+      "distance_km": 22.873,
+      "estimated_travel_time_minutes": 19.61,
+      "algorithm": "dfs",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00019",
+      "train_id": "train_00019",
+      "route_id": "route_00019",
+      "source_id": "node_102053",
+      "target_id": "node_102900",
+      "station_ids": [
+        "node_102053",
+        "node_102900"
+      ],
+      "station_names": [
+        "Guntur Junction 2052",
+        "Tirupati 2899"
+      ],
+      "distance_m": 28404.39,
+      "distance_km": 28.404,
+      "estimated_travel_time_minutes": 37.87,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00020",
+      "train_id": "train_00020",
+      "route_id": "route_00020",
+      "source_id": "node_102370",
+      "target_id": "node_100846",
+      "station_ids": [
+        "node_102370",
+        "node_102488",
+        "node_100846"
+      ],
+      "station_names": [
+        "102370",
+        "Madurai Junction 2487",
+        "100846"
+      ],
+      "distance_m": 29565.42,
+      "distance_km": 29.565,
+      "estimated_travel_time_minutes": 16.13,
+      "algorithm": "astar",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00021",
+      "train_id": "train_00021",
+      "route_id": "route_00021",
+      "source_id": "node_102370",
+      "target_id": "node_100105",
+      "station_ids": [
+        "node_102370",
+        "node_102488",
+        "node_102293",
+        "node_101535",
+        "node_100034",
+        "node_100882",
+        "node_100105"
+      ],
+      "station_names": [
+        "102370",
+        "Madurai Junction 2487",
+        "102293",
+        "101535",
+        "100034",
+        "100882",
+        "Ahmedabad 104"
+      ],
+      "distance_m": 94569.42,
+      "distance_km": 94.569,
+      "estimated_travel_time_minutes": 51.58,
+      "algorithm": "bfs",
+      "node_count": 7,
+      "edge_count": 6
+    },
+    {
+      "assignment_id": "ra_00022",
+      "train_id": "train_00022",
+      "route_id": "route_00022",
+      "source_id": "node_100034",
+      "target_id": "node_102370",
+      "station_ids": [
+        "node_100034",
+        "node_101535",
+        "node_102293",
+        "node_102488",
+        "node_102370"
+      ],
+      "station_names": [
+        "100034",
+        "101535",
+        "102293",
+        "Madurai Junction 2487",
+        "102370"
+      ],
+      "distance_m": 44768.83,
+      "distance_km": 44.769,
+      "estimated_travel_time_minutes": 38.37,
+      "algorithm": "dfs",
+      "node_count": 5,
+      "edge_count": 4
+    },
+    {
+      "assignment_id": "ra_00023",
+      "train_id": "train_00023",
+      "route_id": "route_00023",
+      "source_id": "node_101725",
+      "target_id": "node_102117",
+      "station_ids": [
+        "node_101725",
+        "node_100981",
+        "node_102117"
+      ],
+      "station_names": [
+        "Visakhapatnam 1724",
+        "Ahmedabad 980",
+        "102117"
+      ],
+      "distance_m": 58531.27,
+      "distance_km": 58.531,
+      "estimated_travel_time_minutes": 50.17,
+      "algorithm": "dijkstra",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00024",
+      "train_id": "train_00024",
+      "route_id": "route_00024",
+      "source_id": "node_100981",
+      "target_id": "node_102117",
+      "station_ids": [
+        "node_100981",
+        "node_102117"
+      ],
+      "station_names": [
+        "Ahmedabad 980",
+        "102117"
+      ],
+      "distance_m": 35829.5,
+      "distance_km": 35.83,
+      "estimated_travel_time_minutes": 47.77,
+      "algorithm": "astar",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00025",
+      "train_id": "train_00025",
+      "route_id": "route_00025",
+      "source_id": "node_100981",
+      "target_id": "node_101725",
+      "station_ids": [
+        "node_100981",
+        "node_101725"
+      ],
+      "station_names": [
+        "Ahmedabad 980",
+        "Visakhapatnam 1724"
+      ],
+      "distance_m": 22701.77,
+      "distance_km": 22.702,
+      "estimated_travel_time_minutes": 12.38,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00026",
+      "train_id": "train_00026",
+      "route_id": "route_00026",
+      "source_id": "node_101023",
+      "target_id": "node_102320",
+      "station_ids": [
+        "node_101023",
+        "node_102320"
+      ],
+      "station_names": [
+        "101023",
+        "102320"
+      ],
+      "distance_m": 25725.36,
+      "distance_km": 25.725,
+      "estimated_travel_time_minutes": 14.03,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00027",
+      "train_id": "train_00027",
+      "route_id": "route_00027",
+      "source_id": "node_100157",
+      "target_id": "node_101392",
+      "station_ids": [
+        "node_100157",
+        "node_101392"
+      ],
+      "station_names": [
+        "Lucknow 156",
+        "Bhopal Junction 1391"
+      ],
+      "distance_m": 28982.58,
+      "distance_km": 28.983,
+      "estimated_travel_time_minutes": 24.84,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00028",
+      "train_id": "train_00028",
+      "route_id": "route_00028",
+      "source_id": "node_100408",
+      "target_id": "node_102127",
+      "station_ids": [
+        "node_100408",
+        "node_102127"
+      ],
+      "station_names": [
+        "100408",
+        "Nellore 2126"
+      ],
+      "distance_m": 21056.2,
+      "distance_km": 21.056,
+      "estimated_travel_time_minutes": 18.05,
+      "algorithm": "astar",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00029",
+      "train_id": "train_00029",
+      "route_id": "route_00029",
+      "source_id": "node_102034",
+      "target_id": "node_102446",
+      "station_ids": [
+        "node_102034",
+        "node_102446"
+      ],
+      "station_names": [
+        "102034",
+        "Salem Junction 2445"
+      ],
+      "distance_m": 19753.7,
+      "distance_km": 19.754,
+      "estimated_travel_time_minutes": 26.34,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00030",
+      "train_id": "train_00030",
+      "route_id": "route_00030",
+      "source_id": "node_100225",
+      "target_id": "node_102446",
+      "station_ids": [
+        "node_100225",
+        "node_102446"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 224",
+        "Salem Junction 2445"
+      ],
+      "distance_m": 26558.83,
+      "distance_km": 26.559,
+      "estimated_travel_time_minutes": 14.49,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00031",
+      "train_id": "train_00031",
+      "route_id": "route_00031",
+      "source_id": "node_100225",
+      "target_id": "node_102034",
+      "station_ids": [
+        "node_100225",
+        "node_102446",
+        "node_102034"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 224",
+        "Salem Junction 2445",
+        "102034"
+      ],
+      "distance_m": 46312.53,
+      "distance_km": 46.313,
+      "estimated_travel_time_minutes": 25.26,
+      "algorithm": "dijkstra",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00032",
+      "train_id": "train_00032",
+      "route_id": "route_00032",
+      "source_id": "node_102287",
+      "target_id": "node_102934",
+      "station_ids": [
+        "node_102287",
+        "node_100360",
+        "node_101381",
+        "node_102934"
+      ],
+      "station_names": [
+        "Warangal 2286",
+        "Salem Junction 359",
+        "101381",
+        "102934"
+      ],
+      "distance_m": 34683.4,
+      "distance_km": 34.683,
+      "estimated_travel_time_minutes": 29.73,
+      "algorithm": "astar",
+      "node_count": 4,
+      "edge_count": 3
+    },
+    {
+      "assignment_id": "ra_00033",
+      "train_id": "train_00033",
+      "route_id": "route_00033",
+      "source_id": "node_102254",
+      "target_id": "node_102287",
+      "station_ids": [
+        "node_102254",
+        "node_101381",
+        "node_100360",
+        "node_102287"
+      ],
+      "station_names": [
+        "102254",
+        "101381",
+        "Salem Junction 359",
+        "Warangal 2286"
+      ],
+      "distance_m": 45781.31,
+      "distance_km": 45.781,
+      "estimated_travel_time_minutes": 39.24,
+      "algorithm": "bfs",
+      "node_count": 4,
+      "edge_count": 3
+    },
+    {
+      "assignment_id": "ra_00034",
+      "train_id": "train_00034",
+      "route_id": "route_00034",
+      "source_id": "node_100409",
+      "target_id": "node_102254",
+      "station_ids": [
+        "node_100409",
+        "node_102287",
+        "node_100360",
+        "node_101381",
+        "node_102254"
+      ],
+      "station_names": [
+        "100409",
+        "Warangal 2286",
+        "Salem Junction 359",
+        "101381",
+        "102254"
+      ],
+      "distance_m": 76971.09,
+      "distance_km": 76.971,
+      "estimated_travel_time_minutes": 102.63,
+      "algorithm": "dfs",
+      "node_count": 5,
+      "edge_count": 4
+    },
+    {
+      "assignment_id": "ra_00035",
+      "train_id": "train_00035",
+      "route_id": "route_00035",
+      "source_id": "node_100052",
+      "target_id": "node_102310",
+      "station_ids": [
+        "node_100052",
+        "node_102310"
+      ],
+      "station_names": [
+        "Hubli Junction 51",
+        "Hyderabad Deccan 2309"
+      ],
+      "distance_m": 34028.29,
+      "distance_km": 34.028,
+      "estimated_travel_time_minutes": 18.56,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00036",
+      "train_id": "train_00036",
+      "route_id": "route_00036",
+      "source_id": "node_101231",
+      "target_id": "node_100319",
+      "station_ids": [
+        "node_101231",
+        "node_100072",
+        "node_100319"
+      ],
+      "station_names": [
+        "Visakhapatnam 1230",
+        "Hyderabad Deccan 71",
+        "100319"
+      ],
+      "distance_m": 43945.02,
+      "distance_km": 43.945,
+      "estimated_travel_time_minutes": 23.97,
+      "algorithm": "astar",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00037",
+      "train_id": "train_00037",
+      "route_id": "route_00037",
+      "source_id": "node_101370",
+      "target_id": "node_100072",
+      "station_ids": [
+        "node_101370",
+        "node_100072"
+      ],
+      "station_names": [
+        "101370",
+        "Hyderabad Deccan 71"
+      ],
+      "distance_m": 28364.53,
+      "distance_km": 28.365,
+      "estimated_travel_time_minutes": 24.31,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00038",
+      "train_id": "train_00038",
+      "route_id": "route_00038",
+      "source_id": "node_100072",
+      "target_id": "node_100319",
+      "station_ids": [
+        "node_100072",
+        "node_100319"
+      ],
+      "station_names": [
+        "Hyderabad Deccan 71",
+        "100319"
+      ],
+      "distance_m": 22799.47,
+      "distance_km": 22.799,
+      "estimated_travel_time_minutes": 19.54,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00039",
+      "train_id": "train_00039",
+      "route_id": "route_00039",
+      "source_id": "node_100145",
+      "target_id": "node_101114",
+      "station_ids": [
+        "node_100145",
+        "node_101114"
+      ],
+      "station_names": [
+        "100145",
+        "101114"
+      ],
+      "distance_m": 18826.18,
+      "distance_km": 18.826,
+      "estimated_travel_time_minutes": 25.1,
+      "algorithm": "dijkstra",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00040",
+      "train_id": "train_00040",
+      "route_id": "route_00040",
+      "source_id": "node_100390",
+      "target_id": "node_102810",
+      "station_ids": [
+        "node_100390",
+        "node_102061",
+        "node_100871",
+        "node_100029",
+        "node_102810"
+      ],
+      "station_names": [
+        "100390",
+        "102061",
+        "Nellore 870",
+        "100029",
+        "Jaipur 2809"
+      ],
+      "distance_m": 45940.3,
+      "distance_km": 45.94,
+      "estimated_travel_time_minutes": 25.06,
+      "algorithm": "astar",
+      "node_count": 5,
+      "edge_count": 4
+    },
+    {
+      "assignment_id": "ra_00041",
+      "train_id": "train_00041",
+      "route_id": "route_00041",
+      "source_id": "node_100029",
+      "target_id": "node_102810",
+      "station_ids": [
+        "node_100029",
+        "node_102810"
+      ],
+      "station_names": [
+        "100029",
+        "Jaipur 2809"
+      ],
+      "distance_m": 18132.65,
+      "distance_km": 18.133,
+      "estimated_travel_time_minutes": 9.89,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00042",
+      "train_id": "train_00042",
+      "route_id": "route_00042",
+      "source_id": "node_100390",
+      "target_id": "node_100871",
+      "station_ids": [
+        "node_100390",
+        "node_102061",
+        "node_100871"
+      ],
+      "station_names": [
+        "100390",
+        "102061",
+        "Nellore 870"
+      ],
+      "distance_m": 17802.76,
+      "distance_km": 17.803,
+      "estimated_travel_time_minutes": 15.26,
+      "algorithm": "dfs",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00043",
+      "train_id": "train_00043",
+      "route_id": "route_00043",
+      "source_id": "node_100832",
+      "target_id": "node_102210",
+      "station_ids": [
+        "node_100832",
+        "node_101283",
+        "node_101818",
+        "node_102210"
+      ],
+      "station_names": [
+        "100832",
+        "101283",
+        "Howrah Junction 1817",
+        "102210"
+      ],
+      "distance_m": 34677.5,
+      "distance_km": 34.678,
+      "estimated_travel_time_minutes": 29.72,
+      "algorithm": "dijkstra",
+      "node_count": 4,
+      "edge_count": 3
+    },
+    {
+      "assignment_id": "ra_00044",
+      "train_id": "train_00044",
+      "route_id": "route_00044",
+      "source_id": "node_101818",
+      "target_id": "node_100278",
+      "station_ids": [
+        "node_101818",
+        "node_101283",
+        "node_100832",
+        "node_100766",
+        "node_100278"
+      ],
+      "station_names": [
+        "Howrah Junction 1817",
+        "101283",
+        "100832",
+        "Ahmedabad 765",
+        "100278"
+      ],
+      "distance_m": 28103.89,
+      "distance_km": 28.104,
+      "estimated_travel_time_minutes": 37.47,
+      "algorithm": "astar",
+      "node_count": 5,
+      "edge_count": 4
+    },
+    {
+      "assignment_id": "ra_00045",
+      "train_id": "train_00045",
+      "route_id": "route_00045",
+      "source_id": "node_102426",
+      "target_id": "node_101397",
+      "station_ids": [
+        "node_102426",
+        "node_102135",
+        "node_101397"
+      ],
+      "station_names": [
+        "102426",
+        "Ahmedabad 2134",
+        "Mumbai CST 1396"
+      ],
+      "distance_m": 40938.05,
+      "distance_km": 40.938,
+      "estimated_travel_time_minutes": 22.33,
+      "algorithm": "bfs",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00046",
+      "train_id": "train_00046",
+      "route_id": "route_00046",
+      "source_id": "node_100372",
+      "target_id": "node_101451",
+      "station_ids": [
+        "node_100372",
+        "node_101451"
+      ],
+      "station_names": [
+        "100372",
+        "101451"
+      ],
+      "distance_m": 13629.54,
+      "distance_km": 13.63,
+      "estimated_travel_time_minutes": 7.43,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00047",
+      "train_id": "train_00047",
+      "route_id": "route_00047",
+      "source_id": "node_100004",
+      "target_id": "node_100370",
+      "station_ids": [
+        "node_100004",
+        "node_101269",
+        "node_100370"
+      ],
+      "station_names": [
+        "New Delhi",
+        "Mysore Junction 1268",
+        "Howrah Junction 369"
+      ],
+      "distance_m": 32923.33,
+      "distance_km": 32.923,
+      "estimated_travel_time_minutes": 28.22,
+      "algorithm": "dijkstra",
+      "node_count": 3,
+      "edge_count": 2
+    },
+    {
+      "assignment_id": "ra_00048",
+      "train_id": "train_00048",
+      "route_id": "route_00048",
+      "source_id": "node_101269",
+      "target_id": "node_101939",
+      "station_ids": [
+        "node_101269",
+        "node_100004",
+        "node_102009",
+        "node_101939"
+      ],
+      "station_names": [
+        "Mysore Junction 1268",
+        "New Delhi",
+        "Hubli Junction 2008",
+        "Tiruchirapalli 1938"
+      ],
+      "distance_m": 63036.82,
+      "distance_km": 63.037,
+      "estimated_travel_time_minutes": 54.03,
+      "algorithm": "astar",
+      "node_count": 4,
+      "edge_count": 3
+    },
+    {
+      "assignment_id": "ra_00049",
+      "train_id": "train_00049",
+      "route_id": "route_00049",
+      "source_id": "node_101521",
+      "target_id": "node_101939",
+      "station_ids": [
+        "node_101521",
+        "node_101939"
+      ],
+      "station_names": [
+        "Madurai Junction 1520",
+        "Tiruchirapalli 1938"
+      ],
+      "distance_m": 6000.8,
+      "distance_km": 6.001,
+      "estimated_travel_time_minutes": 8.0,
+      "algorithm": "bfs",
+      "node_count": 2,
+      "edge_count": 1
+    },
+    {
+      "assignment_id": "ra_00050",
+      "train_id": "train_00050",
+      "route_id": "route_00050",
+      "source_id": "node_100040",
+      "target_id": "node_100071",
+      "station_ids": [
+        "node_100040",
+        "node_100071"
+      ],
+      "station_names": [
+        "100040",
+        "Nellore 70"
+      ],
+      "distance_m": 27332.69,
+      "distance_km": 27.333,
+      "estimated_travel_time_minutes": 14.91,
+      "algorithm": "dfs",
+      "node_count": 2,
+      "edge_count": 1
+    }
+  ],
+  "operation_states": [
+    {
+      "state_id": "ops_00001",
+      "train_id": "train_00001",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100093",
+      "next_station_id": "node_100481",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00002",
+      "train_id": "train_00002",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100053",
+      "next_station_id": "node_102593",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00003",
+      "train_id": "train_00003",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_100053",
+      "next_station_id": "node_101289",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00004",
+      "train_id": "train_00004",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_101289",
+      "next_station_id": "node_100053",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00005",
+      "train_id": "train_00005",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_101527",
+      "next_station_id": "node_102018",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00006",
+      "train_id": "train_00006",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100807",
+      "next_station_id": "node_101527",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00007",
+      "train_id": "train_00007",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100807",
+      "next_station_id": "node_101527",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00008",
+      "train_id": "train_00008",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_102067",
+      "next_station_id": "node_102567",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00009",
+      "train_id": "train_00009",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100317",
+      "next_station_id": "node_102915",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00010",
+      "train_id": "train_00010",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_101923",
+      "next_station_id": "node_102915",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00011",
+      "train_id": "train_00011",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100317",
+      "next_station_id": "node_102915",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00012",
+      "train_id": "train_00012",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_100222",
+      "next_station_id": "node_100111",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00013",
+      "train_id": "train_00013",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_102014",
+      "next_station_id": "node_100111",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00014",
+      "train_id": "train_00014",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100111",
+      "next_station_id": "node_102276",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00015",
+      "train_id": "train_00015",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100361",
+      "next_station_id": "node_101925",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00016",
+      "train_id": "train_00016",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_101203",
+      "next_station_id": "node_102914",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00017",
+      "train_id": "train_00017",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100335",
+      "next_station_id": "node_102914",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00018",
+      "train_id": "train_00018",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_100335",
+      "next_station_id": "node_102914",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00019",
+      "train_id": "train_00019",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_102053",
+      "next_station_id": "node_102900",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00020",
+      "train_id": "train_00020",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_102370",
+      "next_station_id": "node_102488",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00021",
+      "train_id": "train_00021",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_102370",
+      "next_station_id": "node_102488",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00022",
+      "train_id": "train_00022",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100034",
+      "next_station_id": "node_101535",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00023",
+      "train_id": "train_00023",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_101725",
+      "next_station_id": "node_100981",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00024",
+      "train_id": "train_00024",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100981",
+      "next_station_id": "node_102117",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00025",
+      "train_id": "train_00025",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100981",
+      "next_station_id": "node_101725",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00026",
+      "train_id": "train_00026",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_101023",
+      "next_station_id": "node_102320",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00027",
+      "train_id": "train_00027",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_100157",
+      "next_station_id": "node_101392",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00028",
+      "train_id": "train_00028",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100408",
+      "next_station_id": "node_102127",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00029",
+      "train_id": "train_00029",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_102034",
+      "next_station_id": "node_102446",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00030",
+      "train_id": "train_00030",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100225",
+      "next_station_id": "node_102446",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00031",
+      "train_id": "train_00031",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100225",
+      "next_station_id": "node_102446",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00032",
+      "train_id": "train_00032",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_102287",
+      "next_station_id": "node_100360",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00033",
+      "train_id": "train_00033",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_102254",
+      "next_station_id": "node_101381",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00034",
+      "train_id": "train_00034",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100409",
+      "next_station_id": "node_102287",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00035",
+      "train_id": "train_00035",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100052",
+      "next_station_id": "node_102310",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00036",
+      "train_id": "train_00036",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_101231",
+      "next_station_id": "node_100072",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00037",
+      "train_id": "train_00037",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_101370",
+      "next_station_id": "node_100072",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00038",
+      "train_id": "train_00038",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100072",
+      "next_station_id": "node_100319",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00039",
+      "train_id": "train_00039",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100145",
+      "next_station_id": "node_101114",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00040",
+      "train_id": "train_00040",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100390",
+      "next_station_id": "node_102061",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00041",
+      "train_id": "train_00041",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100029",
+      "next_station_id": "node_102810",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00042",
+      "train_id": "train_00042",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_100390",
+      "next_station_id": "node_102061",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00043",
+      "train_id": "train_00043",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100832",
+      "next_station_id": "node_101283",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00044",
+      "train_id": "train_00044",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_101818",
+      "next_station_id": "node_101283",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00045",
+      "train_id": "train_00045",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_102426",
+      "next_station_id": "node_102135",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00046",
+      "train_id": "train_00046",
+      "schedule_type": "Daily",
+      "is_active": true,
+      "current_station_id": "node_100372",
+      "next_station_id": "node_101451",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00047",
+      "train_id": "train_00047",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100004",
+      "next_station_id": "node_101269",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00048",
+      "train_id": "train_00048",
+      "schedule_type": "Weekends",
+      "is_active": true,
+      "current_station_id": "node_101269",
+      "next_station_id": "node_100004",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00049",
+      "train_id": "train_00049",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_101521",
+      "next_station_id": "node_101939",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    },
+    {
+      "state_id": "ops_00050",
+      "train_id": "train_00050",
+      "schedule_type": "Weekdays",
+      "is_active": true,
+      "current_station_id": "node_100040",
+      "next_station_id": "node_100071",
+      "delay_minutes": 0.0,
+      "status": "On Time"
+    }
+  ],
+  "platform_assignments": [
+    {
+      "assignment_id": "pa_000001",
+      "train_id": "train_00001",
+      "station_id": "node_100093",
+      "station_name": "Erode 92",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "05:00"
+    },
+    {
+      "assignment_id": "pa_000002",
+      "train_id": "train_00001",
+      "station_id": "node_100481",
+      "station_name": "100481",
+      "platform_number": 2,
+      "arrival_time": "05:09",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000003",
+      "train_id": "train_00002",
+      "station_id": "node_100053",
+      "station_name": "Nagpur 52",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "05:20"
+    },
+    {
+      "assignment_id": "pa_000004",
+      "train_id": "train_00002",
+      "station_id": "node_102593",
+      "station_name": "Pune Junction 2592",
+      "platform_number": 3,
+      "arrival_time": "05:41",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000005",
+      "train_id": "train_00003",
+      "station_id": "node_100053",
+      "station_name": "Nagpur 52",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "05:40"
+    },
+    {
+      "assignment_id": "pa_000006",
+      "train_id": "train_00003",
+      "station_id": "node_101289",
+      "station_name": "101289",
+      "platform_number": 4,
+      "arrival_time": "05:56",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000007",
+      "train_id": "train_00004",
+      "station_id": "node_101289",
+      "station_name": "101289",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "06:00"
+    },
+    {
+      "assignment_id": "pa_000008",
+      "train_id": "train_00004",
+      "station_id": "node_100053",
+      "station_name": "Nagpur 52",
+      "platform_number": 5,
+      "arrival_time": "06:29",
+      "departure_time": "06:44"
+    },
+    {
+      "assignment_id": "pa_000009",
+      "train_id": "train_00004",
+      "station_id": "node_102593",
+      "station_name": "Pune Junction 2592",
+      "platform_number": 6,
+      "arrival_time": "07:13",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000010",
+      "train_id": "train_00005",
+      "station_id": "node_101527",
+      "station_name": "Tirupati 1526",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "06:20"
+    },
+    {
+      "assignment_id": "pa_000011",
+      "train_id": "train_00005",
+      "station_id": "node_102018",
+      "station_name": "102018",
+      "platform_number": 6,
+      "arrival_time": "06:34",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000012",
+      "train_id": "train_00006",
+      "station_id": "node_100807",
+      "station_name": "Hubli Junction 806",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "06:40"
+    },
+    {
+      "assignment_id": "pa_000013",
+      "train_id": "train_00006",
+      "station_id": "node_101527",
+      "station_name": "Tirupati 1526",
+      "platform_number": 1,
+      "arrival_time": "06:50",
+      "departure_time": "06:55"
+    },
+    {
+      "assignment_id": "pa_000014",
+      "train_id": "train_00006",
+      "station_id": "node_102018",
+      "station_name": "102018",
+      "platform_number": 2,
+      "arrival_time": "07:05",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000015",
+      "train_id": "train_00007",
+      "station_id": "node_100807",
+      "station_name": "Hubli Junction 806",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "07:00"
+    },
+    {
+      "assignment_id": "pa_000016",
+      "train_id": "train_00007",
+      "station_id": "node_101527",
+      "station_name": "Tirupati 1526",
+      "platform_number": 2,
+      "arrival_time": "07:11",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000017",
+      "train_id": "train_00008",
+      "station_id": "node_102067",
+      "station_name": "102067",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "07:20"
+    },
+    {
+      "assignment_id": "pa_000018",
+      "train_id": "train_00008",
+      "station_id": "node_102567",
+      "station_name": "102567",
+      "platform_number": 3,
+      "arrival_time": "07:36",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000019",
+      "train_id": "train_00009",
+      "station_id": "node_100317",
+      "station_name": "100317",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "07:40"
+    },
+    {
+      "assignment_id": "pa_000020",
+      "train_id": "train_00009",
+      "station_id": "node_102915",
+      "station_name": "Guntur Junction 2914",
+      "platform_number": 4,
+      "arrival_time": "07:57",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000021",
+      "train_id": "train_00010",
+      "station_id": "node_101923",
+      "station_name": "101923",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "08:00"
+    },
+    {
+      "assignment_id": "pa_000022",
+      "train_id": "train_00010",
+      "station_id": "node_102915",
+      "station_name": "Guntur Junction 2914",
+      "platform_number": 5,
+      "arrival_time": "08:09",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000023",
+      "train_id": "train_00011",
+      "station_id": "node_100317",
+      "station_name": "100317",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "08:20"
+    },
+    {
+      "assignment_id": "pa_000024",
+      "train_id": "train_00011",
+      "station_id": "node_102915",
+      "station_name": "Guntur Junction 2914",
+      "platform_number": 6,
+      "arrival_time": "08:28",
+      "departure_time": "08:33"
+    },
+    {
+      "assignment_id": "pa_000025",
+      "train_id": "train_00011",
+      "station_id": "node_101923",
+      "station_name": "101923",
+      "platform_number": 1,
+      "arrival_time": "08:41",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000026",
+      "train_id": "train_00012",
+      "station_id": "node_100222",
+      "station_name": "Salem Junction 221",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "08:40"
+    },
+    {
+      "assignment_id": "pa_000027",
+      "train_id": "train_00012",
+      "station_id": "node_100111",
+      "station_name": "100111",
+      "platform_number": 1,
+      "arrival_time": "08:54",
+      "departure_time": "09:04"
+    },
+    {
+      "assignment_id": "pa_000028",
+      "train_id": "train_00012",
+      "station_id": "node_102014",
+      "station_name": "Jaipur 2013",
+      "platform_number": 2,
+      "arrival_time": "09:18",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000029",
+      "train_id": "train_00013",
+      "station_id": "node_102014",
+      "station_name": "Jaipur 2013",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "09:00"
+    },
+    {
+      "assignment_id": "pa_000030",
+      "train_id": "train_00013",
+      "station_id": "node_100111",
+      "station_name": "100111",
+      "platform_number": 2,
+      "arrival_time": "09:12",
+      "departure_time": "09:22"
+    },
+    {
+      "assignment_id": "pa_000031",
+      "train_id": "train_00013",
+      "station_id": "node_102276",
+      "station_name": "102276",
+      "platform_number": 3,
+      "arrival_time": "09:34",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000032",
+      "train_id": "train_00014",
+      "station_id": "node_100111",
+      "station_name": "100111",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "09:20"
+    },
+    {
+      "assignment_id": "pa_000033",
+      "train_id": "train_00014",
+      "station_id": "node_102276",
+      "station_name": "102276",
+      "platform_number": 3,
+      "arrival_time": "09:41",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000034",
+      "train_id": "train_00015",
+      "station_id": "node_100361",
+      "station_name": "Nellore 360",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "09:40"
+    },
+    {
+      "assignment_id": "pa_000035",
+      "train_id": "train_00015",
+      "station_id": "node_101925",
+      "station_name": "101925",
+      "platform_number": 4,
+      "arrival_time": "09:51",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000036",
+      "train_id": "train_00016",
+      "station_id": "node_101203",
+      "station_name": "Kanpur Central 1202",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "10:00"
+    },
+    {
+      "assignment_id": "pa_000037",
+      "train_id": "train_00016",
+      "station_id": "node_102914",
+      "station_name": "Patna Junction 2913",
+      "platform_number": 5,
+      "arrival_time": "10:07",
+      "departure_time": "10:12"
+    },
+    {
+      "assignment_id": "pa_000038",
+      "train_id": "train_00016",
+      "station_id": "node_101846",
+      "station_name": "101846",
+      "platform_number": 6,
+      "arrival_time": "10:19",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000039",
+      "train_id": "train_00017",
+      "station_id": "node_100335",
+      "station_name": "New Delhi 334",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "10:20"
+    },
+    {
+      "assignment_id": "pa_000040",
+      "train_id": "train_00017",
+      "station_id": "node_102914",
+      "station_name": "Patna Junction 2913",
+      "platform_number": 6,
+      "arrival_time": "10:24",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000041",
+      "train_id": "train_00018",
+      "station_id": "node_100335",
+      "station_name": "New Delhi 334",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "10:40"
+    },
+    {
+      "assignment_id": "pa_000042",
+      "train_id": "train_00018",
+      "station_id": "node_102914",
+      "station_name": "Patna Junction 2913",
+      "platform_number": 1,
+      "arrival_time": "10:49",
+      "departure_time": "10:59"
+    },
+    {
+      "assignment_id": "pa_000043",
+      "train_id": "train_00018",
+      "station_id": "node_101846",
+      "station_name": "101846",
+      "platform_number": 2,
+      "arrival_time": "11:08",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000044",
+      "train_id": "train_00019",
+      "station_id": "node_102053",
+      "station_name": "Guntur Junction 2052",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "11:00"
+    },
+    {
+      "assignment_id": "pa_000045",
+      "train_id": "train_00019",
+      "station_id": "node_102900",
+      "station_name": "Tirupati 2899",
+      "platform_number": 2,
+      "arrival_time": "11:37",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000046",
+      "train_id": "train_00020",
+      "station_id": "node_102370",
+      "station_name": "102370",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "11:20"
+    },
+    {
+      "assignment_id": "pa_000047",
+      "train_id": "train_00020",
+      "station_id": "node_102488",
+      "station_name": "Madurai Junction 2487",
+      "platform_number": 3,
+      "arrival_time": "11:28",
+      "departure_time": "11:33"
+    },
+    {
+      "assignment_id": "pa_000048",
+      "train_id": "train_00020",
+      "station_id": "node_100846",
+      "station_name": "100846",
+      "platform_number": 4,
+      "arrival_time": "11:41",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000049",
+      "train_id": "train_00021",
+      "station_id": "node_102370",
+      "station_name": "102370",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "11:40"
+    },
+    {
+      "assignment_id": "pa_000050",
+      "train_id": "train_00021",
+      "station_id": "node_102488",
+      "station_name": "Madurai Junction 2487",
+      "platform_number": 4,
+      "arrival_time": "11:48",
+      "departure_time": "11:53"
+    },
+    {
+      "assignment_id": "pa_000051",
+      "train_id": "train_00021",
+      "station_id": "node_102293",
+      "station_name": "102293",
+      "platform_number": 5,
+      "arrival_time": "12:01",
+      "departure_time": "12:06"
+    },
+    {
+      "assignment_id": "pa_000052",
+      "train_id": "train_00021",
+      "station_id": "node_101535",
+      "station_name": "101535",
+      "platform_number": 6,
+      "arrival_time": "12:14",
+      "departure_time": "12:19"
+    },
+    {
+      "assignment_id": "pa_000053",
+      "train_id": "train_00021",
+      "station_id": "node_100034",
+      "station_name": "100034",
+      "platform_number": 1,
+      "arrival_time": "12:27",
+      "departure_time": "12:32"
+    },
+    {
+      "assignment_id": "pa_000054",
+      "train_id": "train_00021",
+      "station_id": "node_100882",
+      "station_name": "100882",
+      "platform_number": 2,
+      "arrival_time": "12:40",
+      "departure_time": "12:45"
+    },
+    {
+      "assignment_id": "pa_000055",
+      "train_id": "train_00021",
+      "station_id": "node_100105",
+      "station_name": "Ahmedabad 104",
+      "platform_number": 3,
+      "arrival_time": "12:53",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000056",
+      "train_id": "train_00022",
+      "station_id": "node_100034",
+      "station_name": "100034",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "12:00"
+    },
+    {
+      "assignment_id": "pa_000057",
+      "train_id": "train_00022",
+      "station_id": "node_101535",
+      "station_name": "101535",
+      "platform_number": 5,
+      "arrival_time": "12:09",
+      "departure_time": "12:19"
+    },
+    {
+      "assignment_id": "pa_000058",
+      "train_id": "train_00022",
+      "station_id": "node_102293",
+      "station_name": "102293",
+      "platform_number": 6,
+      "arrival_time": "12:28",
+      "departure_time": "12:38"
+    },
+    {
+      "assignment_id": "pa_000059",
+      "train_id": "train_00022",
+      "station_id": "node_102488",
+      "station_name": "Madurai Junction 2487",
+      "platform_number": 1,
+      "arrival_time": "12:47",
+      "departure_time": "12:57"
+    },
+    {
+      "assignment_id": "pa_000060",
+      "train_id": "train_00022",
+      "station_id": "node_102370",
+      "station_name": "102370",
+      "platform_number": 2,
+      "arrival_time": "13:06",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000061",
+      "train_id": "train_00023",
+      "station_id": "node_101725",
+      "station_name": "Visakhapatnam 1724",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "12:20"
+    },
+    {
+      "assignment_id": "pa_000062",
+      "train_id": "train_00023",
+      "station_id": "node_100981",
+      "station_name": "Ahmedabad 980",
+      "platform_number": 6,
+      "arrival_time": "12:45",
+      "departure_time": "12:55"
+    },
+    {
+      "assignment_id": "pa_000063",
+      "train_id": "train_00023",
+      "station_id": "node_102117",
+      "station_name": "102117",
+      "platform_number": 1,
+      "arrival_time": "13:20",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000064",
+      "train_id": "train_00024",
+      "station_id": "node_100981",
+      "station_name": "Ahmedabad 980",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "12:40"
+    },
+    {
+      "assignment_id": "pa_000065",
+      "train_id": "train_00024",
+      "station_id": "node_102117",
+      "station_name": "102117",
+      "platform_number": 1,
+      "arrival_time": "13:27",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000066",
+      "train_id": "train_00025",
+      "station_id": "node_100981",
+      "station_name": "Ahmedabad 980",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "13:00"
+    },
+    {
+      "assignment_id": "pa_000067",
+      "train_id": "train_00025",
+      "station_id": "node_101725",
+      "station_name": "Visakhapatnam 1724",
+      "platform_number": 2,
+      "arrival_time": "13:12",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000068",
+      "train_id": "train_00026",
+      "station_id": "node_101023",
+      "station_name": "101023",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "13:20"
+    },
+    {
+      "assignment_id": "pa_000069",
+      "train_id": "train_00026",
+      "station_id": "node_102320",
+      "station_name": "102320",
+      "platform_number": 3,
+      "arrival_time": "13:34",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000070",
+      "train_id": "train_00027",
+      "station_id": "node_100157",
+      "station_name": "Lucknow 156",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "13:40"
+    },
+    {
+      "assignment_id": "pa_000071",
+      "train_id": "train_00027",
+      "station_id": "node_101392",
+      "station_name": "Bhopal Junction 1391",
+      "platform_number": 4,
+      "arrival_time": "14:04",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000072",
+      "train_id": "train_00028",
+      "station_id": "node_100408",
+      "station_name": "100408",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "14:00"
+    },
+    {
+      "assignment_id": "pa_000073",
+      "train_id": "train_00028",
+      "station_id": "node_102127",
+      "station_name": "Nellore 2126",
+      "platform_number": 5,
+      "arrival_time": "14:18",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000074",
+      "train_id": "train_00029",
+      "station_id": "node_102034",
+      "station_name": "102034",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "14:20"
+    },
+    {
+      "assignment_id": "pa_000075",
+      "train_id": "train_00029",
+      "station_id": "node_102446",
+      "station_name": "Salem Junction 2445",
+      "platform_number": 6,
+      "arrival_time": "14:46",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000076",
+      "train_id": "train_00030",
+      "station_id": "node_100225",
+      "station_name": "Hyderabad Deccan 224",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "14:40"
+    },
+    {
+      "assignment_id": "pa_000077",
+      "train_id": "train_00030",
+      "station_id": "node_102446",
+      "station_name": "Salem Junction 2445",
+      "platform_number": 1,
+      "arrival_time": "14:54",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000078",
+      "train_id": "train_00031",
+      "station_id": "node_100225",
+      "station_name": "Hyderabad Deccan 224",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "15:00"
+    },
+    {
+      "assignment_id": "pa_000079",
+      "train_id": "train_00031",
+      "station_id": "node_102446",
+      "station_name": "Salem Junction 2445",
+      "platform_number": 2,
+      "arrival_time": "15:12",
+      "departure_time": "15:17"
+    },
+    {
+      "assignment_id": "pa_000080",
+      "train_id": "train_00031",
+      "station_id": "node_102034",
+      "station_name": "102034",
+      "platform_number": 3,
+      "arrival_time": "15:29",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000081",
+      "train_id": "train_00032",
+      "station_id": "node_102287",
+      "station_name": "Warangal 2286",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "15:20"
+    },
+    {
+      "assignment_id": "pa_000082",
+      "train_id": "train_00032",
+      "station_id": "node_100360",
+      "station_name": "Salem Junction 359",
+      "platform_number": 3,
+      "arrival_time": "15:29",
+      "departure_time": "15:39"
+    },
+    {
+      "assignment_id": "pa_000083",
+      "train_id": "train_00032",
+      "station_id": "node_101381",
+      "station_name": "101381",
+      "platform_number": 4,
+      "arrival_time": "15:48",
+      "departure_time": "15:58"
+    },
+    {
+      "assignment_id": "pa_000084",
+      "train_id": "train_00032",
+      "station_id": "node_102934",
+      "station_name": "102934",
+      "platform_number": 5,
+      "arrival_time": "16:07",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000085",
+      "train_id": "train_00033",
+      "station_id": "node_102254",
+      "station_name": "102254",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "15:40"
+    },
+    {
+      "assignment_id": "pa_000086",
+      "train_id": "train_00033",
+      "station_id": "node_101381",
+      "station_name": "101381",
+      "platform_number": 4,
+      "arrival_time": "15:53",
+      "departure_time": "16:03"
+    },
+    {
+      "assignment_id": "pa_000087",
+      "train_id": "train_00033",
+      "station_id": "node_100360",
+      "station_name": "Salem Junction 359",
+      "platform_number": 5,
+      "arrival_time": "16:16",
+      "departure_time": "16:26"
+    },
+    {
+      "assignment_id": "pa_000088",
+      "train_id": "train_00033",
+      "station_id": "node_102287",
+      "station_name": "Warangal 2286",
+      "platform_number": 6,
+      "arrival_time": "16:39",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000089",
+      "train_id": "train_00034",
+      "station_id": "node_100409",
+      "station_name": "100409",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "16:00"
+    },
+    {
+      "assignment_id": "pa_000090",
+      "train_id": "train_00034",
+      "station_id": "node_102287",
+      "station_name": "Warangal 2286",
+      "platform_number": 5,
+      "arrival_time": "16:25",
+      "departure_time": "16:40"
+    },
+    {
+      "assignment_id": "pa_000091",
+      "train_id": "train_00034",
+      "station_id": "node_100360",
+      "station_name": "Salem Junction 359",
+      "platform_number": 6,
+      "arrival_time": "17:05",
+      "departure_time": "17:20"
+    },
+    {
+      "assignment_id": "pa_000092",
+      "train_id": "train_00034",
+      "station_id": "node_101381",
+      "station_name": "101381",
+      "platform_number": 1,
+      "arrival_time": "17:45",
+      "departure_time": "18:00"
+    },
+    {
+      "assignment_id": "pa_000093",
+      "train_id": "train_00034",
+      "station_id": "node_102254",
+      "station_name": "102254",
+      "platform_number": 2,
+      "arrival_time": "18:25",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000094",
+      "train_id": "train_00035",
+      "station_id": "node_100052",
+      "station_name": "Hubli Junction 51",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "16:20"
+    },
+    {
+      "assignment_id": "pa_000095",
+      "train_id": "train_00035",
+      "station_id": "node_102310",
+      "station_name": "Hyderabad Deccan 2309",
+      "platform_number": 6,
+      "arrival_time": "16:38",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000096",
+      "train_id": "train_00036",
+      "station_id": "node_101231",
+      "station_name": "Visakhapatnam 1230",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "16:40"
+    },
+    {
+      "assignment_id": "pa_000097",
+      "train_id": "train_00036",
+      "station_id": "node_100072",
+      "station_name": "Hyderabad Deccan 71",
+      "platform_number": 1,
+      "arrival_time": "16:51",
+      "departure_time": "16:56"
+    },
+    {
+      "assignment_id": "pa_000098",
+      "train_id": "train_00036",
+      "station_id": "node_100319",
+      "station_name": "100319",
+      "platform_number": 2,
+      "arrival_time": "17:07",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000099",
+      "train_id": "train_00037",
+      "station_id": "node_101370",
+      "station_name": "101370",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "17:00"
+    },
+    {
+      "assignment_id": "pa_000100",
+      "train_id": "train_00037",
+      "station_id": "node_100072",
+      "station_name": "Hyderabad Deccan 71",
+      "platform_number": 2,
+      "arrival_time": "17:24",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000101",
+      "train_id": "train_00038",
+      "station_id": "node_100072",
+      "station_name": "Hyderabad Deccan 71",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "17:20"
+    },
+    {
+      "assignment_id": "pa_000102",
+      "train_id": "train_00038",
+      "station_id": "node_100319",
+      "station_name": "100319",
+      "platform_number": 3,
+      "arrival_time": "17:39",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000103",
+      "train_id": "train_00039",
+      "station_id": "node_100145",
+      "station_name": "100145",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "17:40"
+    },
+    {
+      "assignment_id": "pa_000104",
+      "train_id": "train_00039",
+      "station_id": "node_101114",
+      "station_name": "101114",
+      "platform_number": 4,
+      "arrival_time": "18:05",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000105",
+      "train_id": "train_00040",
+      "station_id": "node_100390",
+      "station_name": "100390",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "18:00"
+    },
+    {
+      "assignment_id": "pa_000106",
+      "train_id": "train_00040",
+      "station_id": "node_102061",
+      "station_name": "102061",
+      "platform_number": 5,
+      "arrival_time": "18:06",
+      "departure_time": "18:11"
+    },
+    {
+      "assignment_id": "pa_000107",
+      "train_id": "train_00040",
+      "station_id": "node_100871",
+      "station_name": "Nellore 870",
+      "platform_number": 6,
+      "arrival_time": "18:17",
+      "departure_time": "18:22"
+    },
+    {
+      "assignment_id": "pa_000108",
+      "train_id": "train_00040",
+      "station_id": "node_100029",
+      "station_name": "100029",
+      "platform_number": 1,
+      "arrival_time": "18:28",
+      "departure_time": "18:33"
+    },
+    {
+      "assignment_id": "pa_000109",
+      "train_id": "train_00040",
+      "station_id": "node_102810",
+      "station_name": "Jaipur 2809",
+      "platform_number": 2,
+      "arrival_time": "18:39",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000110",
+      "train_id": "train_00041",
+      "station_id": "node_100029",
+      "station_name": "100029",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "18:20"
+    },
+    {
+      "assignment_id": "pa_000111",
+      "train_id": "train_00041",
+      "station_id": "node_102810",
+      "station_name": "Jaipur 2809",
+      "platform_number": 6,
+      "arrival_time": "18:29",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000112",
+      "train_id": "train_00042",
+      "station_id": "node_100390",
+      "station_name": "100390",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "18:40"
+    },
+    {
+      "assignment_id": "pa_000113",
+      "train_id": "train_00042",
+      "station_id": "node_102061",
+      "station_name": "102061",
+      "platform_number": 1,
+      "arrival_time": "18:47",
+      "departure_time": "18:57"
+    },
+    {
+      "assignment_id": "pa_000114",
+      "train_id": "train_00042",
+      "station_id": "node_100871",
+      "station_name": "Nellore 870",
+      "platform_number": 2,
+      "arrival_time": "19:04",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000115",
+      "train_id": "train_00043",
+      "station_id": "node_100832",
+      "station_name": "100832",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "19:00"
+    },
+    {
+      "assignment_id": "pa_000116",
+      "train_id": "train_00043",
+      "station_id": "node_101283",
+      "station_name": "101283",
+      "platform_number": 2,
+      "arrival_time": "19:09",
+      "departure_time": "19:19"
+    },
+    {
+      "assignment_id": "pa_000117",
+      "train_id": "train_00043",
+      "station_id": "node_101818",
+      "station_name": "Howrah Junction 1817",
+      "platform_number": 3,
+      "arrival_time": "19:28",
+      "departure_time": "19:38"
+    },
+    {
+      "assignment_id": "pa_000118",
+      "train_id": "train_00043",
+      "station_id": "node_102210",
+      "station_name": "102210",
+      "platform_number": 4,
+      "arrival_time": "19:47",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000119",
+      "train_id": "train_00044",
+      "station_id": "node_101818",
+      "station_name": "Howrah Junction 1817",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "19:20"
+    },
+    {
+      "assignment_id": "pa_000120",
+      "train_id": "train_00044",
+      "station_id": "node_101283",
+      "station_name": "101283",
+      "platform_number": 3,
+      "arrival_time": "19:29",
+      "departure_time": "19:44"
+    },
+    {
+      "assignment_id": "pa_000121",
+      "train_id": "train_00044",
+      "station_id": "node_100832",
+      "station_name": "100832",
+      "platform_number": 4,
+      "arrival_time": "19:53",
+      "departure_time": "20:08"
+    },
+    {
+      "assignment_id": "pa_000122",
+      "train_id": "train_00044",
+      "station_id": "node_100766",
+      "station_name": "Ahmedabad 765",
+      "platform_number": 5,
+      "arrival_time": "20:17",
+      "departure_time": "20:32"
+    },
+    {
+      "assignment_id": "pa_000123",
+      "train_id": "train_00044",
+      "station_id": "node_100278",
+      "station_name": "100278",
+      "platform_number": 6,
+      "arrival_time": "20:41",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000124",
+      "train_id": "train_00045",
+      "station_id": "node_102426",
+      "station_name": "102426",
+      "platform_number": 3,
+      "arrival_time": null,
+      "departure_time": "19:40"
+    },
+    {
+      "assignment_id": "pa_000125",
+      "train_id": "train_00045",
+      "station_id": "node_102135",
+      "station_name": "Ahmedabad 2134",
+      "platform_number": 4,
+      "arrival_time": "19:51",
+      "departure_time": "19:56"
+    },
+    {
+      "assignment_id": "pa_000126",
+      "train_id": "train_00045",
+      "station_id": "node_101397",
+      "station_name": "Mumbai CST 1396",
+      "platform_number": 5,
+      "arrival_time": "20:07",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000127",
+      "train_id": "train_00046",
+      "station_id": "node_100372",
+      "station_name": "100372",
+      "platform_number": 4,
+      "arrival_time": null,
+      "departure_time": "20:00"
+    },
+    {
+      "assignment_id": "pa_000128",
+      "train_id": "train_00046",
+      "station_id": "node_101451",
+      "station_name": "101451",
+      "platform_number": 5,
+      "arrival_time": "20:07",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000129",
+      "train_id": "train_00047",
+      "station_id": "node_100004",
+      "station_name": "New Delhi",
+      "platform_number": 5,
+      "arrival_time": null,
+      "departure_time": "20:20"
+    },
+    {
+      "assignment_id": "pa_000130",
+      "train_id": "train_00047",
+      "station_id": "node_101269",
+      "station_name": "Mysore Junction 1268",
+      "platform_number": 6,
+      "arrival_time": "20:34",
+      "departure_time": "20:44"
+    },
+    {
+      "assignment_id": "pa_000131",
+      "train_id": "train_00047",
+      "station_id": "node_100370",
+      "station_name": "Howrah Junction 369",
+      "platform_number": 1,
+      "arrival_time": "20:58",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000132",
+      "train_id": "train_00048",
+      "station_id": "node_101269",
+      "station_name": "Mysore Junction 1268",
+      "platform_number": 6,
+      "arrival_time": null,
+      "departure_time": "20:40"
+    },
+    {
+      "assignment_id": "pa_000133",
+      "train_id": "train_00048",
+      "station_id": "node_100004",
+      "station_name": "New Delhi",
+      "platform_number": 1,
+      "arrival_time": "20:58",
+      "departure_time": "21:08"
+    },
+    {
+      "assignment_id": "pa_000134",
+      "train_id": "train_00048",
+      "station_id": "node_102009",
+      "station_name": "Hubli Junction 2008",
+      "platform_number": 2,
+      "arrival_time": "21:26",
+      "departure_time": "21:36"
+    },
+    {
+      "assignment_id": "pa_000135",
+      "train_id": "train_00048",
+      "station_id": "node_101939",
+      "station_name": "Tiruchirapalli 1938",
+      "platform_number": 3,
+      "arrival_time": "21:54",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000136",
+      "train_id": "train_00049",
+      "station_id": "node_101521",
+      "station_name": "Madurai Junction 1520",
+      "platform_number": 1,
+      "arrival_time": null,
+      "departure_time": "21:00"
+    },
+    {
+      "assignment_id": "pa_000137",
+      "train_id": "train_00049",
+      "station_id": "node_101939",
+      "station_name": "Tiruchirapalli 1938",
+      "platform_number": 2,
+      "arrival_time": "21:08",
+      "departure_time": null
+    },
+    {
+      "assignment_id": "pa_000138",
+      "train_id": "train_00050",
+      "station_id": "node_100040",
+      "station_name": "100040",
+      "platform_number": 2,
+      "arrival_time": null,
+      "departure_time": "21:20"
+    },
+    {
+      "assignment_id": "pa_000139",
+      "train_id": "train_00050",
+      "station_id": "node_100071",
+      "station_name": "Nellore 70",
+      "platform_number": 3,
+      "arrival_time": "21:34",
+      "departure_time": null
+    }
+  ],
+  "schedules": [
+    {
+      "schedule_id": "sched_00001",
+      "train_id": "train_00001",
+      "train_number": "TN-EX-0001",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00002",
+      "train_id": "train_00002",
+      "train_number": "TN-PA-0002",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00003",
+      "train_id": "train_00003",
+      "train_number": "TN-PA-0003",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00004",
+      "train_id": "train_00004",
+      "train_number": "TN-FR-0004",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00005",
+      "train_id": "train_00005",
+      "train_number": "TN-EX-0005",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00006",
+      "train_id": "train_00006",
+      "train_number": "TN-EX-0006",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00007",
+      "train_id": "train_00007",
+      "train_number": "TN-PA-0007",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00008",
+      "train_id": "train_00008",
+      "train_number": "TN-PA-0008",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00009",
+      "train_id": "train_00009",
+      "train_number": "TN-FR-0009",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00010",
+      "train_id": "train_00010",
+      "train_number": "TN-EX-0010",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "Emergency"
+    },
+    {
+      "schedule_id": "sched_00011",
+      "train_id": "train_00011",
+      "train_number": "TN-EX-0011",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00012",
+      "train_id": "train_00012",
+      "train_number": "TN-PA-0012",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00013",
+      "train_id": "train_00013",
+      "train_number": "TN-PA-0013",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00014",
+      "train_id": "train_00014",
+      "train_number": "TN-FR-0014",
+      "train_type": "Freight",
+      "schedule_type": "Daily",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00015",
+      "train_id": "train_00015",
+      "train_number": "TN-EX-0015",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00016",
+      "train_id": "train_00016",
+      "train_number": "TN-EX-0016",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00017",
+      "train_id": "train_00017",
+      "train_number": "TN-PA-0017",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00018",
+      "train_id": "train_00018",
+      "train_number": "TN-PA-0018",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00019",
+      "train_id": "train_00019",
+      "train_number": "TN-FR-0019",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00020",
+      "train_id": "train_00020",
+      "train_number": "TN-EX-0020",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "Emergency"
+    },
+    {
+      "schedule_id": "sched_00021",
+      "train_id": "train_00021",
+      "train_number": "TN-EX-0021",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00022",
+      "train_id": "train_00022",
+      "train_number": "TN-PA-0022",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00023",
+      "train_id": "train_00023",
+      "train_number": "TN-PA-0023",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00024",
+      "train_id": "train_00024",
+      "train_number": "TN-FR-0024",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00025",
+      "train_id": "train_00025",
+      "train_number": "TN-EX-0025",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00026",
+      "train_id": "train_00026",
+      "train_number": "TN-EX-0026",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00027",
+      "train_id": "train_00027",
+      "train_number": "TN-PA-0027",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00028",
+      "train_id": "train_00028",
+      "train_number": "TN-PA-0028",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00029",
+      "train_id": "train_00029",
+      "train_number": "TN-FR-0029",
+      "train_type": "Freight",
+      "schedule_type": "Daily",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00030",
+      "train_id": "train_00030",
+      "train_number": "TN-EX-0030",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "Emergency"
+    },
+    {
+      "schedule_id": "sched_00031",
+      "train_id": "train_00031",
+      "train_number": "TN-EX-0031",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00032",
+      "train_id": "train_00032",
+      "train_number": "TN-PA-0032",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00033",
+      "train_id": "train_00033",
+      "train_number": "TN-PA-0033",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00034",
+      "train_id": "train_00034",
+      "train_number": "TN-FR-0034",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00035",
+      "train_id": "train_00035",
+      "train_number": "TN-EX-0035",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00036",
+      "train_id": "train_00036",
+      "train_number": "TN-EX-0036",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00037",
+      "train_id": "train_00037",
+      "train_number": "TN-PA-0037",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00038",
+      "train_id": "train_00038",
+      "train_number": "TN-PA-0038",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00039",
+      "train_id": "train_00039",
+      "train_number": "TN-FR-0039",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00040",
+      "train_id": "train_00040",
+      "train_number": "TN-EX-0040",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "Emergency"
+    },
+    {
+      "schedule_id": "sched_00041",
+      "train_id": "train_00041",
+      "train_number": "TN-EX-0041",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00042",
+      "train_id": "train_00042",
+      "train_number": "TN-PA-0042",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00043",
+      "train_id": "train_00043",
+      "train_number": "TN-PA-0043",
+      "train_type": "Passenger",
+      "schedule_type": "Daily",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00044",
+      "train_id": "train_00044",
+      "train_number": "TN-FR-0044",
+      "train_type": "Freight",
+      "schedule_type": "Daily",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00045",
+      "train_id": "train_00045",
+      "train_number": "TN-EX-0045",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00046",
+      "train_id": "train_00046",
+      "train_number": "TN-EX-0046",
+      "train_type": "Express",
+      "schedule_type": "Daily",
+      "priority": "High"
+    },
+    {
+      "schedule_id": "sched_00047",
+      "train_id": "train_00047",
+      "train_number": "TN-PA-0047",
+      "train_type": "Passenger",
+      "schedule_type": "Weekdays",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00048",
+      "train_id": "train_00048",
+      "train_number": "TN-PA-0048",
+      "train_type": "Passenger",
+      "schedule_type": "Weekends",
+      "priority": "Medium"
+    },
+    {
+      "schedule_id": "sched_00049",
+      "train_id": "train_00049",
+      "train_number": "TN-FR-0049",
+      "train_type": "Freight",
+      "schedule_type": "Weekdays",
+      "priority": "Freight"
+    },
+    {
+      "schedule_id": "sched_00050",
+      "train_id": "train_00050",
+      "train_number": "TN-EX-0050",
+      "train_type": "Express",
+      "schedule_type": "Weekdays",
+      "priority": "Emergency"
+    }
+  ]
+}

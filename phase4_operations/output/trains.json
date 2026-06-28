@@ -1,0 +1,506 @@
+{
+  "generated_at": "2026-06-28T15:27:18.974122+00:00",
+  "train_count": 50,
+  "trains": [
+    {
+      "train_id": "train_00001",
+      "train_number": "TN-EX-0001",
+      "name": "Shatabdi Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00002",
+      "train_number": "TN-PA-0002",
+      "name": "Intercity Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00003",
+      "train_number": "TN-PA-0003",
+      "name": "Sampark Kranti Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00004",
+      "train_number": "TN-FR-0004",
+      "name": "TN Cement Freight 01",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00005",
+      "train_number": "TN-EX-0005",
+      "name": "Tejas Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00006",
+      "train_number": "TN-EX-0006",
+      "name": "Gatimaan Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00007",
+      "train_number": "TN-PA-0007",
+      "name": "Amrit Bharat Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00008",
+      "train_number": "TN-PA-0008",
+      "name": "Demu Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00009",
+      "train_number": "TN-FR-0009",
+      "name": "TN Parcel Freight 01",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00010",
+      "train_number": "TN-EX-0010",
+      "name": "Mahamana Express",
+      "train_type": "Express",
+      "priority": "Emergency",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00011",
+      "train_number": "TN-EX-0011",
+      "name": "Shatabdi Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00012",
+      "train_number": "TN-PA-0012",
+      "name": "Intercity Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00013",
+      "train_number": "TN-PA-0013",
+      "name": "Sampark Kranti Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00014",
+      "train_number": "TN-FR-0014",
+      "name": "TN Cement Freight 02",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00015",
+      "train_number": "TN-EX-0015",
+      "name": "Tejas Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00016",
+      "train_number": "TN-EX-0016",
+      "name": "Gatimaan Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00017",
+      "train_number": "TN-PA-0017",
+      "name": "Amrit Bharat Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00018",
+      "train_number": "TN-PA-0018",
+      "name": "Demu Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00019",
+      "train_number": "TN-FR-0019",
+      "name": "TN Parcel Freight 02",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00020",
+      "train_number": "TN-EX-0020",
+      "name": "Mahamana Express",
+      "train_type": "Express",
+      "priority": "Emergency",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00021",
+      "train_number": "TN-EX-0021",
+      "name": "Shatabdi Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00022",
+      "train_number": "TN-PA-0022",
+      "name": "Intercity Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00023",
+      "train_number": "TN-PA-0023",
+      "name": "Sampark Kranti Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00024",
+      "train_number": "TN-FR-0024",
+      "name": "TN Cement Freight 03",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00025",
+      "train_number": "TN-EX-0025",
+      "name": "Tejas Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00026",
+      "train_number": "TN-EX-0026",
+      "name": "Gatimaan Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00027",
+      "train_number": "TN-PA-0027",
+      "name": "Amrit Bharat Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00028",
+      "train_number": "TN-PA-0028",
+      "name": "Demu Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00029",
+      "train_number": "TN-FR-0029",
+      "name": "TN Parcel Freight 03",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00030",
+      "train_number": "TN-EX-0030",
+      "name": "Mahamana Express",
+      "train_type": "Express",
+      "priority": "Emergency",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00031",
+      "train_number": "TN-EX-0031",
+      "name": "Shatabdi Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00032",
+      "train_number": "TN-PA-0032",
+      "name": "Intercity Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00033",
+      "train_number": "TN-PA-0033",
+      "name": "Sampark Kranti Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00034",
+      "train_number": "TN-FR-0034",
+      "name": "TN Cement Freight 04",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00035",
+      "train_number": "TN-EX-0035",
+      "name": "Tejas Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00036",
+      "train_number": "TN-EX-0036",
+      "name": "Gatimaan Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00037",
+      "train_number": "TN-PA-0037",
+      "name": "Amrit Bharat Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00038",
+      "train_number": "TN-PA-0038",
+      "name": "Demu Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00039",
+      "train_number": "TN-FR-0039",
+      "name": "TN Parcel Freight 04",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00040",
+      "train_number": "TN-EX-0040",
+      "name": "Mahamana Express",
+      "train_type": "Express",
+      "priority": "Emergency",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00041",
+      "train_number": "TN-EX-0041",
+      "name": "Shatabdi Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00042",
+      "train_number": "TN-PA-0042",
+      "name": "Intercity Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00043",
+      "train_number": "TN-PA-0043",
+      "name": "Sampark Kranti Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00044",
+      "train_number": "TN-FR-0044",
+      "name": "TN Cement Freight 05",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00045",
+      "train_number": "TN-EX-0045",
+      "name": "Tejas Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00046",
+      "train_number": "TN-EX-0046",
+      "name": "Gatimaan Express",
+      "train_type": "Express",
+      "priority": "High",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    },
+    {
+      "train_id": "train_00047",
+      "train_number": "TN-PA-0047",
+      "name": "Amrit Bharat Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00048",
+      "train_number": "TN-PA-0048",
+      "name": "Demu Special",
+      "train_type": "Passenger",
+      "priority": "Medium",
+      "max_speed_kmh": 70.0,
+      "coaches": 14,
+      "capacity": 980
+    },
+    {
+      "train_id": "train_00049",
+      "train_number": "TN-FR-0049",
+      "name": "TN Parcel Freight 05",
+      "train_type": "Freight",
+      "priority": "Freight",
+      "max_speed_kmh": 45.0,
+      "coaches": 30,
+      "capacity": 0
+    },
+    {
+      "train_id": "train_00050",
+      "train_number": "TN-EX-0050",
+      "name": "Mahamana Express",
+      "train_type": "Express",
+      "priority": "Emergency",
+      "max_speed_kmh": 110.0,
+      "coaches": 18,
+      "capacity": 1260
+    }
+  ]
+}

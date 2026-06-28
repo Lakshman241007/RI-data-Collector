@@ -1,0 +1,21 @@
+{
+  "train_count": 50,
+  "speed_kmh": {
+    "Express": 110,
+    "Passenger": 70,
+    "Freight": 45
+  },
+  "halt_duration_minutes": {
+    "Express": 5,
+    "Passenger": 10,
+    "Freight": 15
+  },
+  "platform_count": 6,
+  "base_departure_hour": 5,
+  "schedule_gap_minutes": 20,
+  "routes_input": "input/routes.json",
+  "graph_input": "input/railway_graph.json",
+  "output_dir": "output",
+  "log_dir": "logs",
+  "log_level": "INFO"
+}
