@@ -1,0 +1,15 @@
+{
+  "node_count": 3000,
+  "edge_count": 7000,
+  "average_node_degree": 2.682,
+  "isolated_stations": 386,
+  "connected_components": 2005,
+  "largest_component_size": 19,
+  "total_track_length_m": 114460665.99,
+  "total_track_length_km": 114460.666,
+  "self_loops": 5867,
+  "duplicate_edges": 73,
+  "disconnected_tracks": 53,
+  "low_confidence_matches": 9242,
+  "unmatched_endpoints": 87
+}

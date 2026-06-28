@@ -1,0 +1,35 @@
+{
+  "input": {
+    "master_dataset_path": "input/master_railway_dataset.json"
+  },
+  "output": {
+    "directory": "output",
+    "stations_file": "stations.json",
+    "tracks_file": "tracks.json",
+    "statistics_file": "statistics.json"
+  },
+  "logging": {
+    "directory": "logs",
+    "level": "INFO",
+    "filename": "phase2_graph.log"
+  },
+  "station_types": [
+    "station",
+    "halt",
+    "junction",
+    "stop",
+    "platform"
+  ],
+  "track_types": [
+    "rail",
+    "tram",
+    "subway",
+    "light_rail",
+    "narrow_gauge",
+    "construction",
+    "disused",
+    "preserved",
+    "miniature",
+    "monorail"
+  ]
+}

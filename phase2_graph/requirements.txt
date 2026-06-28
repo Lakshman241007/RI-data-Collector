@@ -1,0 +1,4 @@
+# Phase 2.1 — Railway Data Extraction
+# Python 3.13 compatible; all dependencies are stdlib except pytest.
+
+pytest>=8.0
