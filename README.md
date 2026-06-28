@@ -1,6 +1,7 @@
 # RI-data-Collector
 
-Phase 1
+## Phase 1
+
 ──────────────
 ✅ Overpass API
 ✅ GeoFabrik Downloader
@@ -10,7 +11,8 @@ Phase 1
 ✅ Validator
 ✅ Master Dataset
 
-Phase 2.1
+## Phase 2.1
+
 ──────────────
 ✅ Dataset Loader
 ✅ Station Extractor
@@ -18,7 +20,8 @@ Phase 2.1
 ✅ Statistics
 ✅ Exporter
 
-Phase 2.2
+## Phase 2.2
+
 ──────────────
 ✅ Graph Nodes
 ✅ Graph Edges
@@ -26,3 +29,14 @@ Phase 2.2
 ✅ Connectivity
 ✅ Graph Validator
 ✅ Railway Graph
+
+## Phase 3
+
+──────────────
+✅ Graph Loader
+✅ Data Models
+✅ Breadth-First Search (BFS)
+✅ Depth-First Search (DFS)
+✅ Dijkstra Algorithm
+✅ Route Validation
+✅ Route Engine
