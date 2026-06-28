@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-06-28T14:06:02.847964+00:00",
+  "total_routes": 260,
+  "successful_routes": 250,
+  "failed_routes": 10,
+  "average_route_length_m": 30002.09,
+  "average_node_count": 2.67,
+  "longest_route": {
+    "route_id": "route_00220",
+    "algorithm": "astar",
+    "source_id": "node_100522",
+    "target_id": "node_101628",
+    "distance_m": 127219.72,
+    "node_count": 8,
+    "edge_count": 7
+  },
+  "shortest_route": {
+    "route_id": "route_00057",
+    "algorithm": "bfs",
+    "source_id": "node_102241",
+    "target_id": "node_102799",
+    "distance_m": 1966.93,
+    "node_count": 2,
+    "edge_count": 1
+  },
+  "timings_by_algorithm": {
+    "bfs": {
+      "algorithm": "bfs",
+      "route_count": 67,
+      "success_count": 63,
+      "total_time_ms": 0.8129,
+      "average_time_ms": 0.0121,
+      "min_time_ms": 0.0,
+      "max_time_ms": 0.0557
+    },
+    "dfs": {
+      "algorithm": "dfs",
+      "route_count": 65,
+      "success_count": 63,
+      "total_time_ms": 0.6648,
+      "average_time_ms": 0.0102,
+      "min_time_ms": 0.0,
+      "max_time_ms": 0.0318
+    },
+    "dijkstra": {
+      "algorithm": "dijkstra",
+      "route_count": 64,
+      "success_count": 62,
+      "total_time_ms": 0.7815,
+      "average_time_ms": 0.0122,
+      "min_time_ms": 0.0,
+      "max_time_ms": 0.0392
+    },
+    "astar": {
+      "algorithm": "astar",
+      "route_count": 64,
+      "success_count": 62,
+      "total_time_ms": 1.6153,
+      "average_time_ms": 0.0252,
+      "min_time_ms": 0.0,
+      "max_time_ms": 0.1031
+    }
+  }
+}

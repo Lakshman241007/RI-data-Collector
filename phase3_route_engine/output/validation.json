@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-06-28T14:06:02.850690+00:00",
+  "issue_counts": {
+    "missing_nodes": 5,
+    "disconnected_paths": 5,
+    "invalid_routes": 0
+  },
+  "missing_nodes": [
+    {
+      "route_id": "route_00256",
+      "algorithm": "bfs",
+      "source_id": "node_102960",
+      "target_id": "node_missing_0000",
+      "detail": "missing_node:node_missing_0000"
+    },
+    {
+      "route_id": "route_00257",
+      "algorithm": "dfs",
+      "source_id": "node_102659",
+      "target_id": "node_missing_0001",
+      "detail": "missing_node:node_missing_0001"
+    },
+    {
+      "route_id": "route_00258",
+      "algorithm": "dijkstra",
+      "source_id": "node_102310",
+      "target_id": "node_missing_0002",
+      "detail": "missing_node:node_missing_0002"
+    },
+    {
+      "route_id": "route_00259",
+      "algorithm": "astar",
+      "source_id": "node_102049",
+      "target_id": "node_missing_0003",
+      "detail": "missing_node:node_missing_0003"
+    },
+    {
+      "route_id": "route_00260",
+      "algorithm": "bfs",
+      "source_id": "node_102588",
+      "target_id": "node_missing_0004",
+      "detail": "missing_node:node_missing_0004"
+    }
+  ],
+  "disconnected_paths": [
+    {
+      "route_id": "route_00251",
+      "algorithm": "bfs",
+      "source_id": "node_101880",
+      "target_id": "node_102501",
+      "nodes_expanded": 1
+    },
+    {
+      "route_id": "route_00252",
+      "algorithm": "dfs",
+      "source_id": "node_101296",
+      "target_id": "node_102666",
+      "nodes_expanded": 0
+    },
+    {
+      "route_id": "route_00253",
+      "algorithm": "dijkstra",
+      "source_id": "node_100210",
+      "target_id": "node_100117",
+      "nodes_expanded": 2
+    },
+    {
+      "route_id": "route_00254",
+      "algorithm": "astar",
+      "source_id": "node_101727",
+      "target_id": "node_100940",
+      "nodes_expanded": 1
+    },
+    {
+      "route_id": "route_00255",
+      "algorithm": "bfs",
+      "source_id": "node_102213",
+      "target_id": "node_102068",
+      "nodes_expanded": 1
+    }
+  ],
+  "invalid_routes": [],
+  "graph_load_issues": {
+    "node_count": 3000,
+    "edge_count": 7000,
+    "skipped_self_loops": 5867,
+    "skipped_null_endpoint_edges": 53,
+    "skipped_missing_node_edges": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "input": {
+    "directory": "input",
+    "graph_file": "railway_graph.json"
+  },
+  "output": {
+    "directory": "output",
+    "routes_file": "routes.json",
+    "statistics_file": "statistics.json",
+    "validation_file": "validation.json"
+  },
+  "logging": {
+    "directory": "logs",
+    "level": "INFO",
+    "filename": "phase3_route_engine.log"
+  },
+  "route_generation": {
+    "random_seed": 42,
+    "max_routes_per_component": 3,
+    "max_total_routes": 250,
+    "max_component_size_for_full_pairs": 6,
+    "synthetic_disconnected_requests": 5,
+    "synthetic_missing_node_requests": 5,
+    "algorithms": ["bfs", "dfs", "dijkstra", "astar"]
+  }
+}

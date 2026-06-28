@@ -1,0 +1,34 @@
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 1 — Loading railway graph
+2026-06-28 19:36:02  INFO      routing.graph_loader — Loading railway graph from C:\Users\laksh\OneDrive\Desktop\kiki\IR-Data-Collector\phase3_route_engine\input\railway_graph.json
+2026-06-28 19:36:02  INFO      routing.graph_loader — Graph loaded: nodes=3000 edges=7000 (skipped: self_loops=5867 null_endpoint=53 missing_node=0)
+2026-06-28 19:36:02  INFO      pipeline — Graph: 3000 nodes, 7000 edges
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 2 — Discovering connected components (BFS)
+2026-06-28 19:36:02  INFO      routing.bfs — BFS found 2005 connected components
+2026-06-28 19:36:02  INFO      pipeline — Components: 2005 total, largest=19, 1472 are single-node (isolated)
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 3 — Generating route requests
+2026-06-28 19:36:02  INFO      pipeline — Requests: 250 sampled, 5 synthetic-disconnected, 5 synthetic-missing-node (total=260)
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 4 — Building routes (BFS / DFS / Dijkstra / A*)
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 50/260 routes
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 100/260 routes
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 150/260 routes
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 200/260 routes
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 250/260 routes
+2026-06-28 19:36:02  INFO      routing.route_builder — Built 260/260 routes
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 5 — Validating routes
+2026-06-28 19:36:02  INFO      routing.validator — Validation — missing_nodes=5 disconnected_paths=5 invalid_routes=0
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 6 — Computing statistics
+2026-06-28 19:36:02  INFO      routing.statistics — Statistics — total=260 successful=250 failed=10 avg_length_m=30002.1
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — STEP 7 — Exporting outputs
+2026-06-28 19:36:02  INFO      routing.exporter — Exported 260 routes to C:\Users\laksh\OneDrive\Desktop\kiki\IR-Data-Collector\phase3_route_engine\output\routes.json
+2026-06-28 19:36:02  INFO      routing.exporter — Exported statistics to C:\Users\laksh\OneDrive\Desktop\kiki\IR-Data-Collector\phase3_route_engine\output\statistics.json
+2026-06-28 19:36:02  INFO      routing.exporter — Exported validation report to C:\Users\laksh\OneDrive\Desktop\kiki\IR-Data-Collector\phase3_route_engine\output\validation.json
+2026-06-28 19:36:02  INFO      pipeline — ============================================================
+2026-06-28 19:36:02  INFO      pipeline — Pipeline complete in 0.27 s
+2026-06-28 19:36:02  INFO      pipeline — Output directory: C:\Users\laksh\OneDrive\Desktop\kiki\IR-Data-Collector\phase3_route_engine\output
