@@ -1,0 +1,41 @@
+{
+    "description": "Dataset importance categories. Classifies each dataset by its priority within the project without implementing ranking logic. Priority categories describe relative importance for collection and processing order.",
+    "version": "1.0.0",
+    "valid_priority_categories": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+    ],
+    "datasets": {
+        "railway_zones": {
+            "priority_category": "critical",
+            "rationale": "Foundational reference dataset. All other datasets depend on the zone hierarchy."
+        },
+        "railway_divisions": {
+            "priority_category": "critical",
+            "rationale": "Second-level reference dataset. Station codes and downstream datasets depend on divisions."
+        },
+        "station_codes": {
+            "priority_category": "critical",
+            "rationale": "Core identifier dataset. Station master and station status depend on station codes."
+        },
+        "station_master": {
+            "priority_category": "high",
+            "rationale": "Primary data product. Contains comprehensive station records with geographic data."
+        },
+        "train_master": {
+            "priority_category": "high",
+            "rationale": "Primary data product. Contains comprehensive train schedule and route information."
+        },
+        "station_categories": {
+            "priority_category": "medium",
+            "rationale": "Classification reference. Useful for filtering and categorization but not a dependency for other datasets."
+        },
+        "station_status": {
+            "priority_category": "medium",
+            "rationale": "Operational metadata. Important for live status but not a dependency for other datasets."
+        }
+    },
+    "notes": "Dataset priority metadata registry. Classifies datasets by importance category. No ranking logic or scoring engine is implemented. No APIs, URLs, or live analysis is performed."
+}

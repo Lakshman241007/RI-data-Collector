@@ -1,0 +1,55 @@
+{
+    "description": "Quality metadata for each provider. Describes perceived quality characteristics without computing or assigning numerical scores. Unknown values are left as placeholders to be populated during future verification phases.",
+    "version": "1.0.0",
+    "valid_quality_tiers": [
+        "authoritative",
+        "official",
+        "community",
+        "unknown"
+    ],
+    "providers": {
+        "indian_railways": {
+            "quality_tier": "authoritative",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Primary authoritative source for Indian railway data. Quality metrics to be assessed during Stage 3B.2."
+        },
+        "government_open_data": {
+            "quality_tier": "official",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Government open data portal. Quality metrics to be assessed during Stage 3B.2."
+        },
+        "southern_railway": {
+            "quality_tier": "official",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Regional railway authority. Quality metrics to be assessed during Stage 3B.2."
+        },
+        "cris": {
+            "quality_tier": "official",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Official IT systems provider. Quality metrics to be assessed during Stage 3B.2."
+        },
+        "openstreetmap": {
+            "quality_tier": "community",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Community-maintained geographic data. Quality metrics to be assessed during Stage 3B.2."
+        },
+        "wikipedia": {
+            "quality_tier": "community",
+            "completeness": "unknown",
+            "accuracy": "unknown",
+            "timeliness": "unknown",
+            "notes": "Community-maintained encyclopedia. Used for verification only. Quality metrics to be assessed during Stage 3B.2."
+        }
+    },
+    "notes": "Source quality metadata registry. Describes quality tiers per provider. Unknown values are placeholders — no quality scores are computed. No APIs, URLs, or live analysis is performed."
+}

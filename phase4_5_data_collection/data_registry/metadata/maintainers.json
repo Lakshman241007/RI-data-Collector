@@ -1,0 +1,49 @@
+{
+    "description": "Maintainer metadata for each provider. Describes the organization or entity responsible for maintaining the data source. Unknown or unavailable contact details are left empty. No contacts are invented.",
+    "version": "1.0.0",
+    "providers": {
+        "indian_railways": {
+            "organization": "Indian Railways",
+            "department": "",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "Official Indian Railways authority. Contact details to be populated during Stage 3B.2."
+        },
+        "government_open_data": {
+            "organization": "Government of India",
+            "department": "National Informatics Centre",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "Government open data portal. Contact details to be populated during Stage 3B.2."
+        },
+        "southern_railway": {
+            "organization": "Southern Railway",
+            "department": "",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "Southern Railway zone authority. Contact details to be populated during Stage 3B.2."
+        },
+        "cris": {
+            "organization": "Centre for Railway Information Systems",
+            "department": "",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "CRIS is the IT arm of Indian Railways. Contact details to be populated during Stage 3B.2."
+        },
+        "openstreetmap": {
+            "organization": "OpenStreetMap Foundation",
+            "department": "",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "Community-maintained project. Contact details to be populated during Stage 3B.2."
+        },
+        "wikipedia": {
+            "organization": "Wikimedia Foundation",
+            "department": "",
+            "contact_email": "",
+            "contact_url": "",
+            "notes": "Community-maintained encyclopedia. Contact details to be populated during Stage 3B.2."
+        }
+    },
+    "notes": "Maintainer metadata registry. Describes the responsible organization per provider. Unknown contact details are empty strings — never invented. No APIs, URLs, or live lookups are performed."
+}

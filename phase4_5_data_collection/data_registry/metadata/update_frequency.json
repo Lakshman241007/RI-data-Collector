@@ -1,0 +1,51 @@
+{
+    "description": "Update frequency metadata for each dataset. Describes how often the source data is expected to change. Does not verify actual schedules or contact any external services.",
+    "version": "1.0.0",
+    "valid_frequencies": [
+        "static",
+        "annual",
+        "quarterly",
+        "monthly",
+        "weekly",
+        "daily",
+        "unknown"
+    ],
+    "datasets": {
+        "railway_zones": {
+            "expected_frequency": "static",
+            "last_known_update": null,
+            "notes": "Railway zones change very rarely. Treated as static reference data."
+        },
+        "railway_divisions": {
+            "expected_frequency": "static",
+            "last_known_update": null,
+            "notes": "Railway divisions change very rarely. Treated as static reference data."
+        },
+        "station_codes": {
+            "expected_frequency": "quarterly",
+            "last_known_update": null,
+            "notes": "Station codes may be added or retired periodically."
+        },
+        "station_master": {
+            "expected_frequency": "monthly",
+            "last_known_update": null,
+            "notes": "Station master records may receive updates with new stations or metadata changes."
+        },
+        "train_master": {
+            "expected_frequency": "quarterly",
+            "last_known_update": null,
+            "notes": "Train schedules change with timetable revisions, typically quarterly."
+        },
+        "station_categories": {
+            "expected_frequency": "annual",
+            "last_known_update": null,
+            "notes": "Station categories are a stable classification, rarely updated."
+        },
+        "station_status": {
+            "expected_frequency": "weekly",
+            "last_known_update": null,
+            "notes": "Station operational status may change due to construction, closures, or reopenings."
+        }
+    },
+    "notes": "Update frequency metadata registry. Describes expected update frequency per dataset. Does not verify actual schedules. No APIs, URLs, or live monitoring is performed."
+}

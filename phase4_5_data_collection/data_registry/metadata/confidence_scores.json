@@ -1,0 +1,55 @@
+{
+    "description": "Confidence category definitions for datasets. Defines the confidence classification system without computing or assigning actual confidence scores. Scores will be populated during future analysis phases.",
+    "version": "1.0.0",
+    "valid_confidence_levels": [
+        "high",
+        "medium",
+        "low",
+        "unassessed"
+    ],
+    "datasets": {
+        "railway_zones": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        },
+        "railway_divisions": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        },
+        "station_codes": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        },
+        "station_master": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": true,
+            "notes": "Cross-reference available via OpenStreetMap. Confidence to be assessed after data collection."
+        },
+        "train_master": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        },
+        "station_categories": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        },
+        "station_status": {
+            "confidence_level": "unassessed",
+            "primary_provider": "indian_railways",
+            "cross_reference_available": false,
+            "notes": "Confidence to be assessed after data collection in Stage 3B.2."
+        }
+    },
+    "notes": "Confidence score metadata registry. Defines confidence categories per dataset. No confidence scores are calculated. No APIs, URLs, or live analysis is performed."
+}
