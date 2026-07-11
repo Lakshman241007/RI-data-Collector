@@ -1,0 +1,40 @@
+{
+  "project": "Railway Data Collection Hub",
+  "version": "4.5.1",
+  "python_min_version": "3.13",
+  "log_level": "DEBUG",
+  "download_dir": "raw",
+  "processed_dir": "processed",
+  "manifests_dir": "manifests",
+  "logs_dir": "logs",
+  "cache_enabled": true,
+  "overwrite_existing": false,
+  "compress_archives": false,
+  "collectors": {
+    "osm": {
+      "enabled": true,
+      "timeout_seconds": 120,
+      "retries": 3,
+      "log_file": "osm.log"
+    },
+    "official": {
+      "enabled": true,
+      "timeout_seconds": 60,
+      "retries": 3,
+      "log_file": "official.log"
+    },
+    "public": {
+      "enabled": true,
+      "timeout_seconds": 60,
+      "retries": 3,
+      "log_file": "public.log"
+    },
+    "metadata": {
+      "enabled": true,
+      "timeout_seconds": 60,
+      "retries": 3,
+      "log_file": "metadata.log"
+    }
+  },
+  "statistics_output": "statistics.json"
+}

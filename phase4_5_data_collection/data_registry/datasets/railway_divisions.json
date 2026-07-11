@@ -1,0 +1,19 @@
+{
+    "dataset_id": "railway_divisions",
+    "display_name": "Railway Divisions",
+    "description": "Dataset descriptor for Indian Railway divisions. Each division belongs to a railway zone and represents a sub-administrative unit responsible for operations within its jurisdiction.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/division_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [
+        "railway_zones"
+    ],
+    "priority": 2,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Depends on railway_zones because each division is a subdivision of a zone. Schema reference points to the division schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

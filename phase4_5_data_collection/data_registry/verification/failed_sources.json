@@ -1,0 +1,7 @@
+{
+    "description": "Registry of providers and datasets that failed verification. Sources are added here only when manual certification explicitly rejects them during Stage 3B.2. Since Stage 3B.2 has not begun, this registry is initialized empty.",
+    "version": "1.0.0",
+    "failed_providers": [],
+    "failed_datasets": [],
+    "notes": "Empty by design. No providers or datasets have been rejected yet. Entries will be added during Stage 3B.2 if manual verification rejects a source. No URLs, API endpoints, or live verification logic is included."
+}

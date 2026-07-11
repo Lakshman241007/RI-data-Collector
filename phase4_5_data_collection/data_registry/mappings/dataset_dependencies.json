@@ -1,0 +1,50 @@
+{
+    "description": "Describes dataset build order and dependency relationships. References ONLY Dataset Registry IDs. Dependencies reflect logical relationships required for data integrity.",
+    "version": "1.0.0",
+    "dependency_graph": {
+        "railway_zones": {
+            "depends_on": [],
+            "build_order": 1,
+            "notes": "Foundational dataset. No upstream dependencies."
+        },
+        "railway_divisions": {
+            "depends_on": [
+                "railway_zones"
+            ],
+            "build_order": 2,
+            "notes": "Each division belongs to a zone. Must be built after railway_zones."
+        },
+        "station_codes": {
+            "depends_on": [
+                "railway_divisions"
+            ],
+            "build_order": 3,
+            "notes": "Each station code is associated with a division. Must be built after railway_divisions."
+        },
+        "station_master": {
+            "depends_on": [
+                "station_codes"
+            ],
+            "build_order": 4,
+            "notes": "Station master records reference station code identifiers. Must be built after station_codes."
+        },
+        "station_categories": {
+            "depends_on": [],
+            "build_order": 1,
+            "notes": "Standalone classification reference. No upstream dependencies."
+        },
+        "station_status": {
+            "depends_on": [
+                "station_codes"
+            ],
+            "build_order": 4,
+            "notes": "Status records reference station code identifiers. Must be built after station_codes."
+        },
+        "train_master": {
+            "depends_on": [],
+            "build_order": 1,
+            "notes": "Independent dataset. No upstream dataset dependencies."
+        }
+    },
+    "notes": "Dataset dependency graph. Describes build order and upstream dependencies for each dataset. Dependencies mirror those declared in the Dataset Registry descriptors. No URLs, API endpoints, or download logic are included."
+}

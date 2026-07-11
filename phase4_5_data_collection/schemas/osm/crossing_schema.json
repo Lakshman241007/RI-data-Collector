@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OSM Railway Crossing Record",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id":   { "type": "integer" },
+    "type": { "type": "string", "enum": ["node", "way", "relation"] },
+    "lat":  { "type": "number" },
+    "lon":  { "type": "number" },
+    "tags": {
+      "type": "object",
+      "properties": {
+        "railway":          { "type": "string" },
+        "crossing:barrier": { "type": "string" }
+      }
+    }
+  }
+}

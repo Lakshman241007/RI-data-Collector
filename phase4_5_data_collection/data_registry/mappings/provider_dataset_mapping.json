@@ -1,0 +1,61 @@
+{
+    "description": "Maps each dataset to its supplying provider(s). References ONLY Provider Registry IDs and Dataset Registry IDs. Does not duplicate provider metadata.",
+    "version": "1.0.0",
+    "mappings": [
+        {
+            "dataset_id": "railway_zones",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for railway zone definitions."
+        },
+        {
+            "dataset_id": "railway_divisions",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for railway division definitions."
+        },
+        {
+            "dataset_id": "station_codes",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for official station codes."
+        },
+        {
+            "dataset_id": "station_master",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for the station master list."
+        },
+        {
+            "dataset_id": "station_master",
+            "provider_id": "government_open_data",
+            "role": "supplementary",
+            "notes": "Government open data portal may publish supplementary station data."
+        },
+        {
+            "dataset_id": "station_master",
+            "provider_id": "openstreetmap",
+            "role": "verification",
+            "notes": "OpenStreetMap is used for cross-reference verification of station data only."
+        },
+        {
+            "dataset_id": "train_master",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for the train master list."
+        },
+        {
+            "dataset_id": "station_categories",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways defines the station category classification system."
+        },
+        {
+            "dataset_id": "station_status",
+            "provider_id": "indian_railways",
+            "role": "primary",
+            "notes": "Indian Railways is the authoritative source for station operational status."
+        }
+    ],
+    "notes": "Provider-dataset mapping registry. Each entry associates a dataset_id with a provider_id and a role (primary, supplementary, or verification). No URLs, API endpoints, resource IDs, or download logic are included."
+}

@@ -1,0 +1,22 @@
+{
+    "description": "Audit log structure for recording verification events. Each entry captures what was verified, when, by whom, and the outcome. Since no verification has been performed yet, the log is initialized with an empty entries list.",
+    "version": "1.0.0",
+    "valid_event_types": [
+        "provider_submitted",
+        "provider_reviewed",
+        "provider_approved",
+        "provider_rejected",
+        "dataset_submitted",
+        "dataset_reviewed",
+        "dataset_approved",
+        "dataset_rejected"
+    ],
+    "valid_outcomes": [
+        "pending",
+        "approved",
+        "rejected",
+        "deferred"
+    ],
+    "entries": [],
+    "notes": "Verification audit log. Prepared with the schema structure for future verification events. No history entries exist yet — they will be appended during Stage 3B.2 as manual certification proceeds. No live verification, APIs, or automatic logging is performed."
+}

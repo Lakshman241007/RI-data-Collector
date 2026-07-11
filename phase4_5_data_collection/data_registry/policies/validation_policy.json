@@ -1,0 +1,90 @@
+{
+    "description": "Describes validation requirements for each dataset. Specifies which validation checks must be applied when data is collected or updated. Configuration only — no validation engine is implemented.",
+    "version": "1.0.0",
+    "valid_check_types": [
+        "required_fields",
+        "unique_identifiers",
+        "coordinate_validation",
+        "duplicate_detection",
+        "schema_validation",
+        "reference_integrity",
+        "format_validation"
+    ],
+    "policies": {
+        "railway_zones": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "schema_validation",
+                "duplicate_detection"
+            ],
+            "unique_key": "zone_code",
+            "notes": "Zone codes must be unique. All required fields must be present."
+        },
+        "railway_divisions": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "schema_validation",
+                "duplicate_detection",
+                "reference_integrity"
+            ],
+            "unique_key": "division_code",
+            "notes": "Division codes must be unique. Each division must reference a valid zone."
+        },
+        "station_codes": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "schema_validation",
+                "duplicate_detection",
+                "reference_integrity"
+            ],
+            "unique_key": "station_code",
+            "notes": "Station codes must be unique. Each station code must reference a valid division."
+        },
+        "station_master": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "coordinate_validation",
+                "schema_validation",
+                "duplicate_detection",
+                "reference_integrity"
+            ],
+            "unique_key": "station_code",
+            "notes": "Station codes must be unique. Coordinates must be valid lat/lon values. Each record must reference a valid station code."
+        },
+        "train_master": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "schema_validation",
+                "duplicate_detection"
+            ],
+            "unique_key": "train_number",
+            "notes": "Train numbers must be unique. All required fields must be present."
+        },
+        "station_categories": {
+            "checks": [
+                "required_fields",
+                "unique_identifiers",
+                "schema_validation",
+                "duplicate_detection"
+            ],
+            "unique_key": "category_code",
+            "notes": "Category codes must be unique. All required fields must be present."
+        },
+        "station_status": {
+            "checks": [
+                "required_fields",
+                "schema_validation",
+                "reference_integrity",
+                "format_validation"
+            ],
+            "unique_key": "station_code",
+            "notes": "Each status record must reference a valid station code. Status values must conform to allowed formats."
+        }
+    },
+    "notes": "Validation policy registry. Describes what validation checks must be applied to each dataset. No validation engine is implemented. These policies will be consumed by future validation phases."
+}

@@ -1,0 +1,52 @@
+{
+    "description": "Maps external railway tags to internal dataset concepts. Primarily maps OSM railway tag values to registry dataset identifiers. Does not modify OSM collectors — only defines mapping relationships.",
+    "version": "1.0.0",
+    "tag_sources": {
+        "openstreetmap": {
+            "tag_key": "railway",
+            "mappings": [
+                {
+                    "tag_value": "station",
+                    "dataset_id": "station_master",
+                    "description": "OSM railway=station maps to the station_master dataset."
+                },
+                {
+                    "tag_value": "halt",
+                    "dataset_id": "station_master",
+                    "description": "OSM railway=halt maps to the station_master dataset (halts are minor stations)."
+                },
+                {
+                    "tag_value": "stop",
+                    "dataset_id": "station_master",
+                    "description": "OSM railway=stop maps to the station_master dataset."
+                },
+                {
+                    "tag_value": "junction",
+                    "dataset_id": "station_master",
+                    "description": "OSM railway=junction maps to the station_master dataset."
+                },
+                {
+                    "tag_value": "terminal",
+                    "dataset_id": "station_master",
+                    "description": "OSM railway=terminal maps to the station_master dataset."
+                },
+                {
+                    "tag_value": "rail",
+                    "dataset_id": null,
+                    "description": "OSM railway=rail represents track geometry. Not mapped to the 7 registered datasets at this stage."
+                },
+                {
+                    "tag_value": "platform",
+                    "dataset_id": null,
+                    "description": "OSM railway=platform represents platform geometry. Not mapped to the 7 registered datasets at this stage."
+                },
+                {
+                    "tag_value": "signal",
+                    "dataset_id": null,
+                    "description": "OSM railway=signal represents signal nodes. Not mapped to the 7 registered datasets at this stage."
+                }
+            ]
+        }
+    },
+    "notes": "Tag mapping registry. Maps external tag values (primarily OSM railway tags) to internal dataset IDs. Null dataset_id means the tag is recognized but not mapped to a registered dataset at this stage. No URLs, API endpoints, or download logic are included. Does not modify OSM collectors."
+}

@@ -1,0 +1,39 @@
+{
+  "railway_categories": {
+    "infrastructure": {
+      "description": "Physical railway infrastructure elements",
+      "items": [
+        { "id": "station",        "label": "Railway Station",   "osm_tag": "railway=station" },
+        { "id": "halt",           "label": "Railway Halt",      "osm_tag": "railway=halt" },
+        { "id": "track",          "label": "Railway Track",     "osm_tag": "railway=rail" },
+        { "id": "platform",       "label": "Platform",          "osm_tag": "railway=platform" },
+        { "id": "signal",         "label": "Signal",            "osm_tag": "railway=signal" },
+        { "id": "crossing",       "label": "Level Crossing",    "osm_tag": "railway=crossing" },
+        { "id": "bridge",         "label": "Railway Bridge",    "osm_tag": "bridge=yes" },
+        { "id": "tunnel",         "label": "Railway Tunnel",    "osm_tag": "tunnel=yes" },
+        { "id": "electrification","label": "Electrification",   "osm_tag": "electrified=*" }
+      ]
+    },
+    "operations": {
+      "description": "Train and operational data",
+      "items": [
+        { "id": "train",          "label": "Train Service",     "source": "official" },
+        { "id": "timetable",      "label": "Timetable",         "source": "public"   },
+        { "id": "zone",           "label": "Railway Zone",      "source": "official" },
+        { "id": "division",       "label": "Railway Division",  "source": "official" }
+      ]
+    },
+    "station_metadata": {
+      "description": "Station-level descriptive attributes",
+      "items": [
+        { "id": "station_code",   "label": "Station Code",      "source": "official"  },
+        { "id": "alias",          "label": "Alternate Name",    "source": "metadata"  },
+        { "id": "history",        "label": "Station History",   "source": "metadata"  },
+        { "id": "amenity",        "label": "Amenity",           "source": "metadata"  },
+        { "id": "facility",       "label": "Facility",          "source": "public"    },
+        { "id": "elevation",      "label": "Elevation (m)",     "source": "public"    },
+        { "id": "wikipedia",      "label": "Wikipedia Article", "source": "metadata"  }
+      ]
+    }
+  }
+}

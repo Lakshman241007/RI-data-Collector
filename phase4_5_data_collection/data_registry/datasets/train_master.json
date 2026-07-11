@@ -1,0 +1,17 @@
+{
+    "dataset_id": "train_master",
+    "display_name": "Train Master",
+    "description": "Dataset descriptor for the Indian Railway train master list. The comprehensive record of all trains operated by Indian Railways including train numbers, names, types, and route information.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/train_master_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [],
+    "priority": 4,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Independent dataset with no upstream dataset dependencies. Schema reference points to the train master schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

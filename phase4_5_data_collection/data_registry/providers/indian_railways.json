@@ -1,0 +1,19 @@
+{
+    "id": "indian_railways",
+    "display_name": "Indian Railways",
+    "description": "Railway authority representing Indian Railways, the national railway system.",
+    "country": "",
+    "organization": "",
+    "provider_type": "railway_authority",
+    "authentication_type": null,
+    "supported_formats": [],
+    "supported_protocols": [],
+    "priority": null,
+    "verification_status": "pending",
+    "last_verified": null,
+    "update_frequency": null,
+    "license_reference": "",
+    "documentation_reference": "",
+    "datasets_supported": [],
+    "notes": "Purpose: Represents Indian Railways as the national railway authority within the provider registry. Intended use: Official source for national-level railway datasets (e.g. stations, routes, schedules) once configured. Future configuration: API endpoint(s), authentication details, and dataset/resource identifiers must be added manually during Stage 3B.2. Manual certification required: This provider must be manually reviewed and verified against official Indian Railways sources before it can be marked verified or used for live data collection. No URLs, endpoints, or dataset IDs have been invented or pre-filled."
+}

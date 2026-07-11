@@ -1,0 +1,139 @@
+{
+  "_comment": "Overpass QL query templates for OSM Railway Infrastructure Collector. Use {timeout}, {spatial} placeholders.",
+  "stations": {
+    "description": "All railway station-type nodes and areas",
+    "tags": [
+      "railway=station",
+      "railway=halt",
+      "railway=stop",
+      "railway=junction",
+      "railway=terminal"
+    ],
+    "element_types": ["node", "way", "relation"],
+    "out_body": "body",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "tracks": {
+    "description": "All railway track ways",
+    "tags": [
+      "railway=rail",
+      "railway=light_rail",
+      "railway=narrow_gauge",
+      "railway=construction",
+      "railway=disused",
+      "railway=abandoned",
+      "railway=proposed"
+    ],
+    "element_types": ["way", "relation"],
+    "out_body": "geom",
+    "required_fields": ["id", "type"],
+    "geometry_required": true
+  },
+  "platforms": {
+    "description": "Railway platforms (nodes, ways and relations)",
+    "tags": [
+      "railway=platform"
+    ],
+    "element_types": ["node", "way", "relation"],
+    "out_body": "geom",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "signals": {
+    "description": "Railway signal nodes",
+    "tags": [
+      "railway=signal",
+      "railway=semaphore"
+    ],
+    "element_types": ["node"],
+    "out_body": "body",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "crossings": {
+    "description": "Railway level crossings",
+    "tags": [
+      "railway=level_crossing",
+      "railway=crossing"
+    ],
+    "element_types": ["node"],
+    "out_body": "body",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "bridges": {
+    "description": "Railway bridges (ways and relations carrying railway)",
+    "tags": [
+      "bridge=yes",
+      "bridge=viaduct",
+      "bridge=aqueduct",
+      "bridge=movable"
+    ],
+    "filter_railway": true,
+    "element_types": ["way", "relation"],
+    "out_body": "geom",
+    "required_fields": ["id", "type"],
+    "geometry_required": true
+  },
+  "tunnels": {
+    "description": "Railway tunnels",
+    "tags": [
+      "tunnel=yes",
+      "tunnel=building_passage",
+      "tunnel=culvert"
+    ],
+    "filter_railway": true,
+    "element_types": ["way", "relation"],
+    "out_body": "geom",
+    "required_fields": ["id", "type"],
+    "geometry_required": true
+  },
+  "electrification": {
+    "description": "Electrified railway infrastructure",
+    "tags": [
+      "electrified=yes",
+      "electrified=contact_line",
+      "electrified=rail",
+      "electrified=4_rail",
+      "electrified=no"
+    ],
+    "filter_railway": true,
+    "element_types": ["node", "way", "relation"],
+    "out_body": "body",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "discovery": {
+    "description": "Self-discovery scan for every railway=* tag value present in the region (Stage 2 final enhancement). No specific values are queried; the 'railway' key is scanned generically.",
+    "tags": [
+      "railway=*"
+    ],
+    "element_types": ["node", "way", "relation"],
+    "out_body": "tags",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  },
+  "facilities": {
+    "description": "Railway facilities: yards, depots, sheds, workshops, etc.",
+    "tags": [
+      "railway=yard",
+      "railway=depot",
+      "railway=engine_shed",
+      "railway=maintenance",
+      "railway=workshop",
+      "railway=roundhouse",
+      "railway=refuelling",
+      "railway=wash",
+      "railway=turntable",
+      "railway=buffer_stop",
+      "railway=signal_box",
+      "railway=siding",
+      "railway=wash"
+    ],
+    "element_types": ["node", "way", "relation"],
+    "out_body": "body",
+    "required_fields": ["id", "type"],
+    "geometry_required": false
+  }
+}

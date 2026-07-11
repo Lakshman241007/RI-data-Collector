@@ -1,0 +1,19 @@
+{
+    "dataset_id": "station_codes",
+    "display_name": "Station Codes",
+    "description": "Dataset descriptor for Indian Railway station codes. Maps station code abbreviations to station names and their associated divisions. Used as a lookup reference by station_master and other downstream datasets.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/station_code_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [
+        "railway_divisions"
+    ],
+    "priority": 3,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Depends on railway_divisions because each station code is associated with a division. Schema reference points to the station code schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

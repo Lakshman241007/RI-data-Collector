@@ -1,0 +1,132 @@
+{
+    "description": "Canonical field mappings. Maps provider-specific field names to the project's canonical dataset field names. Defines relationships only — does not contain actual data values.",
+    "version": "1.0.0",
+    "mappings": {
+        "station_master": {
+            "canonical_fields": [
+                "station_code",
+                "station_name",
+                "station_name_en",
+                "latitude",
+                "longitude",
+                "zone",
+                "division",
+                "state",
+                "category"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "station_code": "station_code",
+                    "station_name": "station_name",
+                    "station_name_en": "",
+                    "latitude": "latitude",
+                    "longitude": "longitude",
+                    "zone": "zone",
+                    "division": "division",
+                    "state": "state",
+                    "category": "category"
+                },
+                "openstreetmap": {
+                    "station_code": "tags.ref",
+                    "station_name": "tags.name",
+                    "station_name_en": "tags.name:en",
+                    "latitude": "lat",
+                    "longitude": "lon",
+                    "zone": "",
+                    "division": "",
+                    "state": "",
+                    "category": ""
+                }
+            }
+        },
+        "railway_zones": {
+            "canonical_fields": [
+                "zone_code",
+                "zone_name",
+                "headquarters"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "zone_code": "zone_code",
+                    "zone_name": "zone_name",
+                    "headquarters": "headquarters"
+                }
+            }
+        },
+        "railway_divisions": {
+            "canonical_fields": [
+                "division_code",
+                "division_name",
+                "zone_code"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "division_code": "division_code",
+                    "division_name": "division_name",
+                    "zone_code": "zone_code"
+                }
+            }
+        },
+        "station_codes": {
+            "canonical_fields": [
+                "station_code",
+                "station_name",
+                "division_code"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "station_code": "station_code",
+                    "station_name": "station_name",
+                    "division_code": "division_code"
+                }
+            }
+        },
+        "train_master": {
+            "canonical_fields": [
+                "train_number",
+                "train_name",
+                "train_type",
+                "source_station",
+                "destination_station"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "train_number": "train_number",
+                    "train_name": "train_name",
+                    "train_type": "train_type",
+                    "source_station": "source_station",
+                    "destination_station": "destination_station"
+                }
+            }
+        },
+        "station_categories": {
+            "canonical_fields": [
+                "category_code",
+                "category_name",
+                "description"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "category_code": "category_code",
+                    "category_name": "category_name",
+                    "description": "description"
+                }
+            }
+        },
+        "station_status": {
+            "canonical_fields": [
+                "station_code",
+                "status",
+                "last_updated"
+            ],
+            "provider_field_maps": {
+                "indian_railways": {
+                    "station_code": "station_code",
+                    "status": "status",
+                    "last_updated": "last_updated"
+                }
+            }
+        }
+    },
+    "notes": "Field mapping definitions only. Maps provider-specific field names to project canonical field names per dataset. Empty strings indicate unmapped fields. No actual data values are stored here. No URLs, API endpoints, or download logic."
+}

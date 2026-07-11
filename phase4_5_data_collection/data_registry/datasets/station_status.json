@@ -1,0 +1,19 @@
+{
+    "dataset_id": "station_status",
+    "display_name": "Station Status",
+    "description": "Dataset descriptor for Indian Railway station operational status. Tracks whether stations are active, closed, under construction, or decommissioned.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [
+        "station_codes"
+    ],
+    "priority": 5,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Depends on station_codes because status records reference station code identifiers. No dedicated schema has been defined yet — schema_reference is intentionally left empty until a station_status_schema is created. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

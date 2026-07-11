@@ -1,0 +1,7 @@
+{
+    "description": "Registry of manually certified and verified providers and datasets. Sources are added here only after completing the manual certification process defined in Stage 3B.2. Since Stage 3B.2 has not begun, this registry is initialized empty.",
+    "version": "1.0.0",
+    "verified_providers": [],
+    "verified_datasets": [],
+    "notes": "Empty by design. No providers or datasets have been manually certified yet. Entries will be added during Stage 3B.2 after manual verification is complete. No URLs, API endpoints, or live verification logic is included."
+}

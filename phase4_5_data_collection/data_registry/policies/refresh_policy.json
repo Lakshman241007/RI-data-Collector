@@ -1,0 +1,42 @@
+{
+    "description": "Defines refresh strategies for each dataset. Specifies how frequently each dataset should be refreshed and the method of triggering a refresh. Configuration only — no scheduler or download logic is implemented.",
+    "version": "1.0.0",
+    "valid_strategies": [
+        "manual",
+        "daily",
+        "weekly",
+        "monthly",
+        "on_demand"
+    ],
+    "policies": {
+        "railway_zones": {
+            "strategy": "manual",
+            "notes": "Railway zones change very rarely. Manual refresh is sufficient."
+        },
+        "railway_divisions": {
+            "strategy": "manual",
+            "notes": "Railway divisions change very rarely. Manual refresh is sufficient."
+        },
+        "station_codes": {
+            "strategy": "monthly",
+            "notes": "Station codes may be added or retired periodically. Monthly refresh is appropriate."
+        },
+        "station_master": {
+            "strategy": "monthly",
+            "notes": "Station master records may be updated with new stations or metadata changes. Monthly refresh is appropriate."
+        },
+        "train_master": {
+            "strategy": "monthly",
+            "notes": "Train schedules and train numbers may change with timetable revisions. Monthly refresh is appropriate."
+        },
+        "station_categories": {
+            "strategy": "manual",
+            "notes": "Station categories are a stable classification system. Manual refresh is sufficient."
+        },
+        "station_status": {
+            "strategy": "weekly",
+            "notes": "Station operational status may change due to construction, closures, or reopenings. Weekly refresh is appropriate."
+        }
+    },
+    "notes": "Refresh policy registry. Defines when and how datasets should be refreshed. No scheduler, download logic, or network configuration is included. These policies will be consumed by future refresh phases."
+}

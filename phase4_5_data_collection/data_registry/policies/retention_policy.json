@@ -1,0 +1,59 @@
+{
+    "description": "Defines retention behaviour for dataset versions. Specifies how many versions to keep, archiving strategy, and cleanup rules. Configuration only — no cleanup jobs or archiving logic is implemented.",
+    "version": "1.0.0",
+    "valid_strategies": [
+        "keep_latest",
+        "archive_previous",
+        "retain_versions"
+    ],
+    "valid_cleanup_strategies": [
+        "delete_oldest",
+        "archive_oldest",
+        "none"
+    ],
+    "policies": {
+        "railway_zones": {
+            "strategy": "keep_latest",
+            "maximum_versions": 3,
+            "cleanup_strategy": "archive_oldest",
+            "notes": "Low-change dataset. Keep latest with minimal archival."
+        },
+        "railway_divisions": {
+            "strategy": "keep_latest",
+            "maximum_versions": 3,
+            "cleanup_strategy": "archive_oldest",
+            "notes": "Low-change dataset. Keep latest with minimal archival."
+        },
+        "station_codes": {
+            "strategy": "retain_versions",
+            "maximum_versions": 5,
+            "cleanup_strategy": "archive_oldest",
+            "notes": "Moderate-change dataset. Retain recent versions for comparison."
+        },
+        "station_master": {
+            "strategy": "retain_versions",
+            "maximum_versions": 5,
+            "cleanup_strategy": "archive_oldest",
+            "notes": "Primary dataset. Retain recent versions for audit and rollback."
+        },
+        "train_master": {
+            "strategy": "retain_versions",
+            "maximum_versions": 5,
+            "cleanup_strategy": "archive_oldest",
+            "notes": "Moderate-change dataset. Retain recent versions for timetable comparison."
+        },
+        "station_categories": {
+            "strategy": "keep_latest",
+            "maximum_versions": 2,
+            "cleanup_strategy": "delete_oldest",
+            "notes": "Very stable classification. Keep latest is sufficient."
+        },
+        "station_status": {
+            "strategy": "retain_versions",
+            "maximum_versions": 10,
+            "cleanup_strategy": "delete_oldest",
+            "notes": "Frequently changing status data. Retain more versions for historical tracking."
+        }
+    },
+    "notes": "Retention policy registry. Defines how dataset versions are retained, archived, and cleaned up. No cleanup jobs, archiving logic, or file management is implemented. These policies will be consumed by future retention phases."
+}

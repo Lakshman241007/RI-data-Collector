@@ -1,0 +1,62 @@
+{
+  "osm": {
+    "name": "OpenStreetMap",
+    "description": "Railway infrastructure data from OpenStreetMap via Overpass API",
+    "license": "ODbL 1.0",
+    "homepage": "https://www.openstreetmap.org",
+    "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+    "overpass_timeout": 180,
+    "region": "Tamil Nadu",
+    "region_key": "tamil_nadu",
+    "area_id": 3600184640,
+    "bbox": "8.0,76.2,13.6,80.4",
+    "datasets": {
+      "stations":        { "enabled": true,  "tag": "railway=station" },
+      "tracks":          { "enabled": true,  "tag": "railway=rail" },
+      "platforms":       { "enabled": true,  "tag": "railway=platform" },
+      "signals":         { "enabled": true,  "tag": "railway=signal" },
+      "crossings":       { "enabled": true,  "tag": "railway=crossing" },
+      "bridges":         { "enabled": true,  "tag": "bridge=yes" },
+      "tunnels":         { "enabled": true,  "tag": "tunnel=yes" },
+      "electrification": { "enabled": true,  "tag": "electrified=*" },
+      "facilities":      { "enabled": true,  "tag": "railway=yard" }
+    }
+  },
+  "official": {
+    "name": "Indian Railways Official Data",
+    "description": "Station codes, zones, divisions and train master from IR open data",
+    "license": "Government Open Data License – India",
+    "homepage": "https://data.gov.in",
+    "datasets": {
+      "station_master":   { "enabled": true,  "url": "https://data.gov.in/resource/station-master" },
+      "station_codes":    { "enabled": true,  "url": "https://data.gov.in/resource/station-codes" },
+      "railway_zones":    { "enabled": true,  "url": "https://data.gov.in/resource/railway-zones" },
+      "railway_divisions":{ "enabled": true,  "url": "https://data.gov.in/resource/railway-divisions" },
+      "train_master":     { "enabled": true,  "url": "https://data.gov.in/resource/train-master" }
+    }
+  },
+  "public": {
+    "name": "Public Railway Datasets",
+    "description": "Train lists, timetables, facilities and elevation data from public repositories",
+    "license": "Public Domain / CC0",
+    "homepage": "https://github.com/datameet/railways",
+    "datasets": {
+      "trains":       { "enabled": true, "url": "https://raw.githubusercontent.com/datameet/railways/master/trains.json" },
+      "timetables":   { "enabled": true, "url": "https://raw.githubusercontent.com/datameet/railways/master/schedule.json" },
+      "facilities":   { "enabled": true, "url": "https://raw.githubusercontent.com/datameet/railways/master/facilities.json" },
+      "elevations":   { "enabled": true, "url": "https://raw.githubusercontent.com/datameet/railways/master/stations.geojson" }
+    }
+  },
+  "metadata": {
+    "name": "Railway Descriptive Metadata",
+    "description": "Alternate names, Wikipedia stubs, station history and amenities",
+    "license": "CC BY-SA 4.0",
+    "homepage": "https://en.wikipedia.org",
+    "datasets": {
+      "aliases":         { "enabled": true },
+      "wikipedia":       { "enabled": true, "api": "https://en.wikipedia.org/w/api.php" },
+      "station_history": { "enabled": true },
+      "amenities":       { "enabled": true }
+    }
+  }
+}

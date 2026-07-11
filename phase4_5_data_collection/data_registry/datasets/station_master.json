@@ -1,0 +1,19 @@
+{
+    "dataset_id": "station_master",
+    "display_name": "Station Master",
+    "description": "Dataset descriptor for the Indian Railway station master list. The comprehensive record of all railway stations including their metadata, geographic coordinates, operational status, and classification details.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/station_master_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [
+        "station_codes"
+    ],
+    "priority": 4,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Depends on station_codes because station master records reference station code identifiers. Schema reference points to the station master schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

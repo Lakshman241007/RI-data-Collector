@@ -1,0 +1,185 @@
+{
+  "_meta": {
+    "description": "Complete railway tag dictionary for OSM Railway Infrastructure Collector",
+    "version": "4.5.1",
+    "source": "OpenStreetMap Wiki – Key:railway",
+    "license": "ODbL 1.0"
+  },
+  "stations": {
+    "description": "Station and stopping point types",
+    "tags": {
+      "railway=station": "Major passenger station",
+      "railway=halt": "Small stopping point, usually unstaffed",
+      "railway=stop": "Minor stopping point without infrastructure",
+      "railway=junction": "Railway junction or interchange",
+      "railway=terminal": "End-of-line terminal station"
+    }
+  },
+  "tracks": {
+    "description": "Track and rail infrastructure",
+    "tags": {
+      "railway=rail": "Standard heavy-rail track",
+      "railway=light_rail": "Light rail or tram track",
+      "railway=narrow_gauge": "Narrow gauge track",
+      "railway=monorail": "Monorail track",
+      "railway=miniature": "Miniature / tourist railway",
+      "railway=preserved": "Heritage or preserved railway",
+      "railway=construction": "Track under construction",
+      "railway=disused": "Track no longer in use but present",
+      "railway=abandoned": "Track removed or heavily overgrown",
+      "railway=razed": "Track fully removed",
+      "railway=proposed": "Planned future track"
+    }
+  },
+  "stations_attrs": {
+    "description": "Attributes for station nodes/areas",
+    "tags": {
+      "name": "Station name",
+      "name:en": "Station name in English",
+      "name:hi": "Station name in Hindi",
+      "name:ta": "Station name in Tamil",
+      "ref": "Station code / reference",
+      "operator": "Station operator",
+      "network": "Rail network",
+      "wheelchair": "Wheelchair accessibility",
+      "uic_ref": "UIC station reference",
+      "wikidata": "Wikidata entity ID",
+      "wikipedia": "Wikipedia article"
+    }
+  },
+  "track_attrs": {
+    "description": "Attributes for track ways",
+    "tags": {
+      "gauge": "Track gauge in mm",
+      "electrified": "Electrification type (yes/no/contact_line/rail)",
+      "voltage": "Electrification voltage in V",
+      "frequency": "Electrification frequency in Hz",
+      "usage": "Track usage (main/branch/industrial/tourism/military/test)",
+      "service": "Service type (siding/yard/spur/crossover)",
+      "maxspeed": "Maximum permitted speed (km/h)",
+      "tracks": "Number of tracks",
+      "layer": "Vertical layer relative to surface",
+      "bridge": "Bridge status",
+      "tunnel": "Tunnel status",
+      "cutting": "Cutting status",
+      "embankment": "Embankment status",
+      "operator": "Track operator",
+      "ref": "Track / line reference",
+      "name": "Line name"
+    }
+  },
+  "platforms": {
+    "description": "Platform infrastructure",
+    "tags": {
+      "railway=platform": "Station platform",
+      "ref": "Platform number/letter",
+      "name": "Platform name",
+      "level": "Platform floor level",
+      "wheelchair": "Wheelchair accessibility",
+      "surface": "Platform surface material",
+      "shelter": "Covered shelter present",
+      "lit": "Lit at night",
+      "bench": "Seating benches present",
+      "tactile_paving": "Tactile paving for visually impaired"
+    }
+  },
+  "signals": {
+    "description": "Railway signalling equipment",
+    "tags": {
+      "railway=signal": "Railway signal",
+      "railway=semaphore": "Semaphore signal",
+      "railway:signal:main": "Main signal type",
+      "railway:signal:distant": "Distant signal type",
+      "railway:signal:shunting": "Shunting signal type",
+      "railway:signal:speed": "Speed signal",
+      "railway:signal:direction": "Direction indicator",
+      "railway:signal:position": "Position signal",
+      "railway:signal:main:states": "Signal state values",
+      "railway:signal:main:form": "Signal form (light/semaphore/sign)",
+      "railway:signal:direction:form": "Direction indicator form",
+      "direction": "Signal facing direction"
+    }
+  },
+  "crossings": {
+    "description": "Level crossings",
+    "tags": {
+      "railway=level_crossing": "Level crossing (road/railway)",
+      "railway=crossing": "Pedestrian / path crossing",
+      "crossing:barrier": "Barrier type (yes/no/half/double_half/full)",
+      "crossing:bell": "Warning bell present",
+      "crossing:light": "Warning light present",
+      "crossing:supervision": "Crossing supervision (none/remote/user/local)",
+      "crossing:saltire": "Saltire (X) sign present",
+      "maxspeed": "Maximum speed at crossing"
+    }
+  },
+  "bridges": {
+    "description": "Railway bridges",
+    "tags": {
+      "bridge": "Bridge type (yes/viaduct/aqueduct/movable/suspension/arch)",
+      "bridge:movable": "Movable bridge type (bascule/swing/lift)",
+      "bridge:support": "Bridge support type",
+      "bridge:structure": "Bridge structural form",
+      "layer": "Vertical layer",
+      "height": "Clearance height (m)",
+      "maxheight": "Maximum vehicle height under bridge"
+    }
+  },
+  "tunnels": {
+    "description": "Railway tunnels",
+    "tags": {
+      "tunnel": "Tunnel type (yes/building_passage/culvert)",
+      "layer": "Vertical layer",
+      "name": "Tunnel name",
+      "length": "Tunnel length in metres",
+      "maxheight": "Maximum vehicle height inside tunnel"
+    }
+  },
+  "electrification": {
+    "description": "Electrification attributes",
+    "tags": {
+      "electrified": "Electrification status (yes/no/contact_line/rail/4_rail)",
+      "voltage": "System voltage in V (e.g. 25000)",
+      "frequency": "System frequency in Hz (0 for DC)",
+      "contact_line:voltage": "Overhead line voltage",
+      "contact_line:frequency": "Overhead line frequency",
+      "electrified:voltage": "Legacy voltage tag"
+    }
+  },
+  "facilities": {
+    "description": "Railway operational facilities",
+    "tags": {
+      "railway=yard": "Marshalling / classification yard",
+      "railway=depot": "Train depot / stabling point",
+      "railway=engine_shed": "Locomotive shed",
+      "railway=maintenance": "Track maintenance facility",
+      "railway=workshop": "Rolling stock workshop",
+      "railway=roundhouse": "Locomotive roundhouse",
+      "railway=refuelling": "Refuelling point",
+      "railway=wash": "Carriage wash facility",
+      "railway=turntable": "Locomotive turntable",
+      "railway=buffer_stop": "End-of-track buffer",
+      "railway=signal_box": "Signal box / cabin",
+      "railway=siding": "Siding track area",
+      "railway=loading_gauge": "Loading gauge indicator",
+      "railway=switch": "Track switch / point"
+    }
+  },
+  "general": {
+    "description": "General tags applicable to many railway objects",
+    "tags": {
+      "name": "Feature name",
+      "name:en": "English name",
+      "operator": "Operating entity",
+      "owner": "Owning entity",
+      "ref": "Reference number or code",
+      "start_date": "Date facility opened / was built",
+      "end_date": "Date facility closed",
+      "source": "Data source",
+      "note": "Free-text note",
+      "description": "Longer description",
+      "wikidata": "Wikidata entity ID",
+      "wikipedia": "Wikipedia article link"
+    }
+  }
+}

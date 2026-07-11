@@ -1,0 +1,99 @@
+{
+    "description": "Describes merge behaviour for future enrichment phases. Specifies provider priority, conflict resolution, and field-level merge precedence. Configuration only — no merge engine is implemented.",
+    "version": "1.0.0",
+    "valid_conflict_resolutions": [
+        "prefer_primary",
+        "prefer_latest",
+        "prefer_most_complete",
+        "manual_review"
+    ],
+    "valid_overwrite_rules": [
+        "always",
+        "if_empty",
+        "never",
+        "manual"
+    ],
+    "provider_priority": [
+        {
+            "provider_id": "indian_railways",
+            "priority": 1,
+            "role": "primary",
+            "notes": "Highest priority. Authoritative source for all railway datasets."
+        },
+        {
+            "provider_id": "cris",
+            "priority": 2,
+            "role": "primary",
+            "notes": "Second priority. Official IT systems data source."
+        },
+        {
+            "provider_id": "southern_railway",
+            "priority": 3,
+            "role": "primary",
+            "notes": "Regional authority. Authoritative for Southern Railway zone data."
+        },
+        {
+            "provider_id": "government_open_data",
+            "priority": 4,
+            "role": "supplementary",
+            "notes": "Supplementary source. Used to fill gaps in primary data."
+        },
+        {
+            "provider_id": "openstreetmap",
+            "priority": 5,
+            "role": "verification",
+            "notes": "Verification only. Used for cross-reference, not as primary data."
+        },
+        {
+            "provider_id": "wikipedia",
+            "priority": 6,
+            "role": "verification",
+            "notes": "Verification only. Used for cross-reference, not as primary data."
+        }
+    ],
+    "dataset_merge_policies": {
+        "station_master": {
+            "conflict_resolution": "prefer_primary",
+            "overwrite_rule": "if_empty",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Primary provider fields take precedence. Supplementary providers fill empty fields only."
+        },
+        "station_codes": {
+            "conflict_resolution": "prefer_primary",
+            "overwrite_rule": "never",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Station codes are authoritative from Indian Railways. No overwriting permitted."
+        },
+        "railway_zones": {
+            "conflict_resolution": "prefer_primary",
+            "overwrite_rule": "never",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Zone definitions are authoritative. No overwriting permitted."
+        },
+        "railway_divisions": {
+            "conflict_resolution": "prefer_primary",
+            "overwrite_rule": "never",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Division definitions are authoritative. No overwriting permitted."
+        },
+        "train_master": {
+            "conflict_resolution": "prefer_latest",
+            "overwrite_rule": "if_empty",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Train data may be updated frequently. Prefer latest data; fill empty fields from supplementary."
+        },
+        "station_categories": {
+            "conflict_resolution": "prefer_primary",
+            "overwrite_rule": "never",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Category classification is authoritative. No overwriting permitted."
+        },
+        "station_status": {
+            "conflict_resolution": "prefer_latest",
+            "overwrite_rule": "always",
+            "canonical_field_preference": "indian_railways",
+            "notes": "Status is time-sensitive. Prefer latest available data."
+        }
+    },
+    "notes": "Merge policy registry. Describes how data from multiple providers should be merged for each dataset. No merge engine is implemented. These policies will be consumed by future enrichment phases."
+}

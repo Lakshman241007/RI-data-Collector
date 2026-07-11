@@ -1,0 +1,17 @@
+{
+    "dataset_id": "station_categories",
+    "display_name": "Station Categories",
+    "description": "Dataset descriptor for Indian Railway station categories. Defines the classification system used to categorize stations by their importance, traffic volume, and operational role (e.g. A1, A, B, C, D, E, F).",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/station_category_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [],
+    "priority": 3,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Reference/lookup dataset with no upstream dataset dependencies. Station categories are a standalone classification system. Schema reference points to the station category schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}

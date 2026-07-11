@@ -1,0 +1,56 @@
+{
+    "description": "Registry of providers awaiting manual review and certification. All providers created during Stage 3B.1.1 are registered here in pending state until manually reviewed during Stage 3B.2.",
+    "version": "1.0.0",
+    "valid_statuses": [
+        "pending",
+        "in_review",
+        "approved",
+        "rejected"
+    ],
+    "pending_providers": [
+        {
+            "provider_id": "indian_railways",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Provider registered in Stage 3B.1.1."
+        },
+        {
+            "provider_id": "government_open_data",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Provider registered in Stage 3B.1.1."
+        },
+        {
+            "provider_id": "southern_railway",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Provider registered in Stage 3B.1.1."
+        },
+        {
+            "provider_id": "cris",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Provider registered in Stage 3B.1.1."
+        },
+        {
+            "provider_id": "openstreetmap",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Verification-only provider registered in Stage 3B.1.1."
+        },
+        {
+            "provider_id": "wikipedia",
+            "status": "pending",
+            "submitted_at": null,
+            "reviewer": null,
+            "notes": "Awaiting manual certification. Verification-only provider registered in Stage 3B.1.1."
+        }
+    ],
+    "pending_datasets": [],
+    "notes": "Pending review registry. All 6 providers from Stage 3B.1.1 are registered in pending state. Dataset review entries will be added once providers are certified. No live verification, APIs, or automatic certification is performed."
+}

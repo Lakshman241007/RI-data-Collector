@@ -1,0 +1,19 @@
+{
+    "id": "southern_railway",
+    "display_name": "Southern Railway",
+    "description": "Tamil Nadu regional railway authority, representing the Southern Railway zone of Indian Railways.",
+    "country": "",
+    "organization": "",
+    "provider_type": "railway_authority_regional",
+    "authentication_type": null,
+    "supported_formats": [],
+    "supported_protocols": [],
+    "priority": null,
+    "verification_status": "pending",
+    "last_verified": null,
+    "update_frequency": null,
+    "license_reference": "",
+    "documentation_reference": "",
+    "datasets_supported": [],
+    "notes": "Purpose: Represents Southern Railway as the Tamil Nadu regional railway authority within the provider registry. Intended use: Official source for regional railway datasets specific to the Southern Railway zone (e.g. regional stations, routes, schedules) once configured. Future configuration: API endpoint(s), authentication details, and dataset/resource identifiers must be added manually during Stage 3B.2. Manual certification required: This provider must be manually reviewed and verified against official Southern Railway sources before it can be marked verified or used for live data collection. No URLs, endpoints, or dataset IDs have been invented or pre-filled."
+}

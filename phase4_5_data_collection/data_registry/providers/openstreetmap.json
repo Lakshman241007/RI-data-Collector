@@ -1,0 +1,19 @@
+{
+    "id": "openstreetmap",
+    "display_name": "OpenStreetMap",
+    "description": "Verification-only provider. OpenStreetMap is used solely as a cross-reference source for verifying data collected from other providers, not as a primary data source.",
+    "country": "",
+    "organization": "",
+    "provider_type": "verification_only",
+    "authentication_type": null,
+    "supported_formats": [],
+    "supported_protocols": [],
+    "priority": null,
+    "verification_status": "pending",
+    "last_verified": null,
+    "update_frequency": null,
+    "license_reference": "",
+    "documentation_reference": "",
+    "datasets_supported": [],
+    "notes": "Purpose: Verification-only reference source. OpenStreetMap is not intended to be a primary collector in this registry; it exists to cross-check and validate data gathered from official providers. Intended use: Manual/automated verification cross-reference only. Future configuration: If verification tooling requires it, endpoint or query details must be added manually during Stage 3B.2. Manual certification required: This provider must be manually reviewed before any verification workflow depends on it. No URLs, endpoints, or dataset IDs have been invented or pre-filled."
+}

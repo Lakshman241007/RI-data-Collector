@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OSM Railway Station Record",
+  "description": "A single OSM element representing a railway station, halt, stop, junction or terminal",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id":      { "type": "integer", "description": "OSM element ID" },
+    "type":    { "type": "string", "enum": ["node", "way", "relation"], "description": "OSM element type" },
+    "lat":     { "type": "number", "minimum": -90, "maximum": 90 },
+    "lon":     { "type": "number", "minimum": -180, "maximum": 180 },
+    "geometry":{ "type": "array", "description": "Way/relation geometry as coordinate pairs" },
+    "tags": {
+      "type": "object",
+      "properties": {
+        "railway": { "type": "string", "enum": ["station","halt","stop","junction","terminal"] },
+        "name":    { "type": "string" },
+        "name:en": { "type": "string" },
+        "ref":     { "type": "string" },
+        "operator":{ "type": "string" },
+        "network": { "type": "string" }
+      }
+    },
+    "timestamp": { "type": "string" },
+    "version":   { "type": "integer" }
+  }
+}

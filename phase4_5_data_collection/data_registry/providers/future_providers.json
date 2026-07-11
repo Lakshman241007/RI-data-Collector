@@ -1,0 +1,4 @@
+{
+    "providers": [],
+    "notes": "Purpose: Empty placeholder registry reserved for future provider additions beyond the initial set defined in Stage 3B.1.1. Intended use: New providers should be appended here as fully-formed provider records following the same schema used by existing providers (id, display_name, description, country, organization, provider_type, authentication_type, supported_formats, supported_protocols, priority, verification_status, last_verified, update_frequency, license_reference, documentation_reference, datasets_supported, notes). Future configuration: No providers have been added yet; this file intentionally contains no entries. Manual certification required: Any provider added here must go through the same manual certification process as existing providers before being marked verified."
+}

@@ -1,0 +1,17 @@
+{
+    "dataset_id": "railway_zones",
+    "display_name": "Railway Zones",
+    "description": "Dataset descriptor for Indian Railway zones. Describes the organizational zones that partition the Indian Railways network. This is the foundational reference dataset upon which divisions and stations depend.",
+    "provider_reference": "indian_railways",
+    "schema_reference": "schemas/official/zone_schema.json",
+    "mapping_reference": "",
+    "policy_reference": "",
+    "license_reference": "",
+    "verification_reference": "",
+    "version_reference": "",
+    "dependencies": [],
+    "priority": 1,
+    "refresh_policy": "manual",
+    "enabled": true,
+    "notes": "Foundational dataset. Railway zones are the top-level organizational unit of Indian Railways. No upstream dependencies. Schema reference points to the zone schema defined in Stage 3A. No URLs, API endpoints, resource IDs, or download logic are included — those belong to Stage 3B.2."
+}
